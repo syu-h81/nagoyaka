@@ -36,7 +36,7 @@
             <li class="header-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
           </ul>
         </nav>
-        <div class="header-sp-menu-bar-inner u-sp-only">
+        <div class="header-sp-menu-bar-inner">
           <div class="header-sp-menu-bar-block">
             <div class="header-sp-menu-bar">
               <span></span>

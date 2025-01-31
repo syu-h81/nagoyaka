@@ -43,20 +43,25 @@
   }
   &-sp-menu-bar {
     &-inner {
-      background-color: g.$color-primary;
-      border-radius: 50%;
-      width: 55px;
-      height: 55px;
-      display: flex!important;
-      align-items: center;
-      justify-content: center;
+      display: none;
+      @include g.mq(lg) {
+        background-color: g.$color-primary;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
-    width: 22px;
-    height: 2px;
-    background-color: #338751;
-    margin-top: 6px;
-    &:first-child {
-      margin-top: 0;
+    @include g.mq(lg) {
+      width: 22px;
+      height: 2px;
+      background-color: #338751;
+      margin-top: 6px;
+      &:first-child {
+        margin-top: 0;
+      }
     }
   }
 }
