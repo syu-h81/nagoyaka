@@ -18,31 +18,34 @@ add_action('wp_enqueue_scripts', 'enqueue_multiple_styles');
 
 //jsファイル読み込み
 function add_my_scripts() {
-  // WordPress 本体の jQuery を登録解除
+  // WordPress のデフォルト jQuery を解除
   wp_deregister_script('jquery');
+
   // jQuery を CDN から読み込む
   wp_enqueue_script(
     'jquery',
     'https://code.jquery.com/jquery-3.7.1.min.js',
     array(), // 依存なし
-    '3.7.1', // バージョン
+    '3.7.1',
+    true // フッターで読み込む
   );
-  wp_deregister_script('Swiper');
-  // swiper を CDN から読み込む
+
+  // Swiper を CDN から読み込む
   wp_enqueue_script(
     'swiper',
     'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
-    array('jquery'), // 依存なし
+    array(), // 依存なし
+    '11.0.0',
     true
   );
-  
-  // main.js の読み込み
+
+  // main.js の読み込み（Swiper と jQuery に依存）
   wp_enqueue_script(
     'main-script',
     get_theme_file_uri('/assets/js/main.js'),
-    array('swiper'),
+    array('jquery', 'swiper'), // jQuery & Swiper に依存
     '1.0.0',
-    true
+    true // フッターで読み込む
   );
 }
 add_action('wp_enqueue_scripts', 'add_my_scripts');

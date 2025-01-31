@@ -27,7 +27,7 @@
         <div class="header-logo">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/header-logo.png" alt="">
         </div>
-        <nav class="header-nav">
+        <nav class="header-nav u-pc-only">
           <ul class="header-nav__list">
             <li class="header-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
@@ -36,5 +36,18 @@
             <li class="header-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
           </ul>
         </nav>
+        <div class="header-sp-menu-bar-inner u-sp-only">
+          <div class="header-sp-menu-bar-block">
+            <div class="header-sp-menu-bar">
+              <span></span>
+            </div>
+            <div class="header-sp-menu-bar">
+              <span></span>
+            </div>
+            <div class="header-sp-menu-bar">
+              <span></span>
+            </div>
+          </div>
+        </div>
       </div>
     </header>

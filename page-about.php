@@ -96,7 +96,7 @@ include get_template_directory() . '/page.php';
         </div>
         <div class="p-about-concept-supplyment">
           <p>
-            「自宅で診療を受けられるの？」「どんな治療ができるの？」など、訪問診療についてわからないことがありましたら、どうぞお気軽にご相談ください。ご<br>
+            「自宅で診療を受けられるの？」「どんな治療ができるの？」など、訪問診療についてわからないことがありましたら、どうぞお気軽にご相談ください。ご
             家族の皆様からのお問い合わせもお待ちしております。
           </p>
         </div>
@@ -344,8 +344,8 @@ include get_template_directory() . '/page.php';
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number">050-8893-2767</p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br>
-              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br>
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
+              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="" class="c-banner-contact-block-body__email c-email-btn">

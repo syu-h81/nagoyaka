@@ -6,10 +6,11 @@
         <div class="p-top-hero__body">
           <div class="p-top-hero__body__heading">
             <div class="p-top-hero__body__heading__intro">
-              <p>
+              <p class="u-pc-only">
                 <span class="u-underline-yellow">名古屋市内で唯一</span>
                 の、眼科専門の訪問診療ができました！
               </p>
+              <p class="u-sp-only u-color-orange">名古屋市内で唯一の<br>眼科専門の訪問診療ができました！</p>
             </div>
             <div class="p-top-hero__body__heading__box">
               <div class="p-top-hero__body__heading__box__heading">専門医がご自宅までお伺いし</div>
@@ -60,7 +61,7 @@
       </div>
     </div>
   </section>
-  <div class="c-page-contact">
+  <div class="c-page-contact u-pc-only">
     <div class="c-page-contact-inner">
       <div class="c-page-contact__img">
         <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon-white.png" alt="">
@@ -77,18 +78,22 @@
     <dic class="p-top-beginning__inner l-inner">
       <div class="p-top-beginning__block">
         <div class="p-top-beginning__body">
+          <div class="p-top-beginning__body__text__block c-page-head__heading__text__block">
+            <div class="c-page-head__heading__text__img">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
+            </div>
+            <p class="c-page-head__heading__text">CONCEPT</p>
+          </div>
           <div class="p-top-beginning__body__heading">
             <h2 class="p-top-beginning__body__heading__heading c-heading">
-              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>
-              ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の受診を<br>
-              受けたい方のためのクリニックです。
+              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
-              <p>名古屋市内で唯一の眼科専門医による訪問診療専門クリニック</p>
-              <p>内科は24時間365日、医師がすぐに対応</p>
+              <p>名古屋市内で唯一の眼<br class="u-sp-only">科専門医による訪問診<br class="u-sp-only">療専門クリニック</p>
+              <p>内科は24時間365日、<br class="u-sp-only">医師がすぐに対応</p>
             </div>
           </div>
-          <div class="p-top-beginning__body__content">
+          <div class="p-top-beginning__body__content u-pc-only">
             <div class="p-top-beginning__body__content__text">
               <p>
                 通院が難しい方に、医師がご自宅へ伺って診療を<br class="u-sp-only">行います。特に名古屋市<br class="u-pc-only">
@@ -161,6 +166,70 @@
             <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-beginning-2.png" alt="">
           </div>
         </div>
+        <div class="p-top-beginning__body__content u-sp-only">
+          <div class="p-top-beginning__body__content__text">
+            <p>
+              通院が難しい方に、医師がご自宅へ伺って診療を<br class="u-sp-only">行います。特に名古屋市<br class="u-pc-only">
+              内では数少ない、眼科の<br class="u-sp-only">訪問診療に力を入れているのが特徴です。
+            </p>
+          </div>
+          <ul class="p-top-beginning__body__content__checkList">
+            <li class="p-top-beginning__body__content__checkList__item">
+              <div class="p-top-beginning__body__content__checkList__item__icon">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/check-icon.png" alt="">
+              </div>
+              <div class="p-top-beginning__body__content__checkList__item__text">
+                <p>定期的な通院が大変な方</p>
+              </div>
+            </li>
+            <li class="p-top-beginning__body__content__checkList__item">
+              <div class="p-top-beginning__body__content__checkList__item__icon">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/check-icon.png" alt="">
+              </div>
+              <div class="p-top-beginning__body__content__checkList__item__text">
+                <p>認知症やうつ病状がある方</p>
+              </div>
+            </li>
+            <li class="p-top-beginning__body__content__checkList__item">
+              <div class="p-top-beginning__body__content__checkList__item__icon">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/check-icon.png" alt="">
+              </div>
+              <div class="p-top-beginning__body__content__checkList__item__text">
+                <p>目の健康管理を続けたい方</p>
+              </div>
+            </li>
+            <li class="p-top-beginning__body__content__checkList__item">
+              <div class="p-top-beginning__body__content__checkList__item__icon">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/check-icon.png" alt="">
+              </div>
+              <div class="p-top-beginning__body__content__checkList__item__text">
+                <p>内科の定期検診を受けたい方</p>
+              </div>
+            </li>
+            <li class="p-top-beginning__body__content__checkList__item">
+              <div class="p-top-beginning__body__content__checkList__item__icon">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/check-icon.png" alt="">
+              </div>
+              <div class="p-top-beginning__body__content__checkList__item__text">
+                <p>病気やけがの後遺症で外出しづらい方</p>
+              </div>
+            </li>
+          </ul>
+          <div class="p-top-beginning__body__content__text">
+            <p>
+              医師が名古屋市内のご自宅に訪問をし、丁寧な診<br class="u-sp-only">察と治療を行います。突<br class="u-pc-only">
+              然の体調変化にも対応で<br class="u-sp-only">きますので、ご安心ください。
+            </p>
+            <p>
+              「家で診療を受けたいけど、どうしたらいい<br class="u-sp-only">の？」<br>
+              「眼の治療も家でできるの？」
+            </p>
+            <p>
+              どんなことでもお気軽にご相談ください。患者<br class="u-sp-only">様お一人おひとりに寄り<br class="u-pc-only">
+              添った医療を提供いたします。
+            </p>
+          </div>
+        </div>
       </div>
     </dic>
   </div>
@@ -174,10 +243,10 @@
             </div>
             <p class="c-page-head__heading__text">POINT</p>
           </div>
-          <h2 class="c-heading">当院は、内科・精神科の診療も可能です。</h2>
+          <h2 class="c-heading">当院は、内科・精神科の<br class="u-sp-only">診療も可能です。</h2>
           <p class="p-top-point__heading__desc">
-            救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="pc-only">
-            内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
+            救急車診療台数3000台以上、内科・精神科<br class="u-sp-only">の訪問診療経験も8年ある医師が<br class="u-pc-only">
+            内科領域<br class="u-sp-only">もカバー可能です。内科診察が必要な方<br class="u-sp-only">も、お気軽にお申し付けください。
           </p>
         </div>
         <div class="p-top-point-radius__inner">
@@ -346,8 +415,8 @@
           </div>
           <div class="p-top-area-info__supplyment">
             <p>
-              上記を中心に訪問します。当てはまらない地<br class="u-sp-only">域でも16km<br class="u-pc-only">
-              圏内でしたら可能なこともありま<br class="u-sp-only">すので、お気軽にお問い<br class="u-pc-only">
+              上記を中心に訪問します。当てはまらない地域でも16km
+              圏内でしたら可能なこともありますので、お気軽にお問い<br class="u-pc-only">
               合わせください。
             </p>
           </div>
@@ -393,7 +462,7 @@
                   <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
                 </div>
                 <div class="footer-info-body__phoneNumber__text c-info-banner__phoneNumber__text">
-                  <p>お問い合わせ先：<span>050-8893-2767</span>　(平日 9:00〜18：00)</p>
+                  <p>お問い合わせ先：<br class="u-sp-only"><span>050-8893-2767</span><br class="u-sp-only">　(平日 9:00〜18：00)</p>
                   <p>（直接医師に繋がりますので、詳しく聞くことができます）</p>
                 </div>
               </div>
@@ -524,7 +593,7 @@
         <div class="p-top-philosophy__content">
           <div class="p-top-philosophy__content__body">
             <div class="p-top-philosophy__content__body__heading">
-              <h3 class="c-sub-heading">大きなトラブルを招く前に<br>マメなケアを。</h3>
+              <h3 class="c-sub-heading u-pc-only">大きなトラブルを招く前に<br>マメなケアを。</h3>
             </div>
             <div class="p-top-philosophy__content__body__text">
               <p>
@@ -550,22 +619,22 @@
       </div>
     </div>
   </section>
-  <section class="c-banner-contact l-setion">
+  <section class="c-banner-contact">
     <div class="c-banner-contact-inner">
       <div class="c-banner-contact-block">
         <div class="c-banner-contact-block__img">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="c-banner-contact-block-body">
-          <div class="c-banner-contact-block-body__img">
+          <div class="c-banner-contact-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-1.png" alt="">
           </div>
           <div class="c-banner-contact-block-body__phoneNumber">
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number">050-8893-2767</p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br>
-              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br>
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
+              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="" class="c-banner-contact-block-body__email c-email-btn">
@@ -575,7 +644,7 @@
               <div class="c-email-btn-text">メールで問い合わせ</div>
             </a>
           </div>
-          <div class="c-banner-contact-block-body-block-body__img">
+          <div class="c-banner-contact-block-body-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-2.png" alt="">
           </div>
         </div>

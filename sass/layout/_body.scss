@@ -1,5 +1,7 @@
 @use "../global" as g;
 .l-body {
   color: g.$color-text;
+  //font-size: 1vw;
   font-family: "Yu Gothic", "YuGothic", sans-serif;
+  letter-spacing: 0.03em;
 }

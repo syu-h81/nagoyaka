@@ -6,6 +6,10 @@
     background-position-y: 40px;
     padding: 0 150px;
     padding-top: 150px;
+    @include g.mq(md) {
+      padding: 70px 25px 0;
+
+    }
   }
   &-block {
     max-width: 1160px;
@@ -20,8 +24,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @include g.mq(md) {
+        width: 110px;
+        padding: 35px;
+      }
       img {
         width: 40px;
+        @include g.mq(md) {
+          width: 30px;
+        }
       }
     }
     &-body {
@@ -32,21 +43,29 @@
       padding: 50px;
       padding-top: 100px;
       text-align: center;
+      @include g.mq(md) {
+        padding: 30px 20px;
+      }
       &__phoneNumber {
         p {
           font-weight: bold;
-          letter-spacing: 2px;
           margin-top: 35px;
+          @include g.mq(md) {
+            margin-top: 15px;
+          }
           &:first-child {
-            margin-top: 0;
+            margin-top: 15px;
           }
         }
         &__desc {
-          font-size: 1.25rem;
+          font-size: 1.4vw;
           letter-spacing: 1.6px;
           align-items: center;
           display: flex;
           justify-content: center;
+          @include g.mq(md) {
+            font-size: 1.125em;
+          }
           &::before,
           &::after {
             background-color: g.$color-text;
@@ -65,11 +84,17 @@
         }
         &__number {
           color: g.$color-btn;
-          font-size: 40px;
+          font-size: 3.5vw;
+          @include g.mq(md) {
+            font-size: 1.875em;
+          }
         }
         &__text {
           font-size: 0.875rem;
           line-height: 33px;
+          @include g.mq(md) {
+            text-align: start;
+          }
         }
       }
       &__email {

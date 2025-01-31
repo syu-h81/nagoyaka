@@ -1,15 +1,28 @@
 @use "../global" as g;
 .footer {
   padding-top: 150px;
+  @include g.mq(md) {
+    background-color: g.$color-heading;
+    padding-top: 70px;
+  }
   &-inner {
     background-color: g.$color-heading;
     padding: 85px 140px 65px 140px;
+    @include g.mq(lg) {
+      padding: 40px 25px;
+      padding-bottom: 0;
+    }
   }
   &-nav {
     &__list {
       display: flex;
       align-items: center;
       justify-content: center;
+      @include g.mq(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px;
+      }
     }
     &__item {
       color: g.$white;
@@ -22,6 +35,9 @@
       color: g.$white;
       display: inline-block;
       margin: 0 25px;
+      @include g.mq(md) {
+        display: none;
+      }
     }
   }
   &-info {
@@ -31,32 +47,61 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 70px;
+      @include g.mq(md) {
+        flex-direction: column;
+        padding-top: 40px;
+      }
     }
     &-logo {
+      @include g.mq(md) {
+        width: 100%;
+      }
       &__address {
         color: g.$white;
         font-size: 0.75rem;
         letter-spacing: 0.1em;
         line-height: 27.6px;
         padding-top: 30px;
+        @include g.mq(md) {
+          font-size: 0.875em;
+          line-height: 31.5px;
+        }
       }
     }
     &-body {
+      @include g.mq(md) {
+        padding-top: 40px;
+      }
       &__phoneNumber {
         background-color: g.$white;
         border-radius: 10px;
         display: flex;
         align-items: center;
         padding: 20px;
+        @include g.mq(md) {
+          align-items: flex-start;
+          padding: 15px;
+        }
         &__img {
           max-width: 30px;
           height: auto;
+          @include g.mq(md) {
+            max-width: 16px;
+          }
         }
         &__text {
           letter-spacing: 0.1em;
+          @include g.mq(md) {
+            padding-left: 10px;
+          }
           p {
             line-height: 30px;
             margin-left: 30px;
+            @include g.mq(md) {
+              font-size: 0.75em;
+              margin-left: 0;
+              line-height: 18px;
+            }
             &:first-child {
               font-weight: bold;
             }
@@ -68,8 +113,16 @@
               font-family: "Poppins", serif;
               font-size: 30px;
               font-weight: 600;
+              @include g.mq(md) {
+                font-size: 1.5em;
+              }
             }
           }
+        }
+      }
+      &__email {
+        @include g.mq(md) {
+          margin: 0 auto;
         }
       }
     }
@@ -80,5 +133,8 @@
     letter-spacing: 0.03em;
     text-align: center;
     padding-top: 70px;
+    @include g.mq(lg) {
+      padding-top: 40px;
+    }
   }
 }

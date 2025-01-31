@@ -2,13 +2,11 @@
 .c-page {
   &-head {
     width: 100%;
-    //background-color: g.$color-primary;
     margin-top: -40px;
     text-align: center;
     &-inner {
       height: 475px;
       background-image: url(../images/head-bg.png);
-      //background-color: rgba(255, 255, 255, 0.4);
       background-color: g.$color-primary;
       background-blend-mode:lighten;
       background-size: contain;
@@ -22,7 +20,7 @@
     }
     &__heading {
       color: g.$color-heading;
-      font-size: 2.6875em;
+      font-size: 3vw;
       font-weight: bold;
       &__text {
         color: g.$color-heading;
@@ -46,6 +44,11 @@
       max-width: 260px;
       margin-left: auto;
       margin-top: -70px;
+      @include g.mq(lg) {
+        max-width: 100%;
+        margin: 0;
+        padding-top: 45px;
+      }
     }
     &__img {
       width: 60px;
@@ -65,11 +68,18 @@
       padding: 4px;
       margin-right: 20px;
       text-align: center;
+      @include g.mq(lg) {
+        border-radius: 20px 20px 0 0;
+        margin-right: 0;
+      }
       p {
         border: 1px solid g.$white;
         border-radius: 20px;
         padding: 20px 0;
         padding-top: 25px;
+        @include g.mq(lg) {
+          border-radius: 20px 20px 0 0; 
+        }
       }
       &__text {
         &:first-child {

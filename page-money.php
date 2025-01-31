@@ -14,7 +14,7 @@ include get_template_directory() . '/page.php';
       <div class="p-money-cards">
         <div class="p-money-cards-card">
           <div class="p-money-cards-card__heading">
-            <h2>対応疾患</h2>
+            <h3 class="c-sub-heading">対応疾患</h3>
           </div>
           <div class="p-money-cards-card__content">
             <div class="p-money-cards-card__content__box">
@@ -29,7 +29,7 @@ include get_template_directory() . '/page.php';
         </div>
         <div class="p-money-cards-card">
           <div class="p-money-cards-card__heading">
-            <h2>内科併診をする場合</h2>
+            <h3 class="c-sub-heading">内科併診をする場合</h3>
           </div>
           <div class="p-money-cards-card__content">
             <div class="p-money-cards-card__content__box">
@@ -75,8 +75,8 @@ include get_template_directory() . '/page.php';
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number">050-8893-2767</p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br>
-              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br>
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
+              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="" class="c-banner-contact-block-body__email c-email-btn">

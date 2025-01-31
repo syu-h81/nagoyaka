@@ -5,9 +5,17 @@
   letter-spacing: 0.03em;
   margin-top: 20px;
   text-align: center;
+  @include g.mq(md) {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
 }
 .c-sub-heading {
   color: g.$color-heading;
   font-size: 1.5em;
   font-weight: bold;
+  @include g.mq(md) {
+    font-size: 1.125em;
+    text-align: center;
+  }
 }

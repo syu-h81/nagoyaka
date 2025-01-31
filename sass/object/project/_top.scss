@@ -18,6 +18,10 @@
       border-radius: 20px;
       padding-top: 80px;
       margin: 0 50px;
+      @include g.mq(lg) {
+        margin: 0 15px;
+        padding-top: 40px;
+      }
     }
     &__block {
       background-image: url(../images/top-hero-bg-glasses.png);
@@ -29,9 +33,21 @@
       max-width: 1340px;
       height: 848px;
       margin: 0 auto;
+      @include g.mq(lg) {
+        background-size: 168%;
+        background-position-x: -60vw;
+        flex-direction: column-reverse;
+        justify-content: start;
+        padding: 0 20px;
+        padding-bottom: 40px;
+        height: auto;
+      }
     }
     &__body {
       padding-top: 100px;
+      @include g.mq(lg) {
+        padding-top: 0;
+      }
       &__heading {
         &__intro {
           font-size: 1.35em;
@@ -40,12 +56,18 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @include g.mq(lg) {
+            display: block;
+          }
           &::before,
           &::after {
             background-color: g.$color-text;
             content: "";
             height: 1px; /* 線の高さ */
             width: 20px; /* 線の長さ */
+            @include g.mq(lg) {
+              display: none;
+            }
           }
           &::before {
             transform: rotate(70deg); /* 傾ける */
@@ -53,17 +75,28 @@
           &::after {
             transform: rotate(-70deg); /* 傾ける */
           }
+          p {
+            @include g.mq(lg) {
+              font-size: 0.75em;
+            }
+          }
         }
         &__box {
-          font-size: 2.6875em;
+          font-size: 2.5vw;
           font-weight: bold;
           margin-top: 20px;
+          @include g.mq(lg) {
+            font-size: 1.375em;
+          }
           &__heading {
             background-color: g.$white;
             padding: 6px;
-            width: 90%;
+            width: fit-content;
             &:last-child {
               margin-top: 20px;
+              @include g.mq(lg) {
+                margin-top: 8px;
+              }
             }
           }
         }
@@ -71,6 +104,11 @@
           font-size: 1.125em;
           font-weight: bold;
           margin-top: 20px;
+          @include g.mq(lg) {
+            font-size: 0.875em;
+            letter-spacing: 0.1em;
+            line-height: 29.4px;
+          }
         }
       }
       &__checks {
@@ -78,6 +116,11 @@
         align-items: center;
         gap: 21px;
         padding-top: 35px;
+        @include g.mq(lg) {
+          gap: 8px;
+          justify-content: center;
+          padding-top: 20px;
+        }
       }
       &__check {
         width: 134px;
@@ -85,10 +128,18 @@
         background-color: g.$color-heading;
         border-radius: 50%;
         padding-top: 15px;
+        @include g.mq(md) {
+          width: 100px;
+          height: 100px;
+        }
         &__icon {
           width: 30px;
           height: 30px;
           margin: 0 auto;
+          @include g.mq(md) {
+            width: 20px;
+            height: 20px;
+          }
         }
         &__text {
           color: g.$white;
@@ -109,6 +160,11 @@
         padding: 25px;
         margin-top: 35px;
         max-width: 275px;
+        @include g.mq(lg) {
+          max-width: 100%;
+          padding: 15px 25px;
+          margin-top: 20px;
+        }
         &__text {
           font-weight: bold;
           letter-spacing: 0.1em;
@@ -116,14 +172,23 @@
       }
     }
     &__img {
-      max-width: 500px;
+      width: 36%;
       height: auto;
-      padding-top: 20px;
-      padding-left: 20px;
+      padding-top: 30px;
+      margin-right: 1.35vw;
+      @include g.mq(lg) {
+        width: 58vw;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: 0;
+      }
     }
   }
   &-beginning {
     padding-top: 120px;
+    @include g.mq(lg) {
+      padding-top: 70px;
+    }
     &__inner {
       background-image: url(../images/introduction.png);
       background-size: contain;
@@ -135,8 +200,20 @@
       margin: 0 50px;
       display: flex;
       justify-content: space-around;
+      @include g.mq(md) {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 25px;
+      }
     }
     &__body {
+      &__text__block {
+        display: none;
+        @include g.mq(lg) {
+          display: flex;
+          justify-content: flex-start;
+        }
+      }
       &__heading {
         &__heading {
           text-align: justify!important;
@@ -149,20 +226,43 @@
               line-height: normal;
               padding: 10px 20px;
               display: block;
+              width: fit-content;
+              @include g.mq(md) {
+                font-size: 0.7em!important;
+              }
             }
           }
         }
         &__desc {
           margin-top: 20px;
+          @include g.mq(md) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 28px;
+          }
           p {
             background-color: g.$color-heading;
             border-radius: 10px;
             color: g.$white;
             letter-spacing: 0.1em;
             padding: 12px 20px;
+            width: fit-content;
+            @include g.mq(md) {
+              font-size: 0.75em;
+              padding: 0 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 70px;
+            }
             &:last-child {
               margin-top: 15px;
               width: 58%;
+              @include g.mq(md) {
+                width: auto;
+                margin-top: 0;
+              }
             }
           }
         }
@@ -171,6 +271,9 @@
         padding-top: 35px;
         padding-left: 100px;
         line-height: 33.6px;
+        @include g.mq(md) {
+          padding-left: 0;
+        }
         &__checkList {
           padding-top: 35px;
           &__item {
@@ -197,12 +300,26 @@
     &__img {
       &__inner {
         position: relative;
+        @include g.mq(md) {
+          padding-top: 30px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+        }
+      }
+      &:first-child {
+        @include g.mq(md) {
+          max-width: 260px;
+        }
       }
       &:last-child {
-        padding-left: 22vw;
-        margin-top: -80px;
+        margin-left: -60px;
         img {
           max-width: 220px;
+          @include g.mq(md) {
+            max-width: 120px;
+          }
         }
       }
     }
@@ -210,15 +327,24 @@
   &-point {
     &__inner {
       padding: 50px;
+      @include g.mq(md) {
+        padding: 40px 25px;
+      }
     }
     &__block {
       background-color: g.$color-bg;
       width: 100%;
       padding: 50px;
+      @include g.mq(md) {
+        padding: 40px 20px;
+      }
     }
     &__heading {
       h2 {
         margin-top: 35px;
+        @include g.mq(md) {
+          margin-top: 15px;
+        }
       }
       &__text {
         margin-top: 0;
@@ -228,6 +354,11 @@
         line-height: 33.6px;
         padding-top: 35px;
         text-align: center;
+        @include g.mq(md) {
+          text-align: justify;
+          display: flex;
+          justify-content: center;
+        }
       }
     }
     &-radius {
@@ -235,17 +366,29 @@
       height: 168px;
       background-color: g.$color-heading;
       border-radius: 50%;
+      @include g.mq(md) {
+        width: 95px;
+        height: 95px;
+      }
       &__inner {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 40px;
         padding-top: 35px;
+        @include g.mq(md) {
+          gap: 8px;
+          padding-top: 20px;
+        }
       }
       &__icon {
         width: 30px;
         margin: 0 auto;
         margin-top: 40px;
+        @include g.mq(md) {
+          width: 20px;
+          margin-top: 20px;
+        }
       }
       &__text {
         color: g.$white;
@@ -253,6 +396,9 @@
         letter-spacing: 0.1em;
         text-align: center;
         margin-top: 20px;
+        @include g.mq(md) {
+          font-size: 0.75em;
+        }
       }
     }
   }
@@ -263,6 +409,9 @@
       max-width: 1160px;
       margin: 0 auto;
       padding: 50px;
+      @include g.mq(md) {
+        padding: 40px 20px;
+      }
     }
     &__heading {
       &__text {
@@ -275,6 +424,9 @@
       display: flex;
       justify-content: space-between;
       padding-top: 20px;
+      @include g.mq(md) {
+        flex-direction: column;
+      }
     }
     &-prefecture {
       &__img {
@@ -286,11 +438,19 @@
     &-info {
       &__inner {
         width: 375px;
+        @include g.mq(md) {
+          padding-top: 40px;
+          width: auto;
+        }
       }
       &__block {
         background-color: g.$white;
         border-radius: 20px;
         padding: 25px;
+        @include g.mq(md) {
+          background-color: transparent;
+          padding: 20px 0px;
+        }
       }
       &__heading {
         display: flex;
@@ -317,6 +477,9 @@
           width: 157px;
           display: flex;
           align-items: center;
+          @include g.mq(md) {
+            width: 40%;
+          }
           gap: 8px;
           &__city {
             font-weight: bold;
@@ -333,12 +496,18 @@
   &-flow {
     &__inner {
       padding: 80px 50px;
+      @include g.mq(md) {
+        padding: 40px 25px;
+      }
     }
     &__block {
       background-color: g.$white;
       border-radius: 20px;
       padding: 120px 50px 65px;
       position: relative;
+      @include g.mq(md) {
+        padding: 20px;
+      }
       &::after {
         content: "";
         position: absolute;
@@ -350,6 +519,11 @@
         background-repeat: no-repeat;
         width: 360px;
         height: 130px;
+        @include g.mq(md) {
+          width: 75px;
+          height: 32px;
+          top: -10px;
+        }
       }
     }
     &__step {
@@ -357,11 +531,18 @@
       gap: 50px;
       padding: 35px 0;
       border-bottom: 1px solid rgba(227, 121, 64, 0.2);
+      @include g.mq(md) {
+        flex-direction: column;
+        gap: 0;
+      }
       &:last-child {
         border-bottom: none;
       }
       &__inner {
         padding-top: 50px;
+        @include g.mq(md) {
+          padding-top: 0;
+        }
       }
       &__img {
         width: 90px;
@@ -372,6 +553,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include g.mq(md) {
+          width: 55px;
+          height: 55px;
+          padding: 15px;
+          margin: 0 auto;
+        }
         &__text {
           color: g.$color-heading;
           font-weight: bold;
@@ -384,9 +571,15 @@
       }
       &__body {
         padding-top: 30px;
+        @include g.mq(md) {
+          padding: 0;
+        }
         &__text {
           padding-top: 35px;
           line-height: 33.6px;
+          @include g.mq(md) {
+            padding-top: 20px;
+          }
           &__3 {
             margin-top: 35px;
           }
@@ -412,8 +605,14 @@
     }
   }
   &-philosophy {
+    @include g.mq(md) {
+      padding: 0 25px;
+    }
     &-swiper {
       padding-top: 150px!important;
+      @include g.mq(md) {
+        padding-top: 70px!important;
+      }
     }
     &__inner {
       background-image: url(../images/cta-back.png);
@@ -425,11 +624,18 @@
       max-width: 1160px;
       margin: 0 auto;
       padding-top: 150px;
+      @include g.mq(md) {
+        padding-top: 70px;
+      }
     }
     &__content {
       display: flex;
       justify-content: space-between;
       padding-top: 70px;
+      @include g.mq(md) {
+        flex-direction: column-reverse;
+        padding-top: 40px;
+      }
       &__body {
         &__heading {
           line-height: 43.2px;
@@ -438,6 +644,9 @@
           font-weight: bold;
           line-height: 33.6px;
           padding-top: 35px;
+          @include g.mq(md) {
+            line-height: 31.5px;
+          }
         }
       }
     }

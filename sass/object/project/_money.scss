@@ -1,6 +1,7 @@
 @use "../../global" as g;
 
 .p-money {
+  margin-top: 0;
   &__inner {
     padding: 65px 140px 100px 140px;
   }
@@ -44,11 +45,6 @@
         &::after {
           background-image: url(../images/money-light-icon-2.png);
         }
-      }
-      &__heading {
-        color: g.$color-heading;
-        font-size: 1.5rem;
-        font-weight: 700;
       }
       &__content {
         &__box {

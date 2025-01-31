@@ -13,6 +13,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    @include g.mq(md) {
+      padding: 10px;
+    }
+  }
+  &-logo {
+    @include g.mq(md) {
+      width: 125px;
+    }
   }
   &-nav {
     &__list {
@@ -31,6 +39,24 @@
         color: #fff;
         padding: 15px;
       }
+    }
+  }
+  &-sp-menu-bar {
+    &-inner {
+      background-color: g.$color-primary;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex!important;
+      align-items: center;
+      justify-content: center;
+    }
+    width: 22px;
+    height: 2px;
+    background-color: #338751;
+    margin-top: 6px;
+    &:first-child {
+      margin-top: 0;
     }
   }
 }

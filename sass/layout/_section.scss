@@ -3,4 +3,7 @@
   background-color: g.$color-primary;
   margin: 0 auto;
   margin-top: 150px;
+  @include g.mq(md) {
+    margin-top: 70px;
+  }
 }

@@ -37,6 +37,7 @@ const swiper = new Swiper('.swiper', {
     0: {
       slidesPerView: 2.5, // スライド数を減らす
       spaceBetween: 15, // スペースも減らす
+      initialSlide: 1
     },
     // **768px以上** の場合（768px から上）
     768: {
