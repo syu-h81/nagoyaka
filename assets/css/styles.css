@@ -714,6 +714,11 @@ img {
 .l-main {
   padding-top: 150px;
 }
+@media screen and (max-width: 768px) {
+  .l-main {
+    padding-top: 70px;
+  }
+}
 
 .l-section {
   background-color: #DFEDD0;
@@ -774,6 +779,11 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0 50px;
+}
+@media screen and (max-width: 768px) {
+  .c-page-head-inner {
+    height: 225px;
+  }
 }
 .c-page-head__heading {
   color: #338751;
@@ -2074,6 +2084,11 @@ img {
 .p-money__inner {
   padding: 65px 140px 100px 140px;
 }
+@media screen and (max-width: 768px) {
+  .p-money__inner {
+    padding: 0 25px;
+  }
+}
 .p-money-desc {
   font-weight: bold;
   line-height: 33px;
@@ -2090,6 +2105,11 @@ img {
   margin-top: 35px;
   padding: 35px;
 }
+@media screen and (max-width: 768px) {
+  .p-money-cards {
+    flex-direction: column;
+  }
+}
 .p-money-cards-card {
   width: 530px;
   height: 480px;
@@ -2100,6 +2120,12 @@ img {
   border-radius: 20px;
   padding: 50px 35px;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .p-money-cards-card {
+    width: 100%;
+    height: auto;
+  }
 }
 .p-money-cards-card::after {
   content: "";

@@ -17,6 +17,9 @@
       justify-content: center;
       align-items: center;
       margin: 0 50px;
+      @include g.mq(md) {
+        height: 225px;
+      }
     }
     &__heading {
       color: g.$color-heading;

@@ -4,6 +4,9 @@
   margin-top: 0;
   &__inner {
     padding: 65px 140px 100px 140px;
+    @include g.mq(md) {
+      padding: 0 25px;
+    }
   }
   &-desc {
     font-weight: bold;
@@ -20,6 +23,9 @@
     gap: 30px;
     margin-top: 35px;
     padding: 35px;
+    @include g.mq(md) {
+      flex-direction: column;
+    }
     &-card {
       width: 530px;
       height: 480px;
@@ -30,6 +36,10 @@
       border-radius: 20px;
       padding: 50px 35px;
       position: relative;
+      @include g.mq(md) {
+        width: 100%;
+        height: auto;
+      }
       &::after {
         content: '';
         position: absolute;

@@ -2,4 +2,7 @@
 
 .l-main {
   padding-top: 150px;
+  @include g.mq(md) {
+    padding-top: 70px;
+  }
 }
