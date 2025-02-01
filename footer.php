@@ -33,7 +33,7 @@
           <div class="footer-info-body__email__img c-email-btn-img">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
           </div>
-          <p class="c-email-btn-text">メールで問い合わせ</p>
+          <p class="footer-info-body__email__text c-email-btn-text">メールで問い合わせ</p>
         </a>
       </div>
     </div>

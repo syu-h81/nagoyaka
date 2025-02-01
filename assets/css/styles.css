@@ -495,6 +495,47 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .sp-header-modal {
+    position: fixed;
+    right: 0;
+    width: 80%;
+    margin-right: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transform: translateX(300px);
+    transition: all 1s;
+    z-index: 1;
+  }
+  .sp-header-modal.fadeIn {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item {
+    color: #fff;
+    padding: 20px 0;
+  }
+}
+
 .footer {
   padding-top: 150px;
 }
@@ -571,7 +612,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .footer-info-logo__address {
-    font-size: 0.875em;
+    font-size: 0.75em;
     line-height: 31.5px;
   }
 }
@@ -641,6 +682,12 @@ img {
 @media screen and (max-width: 768px) {
   .footer-info-body__email {
     margin: 0 auto;
+    max-width: 166px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-info-body__email__text {
+    font-size: 0.75em !important;
   }
 }
 .footer-copyright {
@@ -899,7 +946,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .c-banner-contact-block-body__phoneNumber__desc {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 }
 .c-banner-contact-block-body__phoneNumber__desc::before, .c-banner-contact-block-body__phoneNumber__desc::after {
@@ -912,9 +959,19 @@ img {
   margin-right: 5px; /* 文字との余白 */
   transform: rotate(60deg); /* 傾ける */
 }
+@media screen and (max-width: 768px) {
+  .c-banner-contact-block-body__phoneNumber__desc::before {
+    margin-right: 0;
+  }
+}
 .c-banner-contact-block-body__phoneNumber__desc::after {
   margin-left: 5px; /* 文字との余白 */
   transform: rotate(-60deg); /* 傾ける */
+}
+@media screen and (max-width: 768px) {
+  .c-banner-contact-block-body__phoneNumber__desc::after {
+    margin-left: 0;
+  }
 }
 .c-banner-contact-block-body__phoneNumber__number {
   color: #E37940;
@@ -1063,7 +1120,7 @@ img {
 }
 @media screen and (max-width: 960px) {
   .p-top-hero__body__heading__box {
-    font-size: 1.375em;
+    font-size: 1.275em;
   }
 }
 .p-top-hero__body__heading__box__heading {
@@ -1187,6 +1244,11 @@ img {
   background-repeat: no-repeat;
   display: block;
   padding-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .p-top-beginning__inner {
+    padding-top: 0;
+  }
 }
 .p-top-beginning__block {
   margin: 0 50px;
@@ -1412,7 +1474,8 @@ img {
 }
 @media screen and (max-width: 768px) {
   .p-top-point-radius__text {
-    font-size: 0.75em;
+    font-size: 0.6em;
+    margin-top: 10px;
   }
 }
 .p-top-area {
@@ -1621,6 +1684,11 @@ img {
   border-radius: 20px;
   margin-top: 35px;
   width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .p-top-flow__step__body__phoneNumber {
+    margin-top: 20px;
+  }
 }
 .p-top-flow__step__body__list {
   line-height: 33.6px;

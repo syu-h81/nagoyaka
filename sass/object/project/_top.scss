@@ -86,7 +86,7 @@
           font-weight: bold;
           margin-top: 20px;
           @include g.mq(lg) {
-            font-size: 1.375em;
+            font-size: 1.275em;
           }
           &__heading {
             background-color: g.$white;
@@ -195,6 +195,9 @@
       background-repeat: no-repeat;
       display: block;
       padding-top: 30px;
+      @include g.mq(md) {
+        padding-top: 0;
+      }
     }
     &__block {
       margin: 0 50px;
@@ -397,7 +400,8 @@
         text-align: center;
         margin-top: 20px;
         @include g.mq(md) {
-          font-size: 0.75em;
+          font-size: 0.6em;
+          margin-top: 10px;
         }
       }
     }
@@ -589,6 +593,9 @@
           border-radius: 20px;
           margin-top: 35px;
           width: 90%;
+          @include g.mq(md) {
+            margin-top: 20px;
+          }
         }
         &__list {
           line-height: 33.6px;

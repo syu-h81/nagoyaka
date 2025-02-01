@@ -64,7 +64,7 @@
         line-height: 27.6px;
         padding-top: 30px;
         @include g.mq(md) {
-          font-size: 0.875em;
+          font-size: 0.75em;
           line-height: 31.5px;
         }
       }
@@ -124,6 +124,12 @@
       &__email {
         @include g.mq(md) {
           margin: 0 auto;
+          max-width: 166px;
+        }
+        &__text {
+          @include g.mq(md) {
+            font-size: 0.75em!important; 
+          }
         }
       }
     }

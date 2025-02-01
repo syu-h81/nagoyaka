@@ -64,7 +64,7 @@
           display: flex;
           justify-content: center;
           @include g.mq(md) {
-            font-size: 1.125em;
+            font-size: 1em
           }
           &::before,
           &::after {
@@ -76,10 +76,16 @@
           &::before {
             margin-right: 5px; /* 文字との余白 */
             transform: rotate(60deg); /* 傾ける */
+            @include g.mq(md) {
+              margin-right: 0;
+            }
           }
           &::after {
             margin-left: 5px; /* 文字との余白 */
             transform: rotate(-60deg); /* 傾ける */
+            @include g.mq(md) {
+              margin-left: 0;
+            }
           }
         }
         &__number {

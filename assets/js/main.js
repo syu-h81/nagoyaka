@@ -2,6 +2,7 @@
 $(function() {
   $('.header-sp-menu-bar').on('click', function() {
    $(this).toggleClass('active');
+   $('.sp-header-modal').toggleClass('fadeIn');
   });
 });
 

@@ -84,3 +84,51 @@
     }
   }
 }
+
+@include g.mq(md) {
+        
+}
+.sp {
+  &-header {
+    &-modal {
+      @include g.mq(md) {
+        position: fixed;
+        right: 0;
+        width: 80%;
+        margin-right: auto;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        transform: translateX(300px);
+        transition: all 1s;
+        z-index: 1;
+        &.fadeIn {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      &-nav {
+        @include g.mq(md) {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          height: 80vh;
+          margin-left: auto; 
+        }
+        &__list {
+          @include g.mq(md) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+          }
+        }
+        &__item {
+          @include g.mq(md) {
+            color: #fff;
+            padding: 20px 0; 
+          }
+        }
+      }
+    }
+  }
+}

@@ -27,15 +27,6 @@
         <div class="header-logo">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/header-logo.png" alt="">
         </div>
-        <nav class="header-nav u-pc-only">
-          <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
-            <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
-            <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
-            <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
-            <li class="header-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
-          </ul>
-        </nav>
         <div class="header-sp-menu-bar-inner">
           <div div class="header-sp-menu-bar-block">
             <div class="header-sp-menu-bar">
@@ -45,5 +36,25 @@
             </div>
           </div>
         </div>
+        <nav class="header-nav u-pc-only">
+          <ul class="header-nav__list">
+            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
+            <li class="header-nav__item"><a href="tel:050-8893-2767">お問い合わせ</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
+    <div class="sp-header-modal u-sp-only">
+      <nav class="sp-header-modal-nav">
+        <ul class="sp-header-modal-nav__list">
+          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
+          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
+          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
+          <li class="sp-header-modal-nav__item"><a href="tel:050-8893-2767">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
