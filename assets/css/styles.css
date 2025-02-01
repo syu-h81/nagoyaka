@@ -938,6 +938,11 @@ img {
   margin: 0 auto;
   margin-top: 35px;
 }
+@media screen and (max-width: 768px) {
+  .c-banner-contact-block-body__email {
+    justify-content: center;
+  }
+}
 
 .c-required {
   background-color: #FFFFFF;

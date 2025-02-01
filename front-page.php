@@ -641,7 +641,7 @@
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="" class="c-banner-contact-block-body__email c-email-btn">
-              <div class="c-banner-contact-block-body__email__img c-email-btn-img">
+              <div class="c-banner-contact-block-body__email__img c-email-btn-img u-pc-only">
                 <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
               </div>
               <div class="c-email-btn-text">メールで問い合わせ</div>
