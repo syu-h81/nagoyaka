@@ -1252,7 +1252,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__desc p {
-    font-size: 0.75em;
+    font-size: 0.6em;
     padding: 0 10px;
     display: flex;
     align-items: center;

@@ -89,7 +89,7 @@
               <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
             </h2>
             <h2 class="p-top-beginning__body__heading__heading c-heading u-sp-only">
-              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
+              <span class="u-background-white">なごやか眼科内科訪問診療<br>クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
               <p>名古屋市内で唯一の眼<br class="u-sp-only">科専門医による訪問診<br class="u-sp-only">療専門クリニック</p>
@@ -147,15 +147,15 @@
             </ul>
             <div class="p-top-beginning__body__content__text">
               <p>
-                医師が名古屋市内のご自宅に訪問をし、丁寧な診<br class="u-sp-only">察と治療を行います。突<br class="u-pc-only">
-                然の体調変化にも対応で<br class="u-sp-only">きますので、ご安心ください。
+                医師が名古屋市内のご自宅に訪問をし、丁寧な診察と治療を行います。突<br class="u-pc-only">
+                然の体調変化にも対応できますので、ご安心ください。
               </p>
               <p>
-                「家で診療を受けたいけど、どうしたらいい<br class="u-sp-only">の？」<br>
+                「家で診療を受けたいけど、どうしたらいいの？」<br>
                 「眼の治療も家でできるの？」
               </p>
               <p>
-                どんなことでもお気軽にご相談ください。患者<br class="u-sp-only">様お一人おひとりに寄り<br class="u-pc-only">
+                どんなことでもお気軽にご相談ください。患者様お一人おひとりに寄り<br class="u-pc-only">
                 添った医療を提供いたします。
               </p>
             </div>
@@ -172,8 +172,8 @@
         <div class="p-top-beginning__body__content u-sp-only">
           <div class="p-top-beginning__body__content__text">
             <p>
-              通院が難しい方に、医師がご自宅へ伺って診療を<br class="u-sp-only">行います。特に名古屋市<br class="u-pc-only">
-              内では数少ない、眼科の<br class="u-sp-only">訪問診療に力を入れているのが特徴です。
+              通院が難しい方に、医師がご自宅へ伺って診療を行います。特に名古屋市<br class="u-pc-only">
+              内では数少ない、眼科の訪問診療に力を入れているのが特徴です。
             </p>
           </div>
           <ul class="p-top-beginning__body__content__checkList">
@@ -220,15 +220,15 @@
           </ul>
           <div class="p-top-beginning__body__content__text">
             <p>
-              医師が名古屋市内のご自宅に訪問をし、丁寧な診<br class="u-sp-only">察と治療を行います。突<br class="u-pc-only">
-              然の体調変化にも対応で<br class="u-sp-only">きますので、ご安心ください。
+              医師が名古屋市内のご自宅に訪問をし、丁寧な診察と治療を行います。突<br class="u-pc-only">
+              然の体調変化にも対応できますので、ご安心ください。
             </p>
             <p>
-              「家で診療を受けたいけど、どうしたらいい<br class="u-sp-only">の？」<br>
+              「家で診療を受けたいけど、どうしたらいいの？」<br>
               「眼の治療も家でできるの？」
             </p>
             <p>
-              どんなことでもお気軽にご相談ください。患者<br class="u-sp-only">様お一人おひとりに寄り<br class="u-pc-only">
+              どんなことでもお気軽にご相談ください。患者様お一人おひとりに寄り<br class="u-pc-only">
               添った医療を提供いたします。
             </p>
           </div>
@@ -248,8 +248,8 @@
           </div>
           <h2 class="c-heading">当院は、内科・精神科の<br class="u-sp-only">診療も可能です。</h2>
           <p class="p-top-point__heading__desc">
-            救急車診療台数3000台以上、内科・精神科<br class="u-sp-only">の訪問診療経験も8年ある医師が<br class="u-pc-only">
-            内科領域<br class="u-sp-only">もカバー可能です。内科診察が必要な方<br class="u-sp-only">も、お気軽にお申し付けください。
+            救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="u-pc-only">
+            内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
           </p>
         </div>
         <div class="p-top-point-radius__inner">
