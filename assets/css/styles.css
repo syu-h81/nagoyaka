@@ -1774,10 +1774,24 @@ img {
 
 .p-about-concept__inner {
   max-width: 1160px;
+  padding: 0 25px;
 }
 .p-about-concept-body {
   display: flex;
   gap: 50px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-body {
+    display: block;
+  }
+}
+.p-about-concept-body__heading {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-body__heading {
+    width: 100%;
+  }
 }
 .p-about-concept-body__heading__text {
   line-height: 33.6px;
@@ -1791,13 +1805,29 @@ img {
 }
 .p-about-concept-body__img:last-child {
   width: 60%;
-  position: absolute;
-  left: 75%;
-  bottom: 30px;
+  margin-top: -130px;
+  margin-left: 70%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-body__img:last-child {
+    width: 65%;
+    margin-top: -120px;
+    margin-left: 60%;
+  }
 }
 .p-about-concept-body__img__inner {
   width: 30%;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-body__img__inner {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-radius {
+    margin: 0 auto;
+  }
 }
 .p-about-concept-radius__inner {
   display: flex;
@@ -1805,6 +1835,13 @@ img {
   justify-content: center;
   gap: 30px;
   padding-top: 60px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-radius__inner {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+  }
 }
 .p-about-concept-radius__img {
   width: 170px;
@@ -1815,8 +1852,19 @@ img {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .p-about-concept-radius__img {
+    width: 50px;
+    height: 50px;
+  }
+}
 .p-about-concept-radius__img img {
   width: auto;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-radius__img img {
+    max-width: 20px;
+  }
 }
 .p-about-concept-radius__text {
   font-size: 0.75em;
@@ -1824,6 +1872,11 @@ img {
   line-height: 21px;
   margin-top: 20px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .p-about-concept-radius__text {
+    font-size: 0.625em;
+  }
 }
 .p-about-concept-radius__text span {
   color: #338751;
@@ -1861,32 +1914,64 @@ img {
   gap: 20px;
   padding-top: 70px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-concept-btn__inner {
+    display: grid;
+  }
+}
 .p-about-head {
   padding: 0 50px;
   padding-top: 150px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-head {
+    padding: 0;
+    padding-top: 70px;
+  }
+}
 .p-about-point__inner {
   padding-top: 150px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-point__inner {
+    padding-top: 70px;
+  }
 }
 .p-about-point-section {
   background-color: #DFEDD0;
   border-radius: 20px;
   padding: 35px;
+  width: 40%;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .p-about-point-section {
+    width: 100%;
+  }
 }
 .p-about-point-section__inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 30px;
   row-gap: 60px;
   padding-top: 120px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-point-section__inner {
+    display: grid;
+    padding-top: 80px;
+  }
 }
 .p-about-point-section__glasses__img {
   position: absolute;
   top: -25px;
   left: -25px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-point-section__glasses__img {
+    left: 0;
+  }
 }
 .p-about-point-section__img {
   border-radius: 20px;
@@ -1903,10 +1988,20 @@ img {
 .p-about-doctor__inner {
   padding: 65px 50px 50px 50px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor__inner {
+    padding: 25px;
+  }
+}
 .p-about-doctor__block {
   background-color: #F5F4EA;
   border-radius: 20px;
   padding: 50px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor__block {
+    padding: 20px;
+  }
 }
 .p-about-doctor__heading__desc {
   font-weight: bold;
@@ -1914,12 +2009,35 @@ img {
   text-align: center;
   margin-top: 35px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor__heading__desc {
+    text-align: justify;
+  }
+}
 .p-about-doctor-profile {
   padding-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile {
+    padding-top: 40px;
+  }
 }
 .p-about-doctor-profile__flex {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__flex {
+    flex-direction: column-reverse;
+  }
+}
+.p-about-doctor-profile__explain {
+  width: 56%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain {
+    width: 100%;
+  }
 }
 .p-about-doctor-profile__explain__heading span {
   color: #338751;
@@ -1934,18 +2052,41 @@ img {
   line-height: 33.6px;
   margin-top: 35px;
 }
+.p-about-doctor-profile__explain__img {
+  width: 36%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain__img {
+    width: 100%;
+  }
+}
 .p-about-doctor-profile__icon {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 54px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__icon {
+    padding-top: 30px;
+  }
+}
 .p-about-doctor-profile__career {
   padding-top: 54px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career {
+    padding-top: 30px;
+  }
 }
 .p-about-doctor-profile__career__flex {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__flex {
+    flex-direction: column;
+  }
 }
 .p-about-doctor-profile__career__list {
   background-color: #FFFFFF;
@@ -1953,11 +2094,17 @@ img {
   padding: 35px;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__list {
+    padding: 15px;
+  }
+}
 .p-about-doctor-profile__career__list::after {
   content: "";
   position: absolute;
   top: -15px;
-  left: 35%;
+  left: 50%;
+  transform: translateX(-50%);
   background-image: url(../images/clip.png);
   background-size: cover;
   width: 130px;
@@ -1967,6 +2114,13 @@ img {
   background-color: #DFEDD0;
   border-radius: 20px;
   padding: 35px;
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__list__inner {
+    padding: 20px;
+    width: 100%;
+  }
 }
 .p-about-doctor-profile__career__list__heading {
   color: #338751;
@@ -1980,8 +2134,18 @@ img {
   font-weight: bold;
   padding: 15px 0;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__list__name {
+    font-size: 0.7em;
+  }
+}
 .p-about-doctor-profile__career__list__name:nth-child(7), .p-about-doctor-profile__career__list__name:nth-child(9), .p-about-doctor-profile__career__list__name:last-child {
   margin-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__list__name:nth-child(7), .p-about-doctor-profile__career__list__name:nth-child(9), .p-about-doctor-profile__career__list__name:last-child {
+    margin-top: 20px;
+  }
 }
 .p-about-doctor-profile__career__list__subList__name {
   border-top: 1px dashed #DFEDD0;
@@ -1992,6 +2156,13 @@ img {
 .p-about-doctor-profile__career__text {
   letter-spacing: 0.03em;
   line-height: 33.6px;
+  width: 56%;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__career__text {
+    width: 100%;
+    padding-top: 20px;
+  }
 }
 
 .p-treatment-symptoms__inner {
@@ -2000,11 +2171,23 @@ img {
 .p-treatment-symptoms__block {
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms__radius {
+    width: 45%;
+  }
+}
 .p-treatment-symptoms__radius__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms__radius__inner {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 15px;
+  }
 }
 .p-treatment-symptoms__radius__img {
   width: 102px;
@@ -2016,6 +2199,11 @@ img {
   justify-content: center;
   padding: 20px;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms__radius__img {
+    margin: 0 auto;
+  }
+}
 .p-treatment-symptoms__radius__img img {
   width: auto;
 }
@@ -2023,11 +2211,23 @@ img {
   font-weight: bold;
   margin-top: 20px;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms__radius__desc {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+  }
+}
 .p-treatment-symptoms-indication__block {
   background-color: #DFEDD0;
   border-radius: 20px;
   padding: 50px;
   margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms-indication__block {
+    padding: 25px;
+  }
 }
 .p-treatment-symptoms-indication__heading {
   text-align: center;
@@ -2037,6 +2237,11 @@ img {
   grid-template-columns: repeat(5, 1fr);
   row-gap: 30px;
   padding-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-symptoms-indication__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .p-treatment-symptoms-indication__item {
   display: flex;
@@ -2049,10 +2254,20 @@ img {
 .p-treatment-equipment {
   padding: 65px 50px;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment {
+    padding: 25px;
+  }
+}
 .p-treatment-equipment__block {
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 50px 90px;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__block {
+    padding: 25px;
+  }
 }
 .p-treatment-equipment__heading__text {
   margin-top: 0;
@@ -2065,8 +2280,19 @@ img {
   row-gap: 50px;
   padding-top: 45px;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__body {
+    display: block;
+  }
+}
 .p-treatment-equipment__content {
   width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__content {
+    width: 100%;
+    padding-top: 30px;
+  }
 }
 .p-treatment-equipment__content__flex {
   display: flex;
@@ -2074,8 +2300,26 @@ img {
   gap: 30px;
   padding-top: 20px;
 }
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__content__flex {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__content__img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
 .p-treatment-equipment__content__text {
+  width: 50%;
   line-height: 33.6px;
+}
+@media screen and (max-width: 768px) {
+  .p-treatment-equipment__content__text {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 .p-money {
@@ -2087,6 +2331,7 @@ img {
 @media screen and (max-width: 768px) {
   .p-money__inner {
     padding: 0 25px;
+    padding-top: 30px;
   }
 }
 .p-money-desc {

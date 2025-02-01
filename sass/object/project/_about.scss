@@ -4,11 +4,19 @@
   &-concept {
     &__inner {
       max-width: 1160px;
+      padding: 0 25px;
     }
     &-body {
       display: flex;
       gap: 50px;
+      @include g.mq(md) {
+        display: block;
+      }
       &__heading {
+        width: 50%;
+        @include g.mq(md) {
+          width: 100%;
+        }
         &__text {
           line-height: 33.6px;
           margin-top: 35px;
@@ -23,23 +31,39 @@
       &__img {
         &:last-child {
           width: 60%;
-          position: absolute;
-          left: 75%;
-          bottom: 30px;
+          margin-top: -130px;
+          margin-left: 70%;
+          @include g.mq(md) {
+            width: 65%;
+            margin-top: -120px;
+            margin-left: 60%;
+          }    
         }
         &__inner {
           width: 30%;
           position: relative;
+          @include g.mq(md) {
+            width: 80%;
+          }
         }
       }
     }
     &-radius {
+      @include g.mq(md) {
+        margin: 0 auto;
+      }
       &__inner {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 30px;
         padding-top: 60px;
+        @include g.mq(md) {
+          
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+          padding-top: 20px;
+        }
       }
       &__img {
         width: 170px;
@@ -49,8 +73,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include g.mq(md) {
+          width: 50px;
+          height: 50px;
+        }
         img {
           width: auto;
+          @include g.mq(md) {
+            max-width: 20px;
+          }
         }
       }
       &__text {
@@ -59,6 +90,9 @@
         line-height: 21px;
         margin-top: 20px;
         text-align: center;
+        @include g.mq(md) {
+          font-size: 0.625em;
+        }
         span {
           color: g.$color-heading;
         }
@@ -95,35 +129,55 @@
         justify-content: center;
         gap: 20px;
         padding-top: 70px;
+        @include g.mq(md) {
+          display: grid;
+        }
       }
     }
   }
   &-head {
     padding: 0 50px;
     padding-top: 150px;
+    @include g.mq(md) {
+      padding: 0;
+      padding-top: 70px;
+    }
   }
   &-point {
     &__inner {
       padding-top: 150px;
+      @include g.mq(md) {
+        padding-top: 70px;
+      }
     }
     &-section {
       background-color: g.$color-primary;
       border-radius: 20px;
       padding: 35px;
+      width: 40%;
       position: relative;
+      @include g.mq(md) {
+        width: 100%;
+      }
       &__inner {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         gap: 30px;
         row-gap: 60px;
         padding-top: 120px;
+        @include g.mq(md) {
+          display: grid;
+          padding-top: 80px;
+        }
       }
       &__glasses__img {
         position: absolute;
         top: -25px;
         left: -25px;
+        @include g.mq(md) {
+          left: 0;
+        }
       }
       &__img {
         border-radius: 20px;
@@ -142,11 +196,17 @@
   &-doctor {
     &__inner {
       padding: 65px 50px 50px 50px;
+      @include g.mq(md) {
+        padding: 25px;
+      }
     }
     &__block {
       background-color: g.$color-bg;
       border-radius: 20px;
       padding: 50px;
+      @include g.mq(md) {
+        padding: 20px;
+      }
     }
     &__heading {
       &__desc {
@@ -154,15 +214,28 @@
         line-height: 33.6px;
         text-align: center;
         margin-top: 35px;
+        @include g.mq(md) {
+          text-align: justify;
+        }
       }
     }
     &-profile {
       padding-top: 70px;
+      @include g.mq(md) {
+        padding-top: 40px;
+      }
       &__flex {
         display: flex;
         justify-content: space-between;
+        @include g.mq(md) {
+          flex-direction: column-reverse;
+        }
       }
       &__explain {
+        width: 56%;
+        @include g.mq(md) {
+          width: 100%;
+        }
         &__heading {
           span {
             color: g.$color-heading;
@@ -178,29 +251,48 @@
             margin-top: 35px;
           }
         }
+        &__img {
+          width: 36%;
+          @include g.mq(md) {
+            width: 100%;
+          }
+        }
       }
       &__icon {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding-top: 54px;
+        @include g.mq(md) {
+          padding-top: 30px;
+        }
       }
       &__career {
         padding-top: 54px;
+        @include g.mq(md) {
+          padding-top: 30px;
+        }
         &__flex {
           display: flex;
           justify-content: space-between;
+          @include g.mq(md) {
+            flex-direction: column;
+          }
         }
         &__list {
           background-color: g.$white;
           border-radius: 20px;
           padding: 35px;
           position: relative;
+          @include g.mq(md) {
+            padding: 15px;
+          }
           &::after {
             content: "";
             position: absolute;
             top: -15px;
-            left: 35%;
+            left: 50%;
+            transform: translateX(-50%);
             background-image: url(../images/clip.png);
             background-size: cover;
             width: 130px;
@@ -210,6 +302,11 @@
             background-color: g.$color-primary;
             border-radius: 20px;
             padding: 35px;
+            width: 40%;
+            @include g.mq(md) {
+              padding: 20px;
+              width: 100%;
+            }
           }
           &__heading {
             color: g.$color-heading;
@@ -222,10 +319,16 @@
             font-size: 0.875em;
             font-weight: bold;
             padding: 15px 0;
+            @include g.mq(md) {
+              font-size: 0.7em;
+            }
             &:nth-child(7),
             &:nth-child(9),
             &:last-child {
               margin-top: 35px;
+              @include g.mq(md) {
+                margin-top: 20px;
+              }
             }
 
           }
@@ -241,6 +344,11 @@
         &__text {
           letter-spacing: 0.03em;
           line-height: 33.6px;
+          width: 56%;
+          @include g.mq(md) {
+            width: 100%;
+            padding-top: 20px;
+          }
         }
       }
     }

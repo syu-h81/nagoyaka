@@ -196,9 +196,8 @@ include get_template_directory() . '/page.php';
               </div>
               <div class="p-treatment-equipment__content__text">
                 <p>
-                  眼底(目の奥の網膜)を照らす器械です。レンズと<br>
-                  セットで使用します。糖尿病網膜症、緑内障のス<br>
-                  クリーニング検査、散瞳検査に使用します。
+                  眼底(目の奥の網膜)を照らす器械です。レンズと
+                  セットで使用します。糖尿病網膜症、緑内障のスクリーニング検査、散瞳検査に使用します。
                 </p>
               </div>
             </div>
@@ -213,9 +212,7 @@ include get_template_directory() . '/page.php';
               </div>
               <div class="p-treatment-equipment__content__text">
                 <p>
-                  20Dと14Dのセットを使い分けて、目の奥の網<br>
-                  膜、視神経乳頭(緑内障等)などを広く照らしま<br>
-                  す。
+                  20Dと14Dのセットを使い分けて、目の奥の網膜、視神経乳頭(緑内障等)などを広く照らします。
                 </p>
               </div>
             </div>
@@ -230,10 +227,7 @@ include get_template_directory() . '/page.php';
               </div>
               <div class="p-treatment-equipment__content__text">
                 <p>
-                  眼の表面の角膜(ドライアイ等)、虹彩、水<br>
-                  晶体（白内障等）を観察する機械です。大学の一般眼<br>
-                  科診療の外来でも、椅子に座れない方に用いられ<br>
-                  ます。
+                  眼の表面の角膜(ドライアイ等)、虹彩、水晶体（白内障等）を観察する機械です。大学の一般眼科診療の外来でも、椅子に座れない方に用いられます。
                 </p>
               </div>
             </div>
@@ -248,7 +242,7 @@ include get_template_directory() . '/page.php';
               </div>
               <div class="p-treatment-equipment__content__text">
                 <p>
-                  緑内障などの診療に用いる、眼圧を測定する機械<br>
+                  緑内障などの診療に用いる、眼圧を測定する機械
                   です。痛みは全くありません。
                 </p>
               </div>
@@ -265,7 +259,7 @@ include get_template_directory() . '/page.php';
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="c-banner-contact-block-body">
-          <div class="c-banner-contact-block-body__img">
+          <div class="c-banner-contact-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-1.png" alt="">
           </div>
           <div class="c-banner-contact-block-body__phoneNumber">
@@ -277,13 +271,13 @@ include get_template_directory() . '/page.php';
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn">
-              <div class="c-banner-contact-block-body__email__img c-email-btn-img">
+              <div class="c-banner-contact-block-body__email__img c-email-btn-img u-pc-only">
                 <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
               </div>
               <div class="c-email-btn-text">メールで問い合わせ</div>
             </a>
           </div>
-          <div class="c-banner-contact-block-body-block-body__img">
+          <div class="c-banner-contact-block-body-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-2.png" alt="">
           </div>
         </div>

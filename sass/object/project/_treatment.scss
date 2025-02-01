@@ -9,11 +9,19 @@
       text-align: center;
     }
     &__radius {
+      @include g.mq(md) {
+        width: 45%;
+      }
       &__inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding-top: 35px;
+        @include g.mq(md) {
+          flex-wrap: wrap;
+          justify-content: start;
+          gap: 15px;
+        }
       }
       &__img {
         width: 102px;
@@ -24,6 +32,9 @@
         align-items: center;
         justify-content: center;
         padding: 20px;
+        @include g.mq(md) {
+          margin: 0 auto;
+        }
         img {
           width: auto;
         }
@@ -31,6 +42,11 @@
       &__desc {
         font-weight: bold;
         margin-top: 20px;
+        @include g.mq(md) {
+          margin: 0 auto;
+          width: 100%;
+          padding-top: 10px;
+        }
       }
     }
     &-indication {
@@ -39,6 +55,9 @@
         border-radius: 20px;
         padding: 50px;
         margin-top: 70px;
+        @include g.mq(md) {
+          padding: 25px;
+        }
       }
       &__heading {
         text-align: center;
@@ -48,6 +67,9 @@
         grid-template-columns: repeat(5, 1fr);
         row-gap: 30px;
         padding-top: 35px;
+        @include g.mq(md) {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
       &__item {
         display: flex;
@@ -61,10 +83,16 @@
   }
   &-equipment {
     padding: 65px 50px;
+    @include g.mq(md) {
+      padding: 25px;
+    }
     &__block {
       background-color: g.$white;
       border-radius: 20px;
       padding: 50px 90px;
+      @include g.mq(md) {
+        padding: 25px;
+      }
     }
     &__heading {
       &__text {
@@ -78,17 +106,38 @@
       flex-wrap: wrap;
       row-gap: 50px;
       padding-top: 45px;
+      @include g.mq(md) {
+        display: block;
+      }
     }
     &__content {
       width: 50%;
+      @include g.mq(md) {
+        width: 100%;
+        padding-top: 30px;
+      }
       &__flex {
         display: flex;
         align-items: center;
         gap: 30px;
         padding-top: 20px;
+        @include g.mq(md) {
+          display: block;
+        }
+      }
+      &__img {
+        @include g.mq(md) {
+          width: 60%;
+          margin: 0 auto;
+        }
       }
       &__text {
+        width: 50%;
         line-height: 33.6px;
+        @include g.mq(md) {
+          width: 100%;
+          margin-top: 10px;
+        }
       }
     }
   }

@@ -6,6 +6,7 @@
     padding: 65px 140px 100px 140px;
     @include g.mq(md) {
       padding: 0 25px;
+      padding-top: 30px;
     }
   }
   &-desc {
