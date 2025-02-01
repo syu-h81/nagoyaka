@@ -18,7 +18,7 @@ include get_template_directory() . '/page.php';
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="p-contact-body__phoneNumber__text">
-          <p>お問い合わせ先：<span>050-8893-2767</span></p>
+          <p>お問い合わせ先：<span><a href="tel:050-8893-2767">050-8893-2767</a></span></p>
           <p>(平日 9:00〜18：00)</p>
         </div>
       </div>
@@ -54,88 +54,7 @@ include get_template_directory() . '/page.php';
         <p class="p-contact__heading__desc">下記フォームに必要事項をご記入の上、「確認画面へ」「送信する」ボタンをクリックしてください。</p>
       </div>
       <div class="p-contact-form">
-        <form class="p-contact-form__form">
-          <!-- ===== お名前（担当者名）===== -->
-          <div class="p-contact-form__form__body">
-            <div class="p-contact-form__form__body__label">
-              <label for="">お名前（担当者名）</label>
-              <div class="c-required">
-                <span class="c-required-text">必須</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <input type="text">
-              <span>例）山田　太郎</span>
-            </div>
-          </div>
-          <!-- ===== 施設名 ===== -->
-          <div class="p-contact-form__form__body">
-            <div class="p-contact-form__form__body__label">
-              <label for="">施設名</label>
-              <div class="c-option">
-                <span class="c-option-text">任意</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <input type="text">
-              <span>例） なごやかデイサービス</span>
-            </div>
-          </div>
-          <!-- ===== 住所 ===== -->
-          <div class="p-contact-form__form__body">
-            <div class="p-contact-form__form__body__label">
-              <label for="">住所</label>
-              <div class="c-required">
-                <span class="c-required-text">必須</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <input type="text">
-              <span>例） 愛知県名古屋市中区錦2-7-7</span>
-            </div>
-          </div>
-          <!-- ===== 電話番号 ===== -->
-          <div class="p-contact-form__form__body">
-            <div class="p-contact-form__form__body__label">
-              <label for="">電話番号</label>
-              <div class="c-required">
-                <span class="c-required-text">必須</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <input type="text">
-              <span>例） 09012345678</span>
-            </div>
-          </div>
-          <!-- ===== メールアドレス ===== -->
-          <div class="p-contact-form__form__body">
-            <div class="p-contact-form__form__body__label">
-              <label for="">メールアドレス</label>
-              <div class="c-required">
-                <span class="c-required-text">必須</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <input type="text">
-              <span>例）example@example.jp</span>
-            </div>
-          </div>
-          <!-- ===== お問い合わせ・相談内容 ===== -->
-          <div class="p-contact-form__form__body u-border-bottom">
-            <div class="p-contact-form__form__body__label">
-              <label for="">お問い合わせ・相談内容</label>
-              <div class="c-option">
-                <span class="c-option-text">任意</span>
-              </div>
-            </div>
-            <div class="p-contact-form__form__body__input">
-              <textarea name="" id=""></textarea>
-            </div>
-          </div>
-          <div class="p-contact-form__form__body__submit">
-            <button type="submit" class="p-contact-form__form__body__submit__btn">内容を確認</button>
-          </div>
-        </form>
+        <?php echo do_shortcode('[contact-form-7 id="ff2e4b2" title="お問い合わせフォーム"]'); ?>
       </div>
     </div>
   </section>

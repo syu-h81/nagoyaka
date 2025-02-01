@@ -84,10 +84,6 @@
     }
   }
 }
-
-@include g.mq(md) {
-        
-}
 .sp {
   &-header {
     &-modal {
@@ -97,7 +93,7 @@
         width: 80%;
         margin-right: auto;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 1);
         opacity: 0;
         transform: translateX(300px);
         transition: all 1s;
@@ -119,12 +115,20 @@
           @include g.mq(md) {
             display: flex;
             flex-direction: column;
+            align-items: center;
             justify-content: center; 
           }
         }
         &__item {
-          @include g.mq(md) {
+          &:last-child {
+            background-color: g.$color-btn;
+            border-radius: 10px;
             color: #fff;
+            padding: 15px;
+            margin-top: 15px;
+          }
+          @include g.mq(md) {
+            font-weight: bold;
             padding: 20px 0; 
           }
         }

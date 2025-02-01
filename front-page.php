@@ -62,7 +62,7 @@
     </div>
   </section>
   <div class="c-page-contact u-pc-only">
-    <div class="c-page-contact-inner">
+    <a href="tel:050-8893-2767" class="c-page-contact-inner">
       <div class="c-page-contact__img">
         <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon-white.png" alt="">
       </div>
@@ -72,7 +72,7 @@
           <span class="c-page-contact__body__text">（受付時間：平日 9:00〜18:00）</span>
         </p>
       </div>
-    </div>
+    </a>
   </div>
   <div class="p-top-beginning">
     <dic class="p-top-beginning__inner l-inner">
@@ -89,7 +89,7 @@
               <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
             </h2>
             <h2 class="p-top-beginning__body__heading__heading c-heading u-sp-only">
-              <span class="u-background-white">なごやか眼科内科訪問診療<br>クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
+              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
               <p>名古屋市内で唯一の眼<br class="u-sp-only">科専門医による訪問診<br class="u-sp-only">療専門クリニック</p>
@@ -465,7 +465,7 @@
                   <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
                 </div>
                 <div class="footer-info-body__phoneNumber__text c-info-banner__phoneNumber__text">
-                  <p>お問い合わせ先：<br class="u-sp-only"><span>050-8893-2767</span><br class="u-sp-only">　(平日 9:00〜18：00)</p>
+                  <p>お問い合わせ先：<br class="u-sp-only"><span><a href="tel:050-8893-2767">050-8893-2767</a></span><br class="u-sp-only">　(平日 9:00〜18：00)</p>
                   <p>（直接医師に繋がりますので、詳しく聞くことができます）</p>
                 </div>
               </div>
@@ -634,13 +634,13 @@
           </div>
           <div class="c-banner-contact-block-body__phoneNumber">
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
-            <p class="c-banner-contact-block-body__phoneNumber__number">050-8893-2767</p>
+            <p class="c-banner-contact-block-body__phoneNumber__number"><a href="tel:050-8893-2767">050-8893-2767</a></p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
               当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
               内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
               訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
-            <a href="" class="c-banner-contact-block-body__email c-email-btn">
+            <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn">
               <div class="c-banner-contact-block-body__email__img c-email-btn-img u-pc-only">
                 <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
               </div>

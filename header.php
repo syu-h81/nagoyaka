@@ -42,7 +42,7 @@
             <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
-            <li class="header-nav__item"><a href="tel:050-8893-2767">お問い合わせ</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
@@ -54,7 +54,7 @@
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
-          <li class="sp-header-modal-nav__item"><a href="tel:050-8893-2767">お問い合わせ</a></li>
+          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
         </ul>
       </nav>
     </div>

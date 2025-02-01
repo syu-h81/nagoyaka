@@ -55,7 +55,7 @@
     }
     &-logo {
       @include g.mq(md) {
-        width: 100%;
+        width: 90%;
       }
       &__address {
         color: g.$white;

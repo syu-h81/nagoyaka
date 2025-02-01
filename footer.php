@@ -14,7 +14,7 @@
     </nav>
     <div class="footer-info__inner">
       <div class="footer-info-logo">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/footer-logo.png" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/sp-footer-logo.png" alt="">
         <div class="footer-info-logo__address">
           <p>〒460-0003 <br>愛知県名古屋市中区錦2-7-7P.T名古屋錦1302</p>
         </div>
@@ -29,7 +29,7 @@
             <p>（直接医師に繋がりますので、詳しく聞くことができます）</p>
           </div>
         </div>
-        <a href="" class="footer-info-body__email c-email-btn">
+        <a href="<?php echo home_url('/contact'); ?>" class="footer-info-body__email c-email-btn">
           <div class="footer-info-body__email__img c-email-btn-img">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
           </div>
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="c-page-contact u-sp-only">
-    <div class="c-page-contact-inner">
+    <a href="tel:050-8893-2767" class="c-page-contact-inner">
       <div class="c-page-contact__img">
         <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon-white.png" alt="">
       </div>
@@ -52,7 +52,7 @@
           <span class="c-page-contact__body__text">（受付時間：平日 9:00〜18:00）</span>
         </p>
       </div>
-    </div>
+    </a>
   </div>
 </footer>
 </div>

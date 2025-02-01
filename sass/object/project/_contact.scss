@@ -1,4 +1,8 @@
 @use "../../global" as g;
+//contact form'のカスタムCSS
+.wpcf7-spinner {
+  display: none;
+}
 .p-contact {
   &-body {
     &-inner {
