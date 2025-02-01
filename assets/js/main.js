@@ -1,26 +1,9 @@
-/*
-const swiper = new Swiper(".swiper", {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-  breakpoints: {
-    // 768px以上の場合
-    768: {
-      slidesPerView: 4
-    }
-  },
-  // ページネーションが必要なら追加
-  pagination: {
-    el: ".swiper-pagination"
-  },
-
-  // ナビボタンが必要なら追加
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  }
-});*/
-//let wd = updateSlidesPerView(); // 初期値
+//ハンバーガーボタンの実装
+$(function() {
+  $('.header-sp-menu-bar').on('click', function() {
+   $(this).toggleClass('active');
+  });
+});
 
 const swiper = new Swiper('.swiper', {
   loop: true, // ループ

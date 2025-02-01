@@ -37,14 +37,10 @@
           </ul>
         </nav>
         <div class="header-sp-menu-bar-inner">
-          <div class="header-sp-menu-bar-block">
+          <div div class="header-sp-menu-bar-block">
             <div class="header-sp-menu-bar">
               <span></span>
-            </div>
-            <div class="header-sp-menu-bar">
               <span></span>
-            </div>
-            <div class="header-sp-menu-bar">
               <span></span>
             </div>
           </div>
