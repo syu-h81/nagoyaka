@@ -85,8 +85,11 @@
             <p class="c-page-head__heading__text">CONCEPT</p>
           </div>
           <div class="p-top-beginning__body__heading">
-            <h2 class="p-top-beginning__body__heading__heading c-heading">
+            <h2 class="p-top-beginning__body__heading__heading c-heading u-pc-only">
               <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
+            </h2>
+            <h2 class="p-top-beginning__body__heading__heading c-heading u-sp-only">
+              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
               <p>名古屋市内で唯一の眼<br class="u-sp-only">科専門医による訪問診<br class="u-sp-only">療専門クリニック</p>
