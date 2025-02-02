@@ -395,7 +395,7 @@ img {
 
 .l-body {
   color: #2E2E2E;
-  font-family: "游ゴシック", "Yu Gothic";
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "游ゴシック", "Yu Gothic", sans-serif;
   letter-spacing: 0.03em;
 }
 
