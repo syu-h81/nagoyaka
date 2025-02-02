@@ -124,10 +124,6 @@
         }
       }
       &__email {
-        @include g.mq(md) {
-          margin: 0 auto;
-          max-width: 166px;
-        }
         &__text {
           @include g.mq(md) {
             font-size: 0.75em!important; 

@@ -90,6 +90,8 @@
       background-color: g.$white;
       border-radius: 20px;
       padding: 50px 90px;
+      max-width: 1160px;
+      margin: 0 auto;
       @include g.mq(md) {
         padding: 25px;
       }

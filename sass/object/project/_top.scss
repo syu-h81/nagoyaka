@@ -31,7 +31,7 @@
       display: flex;
       justify-content: space-around;
       max-width: 1340px;
-      height: 848px;
+      height: 748px;
       margin: 0 auto;
       @include g.mq(lg) {
         background-size: 168%;
@@ -82,7 +82,7 @@
           }
         }
         &__box {
-          font-size: 2.5vw;
+          font-size: 2.8vw;
           font-weight: bold;
           margin-top: 20px;
           @include g.mq(lg) {
@@ -127,10 +127,12 @@
         height: 134px;
         background-color: g.$color-heading;
         border-radius: 50%;
-        padding-top: 15px;
+        font-size: 1rem;
+        padding-top: 25px;
         @include g.mq(md) {
           width: 100px;
           height: 100px;
+          padding-top: 15px;
         }
         &__icon {
           width: 30px;
@@ -143,10 +145,13 @@
         }
         &__text {
           color: g.$white;
-          font-size: 0.75rem;
+          font-size: 1rem;
           font-weight: bold;
           line-height: 24px;
           text-align: center;
+          @include g.mq(md) {
+            font-size: 0.75rem;
+          }
         }
       }
       &__area {
@@ -185,10 +190,7 @@
     }
   }
   &-beginning {
-    padding-top: 120px;
-    @include g.mq(lg) {
-      padding-top: 70px;
-    }
+    padding-top: 20px;
     &__inner {
       background-image: url(../images/introduction.png);
       background-size: contain;
@@ -218,20 +220,28 @@
         }
       }
       &__heading {
+        &__intro {
+          background-color: g.$white;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 50px;
+          width: fit-content;
+        }
         &__heading {
+          margin-top: 10px;
           text-align: justify!important;
           span {
             line-height: 36px;
             &:first-child {
-              font-size: 1.25rem!important;
               border-radius: 50px;
               font-weight: bold;
               line-height: normal;
-              padding: 10px 20px;
-              display: block;
               width: fit-content;
+              border-radius: 50px;
               @include g.mq(md) {
                 font-size: 0.6em!important;
+                padding: 10px 20px;
+                display: block;
               }
             }
           }
@@ -357,7 +367,6 @@
         margin-top: 0;
       }
       &__desc {
-        font-weight: bold;
         line-height: 33.6px;
         padding-top: 35px;
         text-align: center;
@@ -403,6 +412,7 @@
         letter-spacing: 0.1em;
         text-align: center;
         margin-top: 20px;
+        font-size: 1.2em;
         @include g.mq(md) {
           font-size: 0.6em;
           margin-top: 10px;
@@ -512,6 +522,8 @@
       background-color: g.$white;
       border-radius: 20px;
       padding: 120px 50px 65px;
+      max-width: 1160px;
+      margin: 0 auto;
       position: relative;
       @include g.mq(md) {
         padding: 20px;
@@ -539,6 +551,9 @@
       gap: 50px;
       padding: 35px 0;
       border-bottom: 1px solid rgba(227, 121, 64, 0.2);
+      &:first-child {
+        padding-top: 0;
+      }
       @include g.mq(md) {
         flex-direction: column;
         gap: 0;
@@ -547,7 +562,7 @@
         border-bottom: none;
       }
       &__inner {
-        padding-top: 50px;
+        padding-top: 20px;
         @include g.mq(md) {
           padding-top: 0;
         }
@@ -635,7 +650,7 @@
     &__block {
       max-width: 1160px;
       margin: 0 auto;
-      padding-top: 150px;
+      padding-top: 80px;
       @include g.mq(md) {
         padding: 0 25px;
         padding-top: 70px;
@@ -654,7 +669,6 @@
           line-height: 43.2px;
         }
         &__text {
-          font-weight: bold;
           line-height: 33.6px;
           padding-top: 35px;
           @include g.mq(md) {
@@ -669,7 +683,7 @@
 //swiperの調整
 /* コンテナー */
 .container {
-  padding-top: 150px;
+  padding-top: 80px;
   margin: 0 auto;
   position: relative;
   z-index: 0;

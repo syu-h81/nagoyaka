@@ -6,7 +6,7 @@
 .p-contact {
   &-body {
     &-inner {
-      max-width: 565px;
+      max-width: 680px;
       margin: 0 auto;
       @include g.mq(md) {
         padding: 0 25px;
@@ -24,7 +24,6 @@
       border: 2px solid g.$color-heading;
       border-radius: 20px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
       padding: 25px 40px;
       margin-top: 35px;
@@ -50,7 +49,6 @@
           }
           &:last-child {
             font-size: 0.875rem;
-            text-align: center;
             @include g.mq(md) {
               text-align: justify;
             }
@@ -69,7 +67,6 @@
     }
     &__content {
       display: flex;
-      justify-content: space-between;
       gap: 20px;
       padding-top: 40px;
       &__img {
@@ -82,7 +79,7 @@
           font-weight: bold;
         }
         p {
-          font-size: 0.75rem;
+          font-size: 1em;
           line-height: 30px;
           letter-spacing: 1.5px;
           margin-top: 20px;
@@ -132,8 +129,10 @@
       }
     }
     &-form {
+      max-width: 1160px;
       background-color: g.$color-bg;
       border-radius: 20px;
+      margin: 0 auto;
       margin-top: 45px;
       padding: 50px;
       padding-bottom: 65px;

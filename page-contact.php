@@ -18,8 +18,7 @@ include get_template_directory() . '/page.php';
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="p-contact-body__phoneNumber__text">
-          <p>お問い合わせ先：<span><br class="u-sp-only"><a href="tel:050-8893-2767">050-8893-2767</a></span></p>
-          <p>(平日 9:00〜18：00)</p>
+          <p>お問い合わせ先：<span><br><a href="tel:050-8893-2767">050-8893-2767</a></span>(平日 9:00〜18：00)</p>
         </div>
       </div>
       <div class="p-contact-body__content">

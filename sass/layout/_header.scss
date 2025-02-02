@@ -19,13 +19,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px;
     @include g.mq(md) {
       padding: 10px;
     }
   }
   &-logo {
-    width: 175px;
+    width: 220px;
     @include g.mq(md) {
       width: 125px;
     }

@@ -85,8 +85,11 @@
             <p class="c-page-head__heading__text">CONCEPT</p>
           </div>
           <div class="p-top-beginning__body__heading">
+            <div class="p-top-beginning__body__heading__intro u-pc-only">
+              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span>
+            </div>
             <h2 class="p-top-beginning__body__heading__heading c-heading u-pc-only">
-              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
+                ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
             </h2>
             <h2 class="p-top-beginning__body__heading__heading c-heading u-sp-only">
               <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
@@ -415,9 +418,7 @@
           </div>
           <div class="p-top-area-info__supplyment">
             <p>
-              上記を中心に訪問します。当てはまらない地域でも16km
-              圏内でしたら可能なこともありますので、お気軽にお問い<br class="u-pc-only">
-              合わせください。
+              上記を中心に訪問します。当てはまらない地域でも16km圏内でしたら可能なこともありますので、お気軽にお問い<br class="u-pc-only">合わせください。
             </p>
           </div>
         </div>

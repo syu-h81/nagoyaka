@@ -438,7 +438,7 @@ input, textarea, select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px;
 }
 @media screen and (max-width: 768px) {
   .header-inner {
@@ -446,7 +446,7 @@ input, textarea, select {
   }
 }
 .header-logo {
-  width: 175px;
+  width: 220px;
 }
 @media screen and (max-width: 768px) {
   .header-logo {
@@ -723,12 +723,6 @@ input, textarea, select {
   }
 }
 @media screen and (max-width: 768px) {
-  .footer-info-body__email {
-    margin: 0 auto;
-    max-width: 166px;
-  }
-}
-@media screen and (max-width: 768px) {
   .footer-info-body__email__text {
     font-size: 0.75em !important;
   }
@@ -747,7 +741,7 @@ input, textarea, select {
 }
 
 .l-main {
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .l-main {
@@ -758,7 +752,7 @@ input, textarea, select {
 .l-section {
   background-color: #DFEDD0;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .l-section {
@@ -786,7 +780,7 @@ input, textarea, select {
 
 .c-sub-heading {
   color: #338751;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 @media screen and (max-width: 768px) {
@@ -846,9 +840,14 @@ input, textarea, select {
   width: 12px;
   margin-top: -6px;
 }
+.c-page-contact {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+}
 @media screen and (max-width: 768px) {
   .c-page-contact {
-    width: 100%;
     position: fixed;
     bottom: 0;
   }
@@ -912,13 +911,14 @@ input, textarea, select {
 }
 
 .c-email-btn {
-  width: 215px;
+  width: 100%;
   background-color: #E37940;
   border-radius: 10px;
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 16px;
   margin-top: 20px;
 }
@@ -942,7 +942,7 @@ input, textarea, select {
   background-size: cover;
   background-position-y: 40px;
   padding: 0 150px;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .c-banner-contact-inner {
@@ -1123,7 +1123,7 @@ input, textarea, select {
   display: flex;
   justify-content: space-around;
   max-width: 1340px;
-  height: 848px;
+  height: 748px;
   margin: 0 auto;
 }
 @media screen and (max-width: 960px) {
@@ -1181,7 +1181,7 @@ input, textarea, select {
   }
 }
 .p-top-hero__body__heading__box {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -1234,12 +1234,14 @@ input, textarea, select {
   height: 134px;
   background-color: #338751;
   border-radius: 50%;
-  padding-top: 15px;
+  font-size: 1rem;
+  padding-top: 25px;
 }
 @media screen and (max-width: 768px) {
   .p-top-hero__body__check {
     width: 100px;
     height: 100px;
+    padding-top: 15px;
   }
 }
 .p-top-hero__body__check__icon {
@@ -1255,10 +1257,15 @@ input, textarea, select {
 }
 .p-top-hero__body__check__text {
   color: #FFFFFF;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 24px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .p-top-hero__body__check__text {
+    font-size: 0.75rem;
+  }
 }
 .p-top-hero__body__area {
   background-color: #FFFFFF;
@@ -1298,12 +1305,7 @@ input, textarea, select {
   }
 }
 .p-top-beginning {
-  padding-top: 120px;
-}
-@media screen and (max-width: 960px) {
-  .p-top-beginning {
-    padding-top: 70px;
-  }
+  padding-top: 20px;
 }
 .p-top-beginning__inner {
   background-image: url(../images/introduction.png);
@@ -1338,25 +1340,34 @@ input, textarea, select {
     justify-content: flex-start;
   }
 }
+.p-top-beginning__body__heading__intro {
+  background-color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 .p-top-beginning__body__heading__heading {
+  margin-top: 10px;
   text-align: justify !important;
 }
 .p-top-beginning__body__heading__heading span {
   line-height: 36px;
 }
 .p-top-beginning__body__heading__heading span:first-child {
-  font-size: 1.25rem !important;
   border-radius: 50px;
   font-weight: bold;
   line-height: normal;
-  padding: 10px 20px;
-  display: block;
   width: -moz-fit-content;
   width: fit-content;
+  border-radius: 50px;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__heading span:first-child {
     font-size: 0.6em !important;
+    padding: 10px 20px;
+    display: block;
   }
 }
 .p-top-beginning__body__heading__desc {
@@ -1490,7 +1501,6 @@ input, textarea, select {
   margin-top: 0;
 }
 .p-top-point__heading__desc {
-  font-weight: bold;
   line-height: 33.6px;
   padding-top: 35px;
   text-align: center;
@@ -1544,6 +1554,7 @@ input, textarea, select {
   letter-spacing: 0.1em;
   text-align: center;
   margin-top: 20px;
+  font-size: 1.2em;
 }
 @media screen and (max-width: 768px) {
   .p-top-point-radius__text {
@@ -1656,6 +1667,8 @@ input, textarea, select {
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 120px 50px 65px;
+  max-width: 1160px;
+  margin: 0 auto;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -1688,6 +1701,9 @@ input, textarea, select {
   padding: 35px 0;
   border-bottom: 1px solid rgba(227, 121, 64, 0.2);
 }
+.p-top-flow__step:first-child {
+  padding-top: 0;
+}
 @media screen and (max-width: 768px) {
   .p-top-flow__step {
     flex-direction: column;
@@ -1698,7 +1714,7 @@ input, textarea, select {
   border-bottom: none;
 }
 .p-top-flow__step__inner {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .p-top-flow__step__inner {
@@ -1795,7 +1811,7 @@ input, textarea, select {
 .p-top-philosophy__block {
   max-width: 1160px;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .p-top-philosophy__block {
@@ -1818,7 +1834,6 @@ input, textarea, select {
   line-height: 43.2px;
 }
 .p-top-philosophy__content__body__text {
-  font-weight: bold;
   line-height: 33.6px;
   padding-top: 35px;
 }
@@ -1830,7 +1845,7 @@ input, textarea, select {
 
 /* コンテナー */
 .container {
-  padding-top: 150px;
+  padding-top: 80px;
   margin: 0 auto;
   position: relative;
   z-index: 0;
@@ -1957,7 +1972,7 @@ input, textarea, select {
   }
 }
 .p-about-concept-radius__text {
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 21px;
   margin-top: 20px;
@@ -2011,7 +2026,7 @@ input, textarea, select {
 }
 .p-about-head {
   padding: 0 50px;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .p-about-head {
@@ -2020,7 +2035,7 @@ input, textarea, select {
   }
 }
 .p-about-point__inner {
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .p-about-point__inner {
@@ -2045,11 +2060,14 @@ input, textarea, select {
   justify-content: center;
   gap: 30px;
   row-gap: 60px;
-  padding-top: 120px;
+  max-width: 1400px;
+  padding: 80px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .p-about-point-section__inner {
     display: grid;
+    padding: 25px;
     padding-top: 80px;
   }
 }
@@ -2089,9 +2107,11 @@ input, textarea, select {
   }
 }
 .p-about-doctor__block {
+  max-width: 1160px;
   background-color: #F5F4EA;
   border-radius: 20px;
   padding: 50px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .p-about-doctor__block {
@@ -2186,7 +2206,7 @@ input, textarea, select {
 .p-about-doctor-profile__career__list {
   background-color: #FFFFFF;
   border-radius: 20px;
-  padding: 35px;
+  padding: 25px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -2357,6 +2377,8 @@ input, textarea, select {
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 50px 90px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .p-treatment-equipment__block {
@@ -2512,7 +2534,7 @@ input, textarea, select {
 }
 
 .p-contact-body-inner {
-  max-width: 565px;
+  max-width: 680px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -2532,7 +2554,6 @@ input, textarea, select {
   border: 2px solid #338751;
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 25px 40px;
   margin-top: 35px;
@@ -2565,7 +2586,6 @@ input, textarea, select {
 }
 .p-contact-body__phoneNumber__text p:last-child {
   font-size: 0.875rem;
-  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .p-contact-body__phoneNumber__text p:last-child {
@@ -2585,7 +2605,6 @@ input, textarea, select {
 }
 .p-contact-body__content {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
   padding-top: 40px;
 }
@@ -2598,7 +2617,7 @@ input, textarea, select {
   font-weight: bold;
 }
 .p-contact-body__content__textBox p {
-  font-size: 0.75rem;
+  font-size: 1em;
   line-height: 30px;
   letter-spacing: 1.5px;
   margin-top: 20px;
@@ -2644,8 +2663,10 @@ input, textarea, select {
   margin-top: 35px;
 }
 .p-contact .p-contact-form {
+  max-width: 1160px;
   background-color: #F5F4EA;
   border-radius: 20px;
+  margin: 0 auto;
   margin-top: 45px;
   padding: 50px;
   padding-bottom: 65px;

@@ -1,12 +1,13 @@
 @use "../../global" as g;
 .c-email-btn {
-  width: 215px;
+  width: 100%;
   background-color: g.$color-btn;
   border-radius: 10px;
   color: g.$white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 16px;
   margin-top: 20px;
   &-img {
