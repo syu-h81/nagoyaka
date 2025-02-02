@@ -395,7 +395,7 @@ img {
 
 .l-body {
   color: #2E2E2E;
-  font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Sans", "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Helvetica, sans-serif;
+  font-family: "Inter", "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, "游ゴシック Medium", YuGothic, YuGothicM, sans-serif;
   font-feature-settings: "palt";
   text-justify: inter-ideograph;
   -webkit-font-smoothing: antialiased;
@@ -524,12 +524,14 @@ input, textarea, select {
     height: 110vh;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
+    visibility: hidden;
     transition: opacity 0.5s ease-in-out, background-color 0.6s ease-in-out;
     z-index: 1;
   }
   .sp-header-modal.fadeIn {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
+    visibility: visible;
   }
 }
 @media screen and (max-width: 768px) {

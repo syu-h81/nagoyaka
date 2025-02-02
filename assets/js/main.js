@@ -19,12 +19,14 @@ $(function() {
 $(function() {
   $('.header-sp-menu-bar').on('click', function() {
     $(this).toggleClass('active');
+    $('.sp-header-modal-inner').toggleClass('block');
     $('.sp-header-modal').toggleClass('fadeIn');
     $('.sp-header-modal-nav').toggleClass('open');
   });
 
   // **背景をクリックしたら閉じる**
-  $('.sp-header-modal').on('click', function(event) {
+  $('.sp-header-modal, .sp-header-modal-nav').on('click', function(event) {
+    $('.sp-header-modal-inner').toggleClass('block');
     $('.header-sp-menu-bar').toggleClass('active');
     $('.sp-header-modal').removeClass('fadeIn');
     if ($('.sp-header-modal-nav').hasClass('open')) {
