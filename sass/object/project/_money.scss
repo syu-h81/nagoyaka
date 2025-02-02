@@ -25,6 +25,7 @@
     padding: 35px;
     @include g.mq(md) {
       flex-direction: column;
+      padding: 25px;
     }
     &-card {
       width: 530px;
@@ -39,6 +40,7 @@
       @include g.mq(md) {
         width: 100%;
         height: auto;
+        padding: 50px 20px;
       }
       &::after {
         content: '';

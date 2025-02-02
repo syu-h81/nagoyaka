@@ -24,9 +24,9 @@
     <!-- ===== header ===== -->
     <header class="header">
       <div class="header-inner l-inner">
-        <div class="header-logo">
+        <a href="<?php echo home_url(); ?>" class="header-logo">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/header-logo.png" alt="">
-        </div>
+        </a>
         <div class="header-sp-menu-bar-inner">
           <div div class="header-sp-menu-bar-block">
             <div class="header-sp-menu-bar">

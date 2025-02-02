@@ -317,7 +317,11 @@
         }
       }
       &:last-child {
-        margin-left: -60px;
+        margin-left: 50%;
+        margin-top: -10%;
+        @include g.mq(md) {
+          margin-left: -60px;
+        }
         img {
           max-width: 220px;
           @include g.mq(md) {
@@ -370,8 +374,8 @@
       background-color: g.$color-heading;
       border-radius: 50%;
       @include g.mq(md) {
-        width: 95px;
-        height: 95px;
+        width: 80px;
+        height: 80px;
       }
       &__inner {
         display: flex;
@@ -567,6 +571,10 @@
           color: g.$color-heading;
           font-weight: bold;
           text-align: center;
+          @include g.mq(md) {
+            line-height: 30px;
+            margin-top: 10px;
+          }
           span {
             font-size: 1.5625em;
             font-weight: bold;
