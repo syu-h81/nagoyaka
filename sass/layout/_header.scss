@@ -6,6 +6,13 @@
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  @include g.mq(md) {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    z-index: 10;
+    padding-top: 0;
+  }
   &-inner {
     background-color: #fff;
     border-radius: 20px;
@@ -91,13 +98,13 @@
       @include g.mq(md) {
         position: fixed;
         right: 0;
-        width: 80%;
+        width: 100%;
         margin-right: auto;
-        height: 100vh;
-        background-color: rgba(255, 255, 255, 1);
+        height: 110vh;
+        background-color: rgba(0, 0, 0, 0.6);
         opacity: 0;
         transform: translateX(300px);
-        transition: all 0.5s;
+        transition: all 0.7s;
         z-index: 1;
         &.fadeIn {
           transform: translateX(0);
@@ -106,11 +113,13 @@
       }
       &-nav {
         @include g.mq(md) {
+          width: 80%;
+          height: 110vh;
+          background: #fff;
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          height: 80vh;
-          margin-left: auto; 
+          margin-left: auto;
         }
         &__list {
           @include g.mq(md) {

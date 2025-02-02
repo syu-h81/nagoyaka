@@ -419,6 +419,15 @@ input, textarea, select {
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    z-index: 10;
+    padding-top: 0;
+  }
+}
 .header-inner {
   background-color: #fff;
   border-radius: 20px;
@@ -506,13 +515,13 @@ input, textarea, select {
   .sp-header-modal {
     position: fixed;
     right: 0;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     transform: translateX(300px);
-    transition: all 0.5s;
+    transition: all 0.7s;
     z-index: 1;
   }
   .sp-header-modal.fadeIn {
@@ -522,10 +531,12 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav {
+    width: 80%;
+    height: 110vh;
+    background: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 80vh;
     margin-left: auto;
   }
 }
