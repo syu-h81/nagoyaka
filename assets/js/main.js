@@ -3,6 +3,7 @@ $(function() {
   $('.header-sp-menu-bar').on('click', function() {
    $(this).toggleClass('active');
    $('.sp-header-modal').toggleClass('fadeIn');
+   $('.sp-header-modal-nav').toggleClass('fadeIn'); // ナビゲーションもスライドイン
   });
 });
 

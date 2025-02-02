@@ -518,14 +518,13 @@ input, textarea, select {
     width: 100%;
     margin-right: auto;
     height: 110vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
-    transform: translateX(300px);
-    transition: all 0.7s;
+    transition: opacity 0.5s;
     z-index: 1;
   }
   .sp-header-modal.fadeIn {
-    transform: translateX(0);
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
   }
 }
@@ -535,9 +534,15 @@ input, textarea, select {
     height: 110vh;
     background: #fff;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: auto;
+    transform: translateX(300px);
+    transition: transform 0.6s;
+  }
+  .sp-header-modal-nav.fadeIn {
+    transform: translateX(0);
   }
 }
 @media screen and (max-width: 768px) {
@@ -548,18 +553,17 @@ input, textarea, select {
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item {
+    padding: 20px 0;
+    font-weight: bold;
+  }
+}
 .sp-header-modal-nav__item:last-child {
   background-color: #E37940;
   border-radius: 10px;
   color: #fff;
   padding: 15px;
-  margin-top: 15px;
-}
-@media screen and (max-width: 768px) {
-  .sp-header-modal-nav__item {
-    font-weight: bold;
-    padding: 20px 0;
-  }
 }
 
 .footer {
