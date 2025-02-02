@@ -14,7 +14,7 @@
     </nav>
     <div class="footer-info__inner">
       <div class="footer-info-logo">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/sp-footer-logo.png" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/footer-logo-2.png" alt="">
         <div class="footer-info-logo__address">
           <p>〒460-0003 <br>愛知県名古屋市中区錦2-7-7P.T名古屋錦1302</p>
         </div>

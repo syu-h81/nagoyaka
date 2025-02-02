@@ -606,6 +606,9 @@ img {
     padding-top: 40px;
   }
 }
+.footer-info-logo {
+  max-width: 310px;
+}
 @media screen and (max-width: 768px) {
   .footer-info-logo {
     width: 90%;
