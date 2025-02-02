@@ -1,8 +1,12 @@
 @use "../global" as g;
 .l-body {
   color: g.$color-text;
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "游ゴシック", "Yu Gothic", sans-serif;
-  letter-spacing: 0.03em;
+  font-family: Helvetica, "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Sans" , "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+  font-feature-settings: "palt";
+  text-justify: inter-ideograph;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.05em;
 }
 input,textarea,select {
   font-family: "游ゴシック", "Yu Gothic";

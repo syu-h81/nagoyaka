@@ -1,11 +1,48 @@
 //ハンバーガーボタンの実装
+/*
 $(function() {
   $('.header-sp-menu-bar').on('click', function() {
    $(this).toggleClass('active');
    $('.sp-header-modal').toggleClass('fadeIn');
-   $('.sp-header-modal-nav').toggleClass('fadeIn'); // ナビゲーションもスライドイン
+   $('.sp-header-modal-nav').toggleClass('open');
+  });
+
+  // **背景をクリックしたら閉じる**
+  $('.sp-header-modal').on('click', function(event) {
+    // **クリックした要素が `.sp-header-modal` 自身だった場合のみ実行**
+      $('.header-sp-menu-bar').removeClass('active');
+      $('.sp-header-modal').toggleClass('fadeIn')
+      $('.sp-header-modal-nav').toggleClass('open');
   });
 });
+*/
+$(function() {
+  $('.header-sp-menu-bar').on('click', function() {
+    $(this).toggleClass('active');
+    if ($('.sp-header-modal').hasClass('fadeIn')) {
+      $('.sp-header-modal').removeClass('fadeIn');
+    } else {
+      $('.sp-header-modal').addClass('fadeIn');
+    }
+    if ($('.sp-header-modal-nav').hasClass('open')) {
+      $('.sp-header-modal-nav').removeClass('open');
+    } else {
+      $('.sp-header-modal-nav').addClass('open');
+    }
+  });
+
+  // **背景をクリックしたら閉じる**
+  $('.sp-header-modal').on('click', function(event) {
+    $('.header-sp-menu-bar').toggleClass('active');
+    $('.sp-header-modal').removeClass('fadeIn');
+    if ($('.sp-header-modal-nav').hasClass('open')) {
+      $('.sp-header-modal-nav').removeClass('open');
+    } else {
+      $('.sp-header-modal-nav').addClass('open');
+    }
+  });
+});
+
 
 //swiperの設定
 window.addEventListener("DOMContentLoaded", () => {
