@@ -1838,7 +1838,9 @@ img {
 }
 @media screen and (max-width: 768px) {
   .p-about-concept-radius__inner {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
     gap: 10px;
     padding-top: 20px;
   }
@@ -1856,6 +1858,7 @@ img {
   .p-about-concept-radius__img {
     width: 50px;
     height: 50px;
+    margin: 0 auto;
   }
 }
 .p-about-concept-radius__img img {
@@ -1970,7 +1973,9 @@ img {
 }
 @media screen and (max-width: 768px) {
   .p-about-point-section__glasses__img {
+    top: -15px;
     left: 0;
+    width: 25%;
   }
 }
 .p-about-point-section__img {
