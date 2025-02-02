@@ -4,6 +4,10 @@
     width: 100%;
     margin-top: -40px;
     text-align: center;
+    @include g.mq(md) {
+      margin-top: 0;
+      padding-top: 40px;
+    }
     &-inner {
       height: 475px;
       background-image: url(../images/head-bg.png);
