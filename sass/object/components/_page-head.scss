@@ -43,6 +43,11 @@
     }
   }
   &-contact {
+    @include g.mq(md) {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
     &-inner {
       display: block;
       max-width: 260px;

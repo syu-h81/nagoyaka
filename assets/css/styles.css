@@ -399,6 +399,10 @@ img {
   letter-spacing: 0.03em;
 }
 
+input, textarea, select {
+  font-family: "游ゴシック", "Yu Gothic";
+}
+
 .l-wrapper {
   width: 100%;
   background-color: #F5F4EA;
@@ -810,6 +814,13 @@ img {
 .c-page-head__heading__text__img {
   width: 12px;
   margin-top: -6px;
+}
+@media screen and (max-width: 768px) {
+  .c-page-contact {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
 }
 .c-page-contact-inner {
   display: block;
