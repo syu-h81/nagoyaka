@@ -623,16 +623,10 @@
               <p>
                 目の健康は、暮らしの喜びにつながります。<br>
                 <br>
-                視力が最期まで維持されることで、大切な家族の写真を<br class="u-pc-only">
-                楽しんだり、趣味の時間を過ごしたり、毎日の生活がよ<br class="u-pc-only">
-                り豊かになります。また、段差や障害物を見つけやすくな<br class="u-pc-only">
-                り、安全に過ごすことができるでしょう。周りの状況も<br class="u-pc-only">
-                把握しやすく、施設内の友人との交流も広がっていきま<br class="u-pc-only">
+                視力が最期まで維持されることで、大切な家族の写真を<br class="u-pc-only">楽しんだり、趣味の時間を過ごしたり、毎日の生活がよ<br class="u-pc-only">り豊かになります。また、段差や障害物を見つけやすくな<br class="u-pc-only">り、安全に過ごすことができるでしょう。周りの状況も<br class="u-pc-only">把握しやすく、施設内の友人との交流も広がっていきま<br class="u-pc-only">
                 す。<br>
                 <br>
-                通院が難しくなっても、目の健康は諦めないでくださ<br class="u-pc-only">
-                い。当院の眼科専門医が、ご自宅での治療をしっかりと<br class="u-pc-only">
-                サポートいたします。まずはお気軽にご相談ください。
+                通院が難しくなっても、目の健康は諦めないでくださ<br class="u-pc-only">い。当院の眼科専門医が、ご自宅での治療をしっかりと<br class="u-pc-only">サポートいたします。まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -657,9 +651,7 @@
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number"><a href="tel:050-8893-2767">050-8893-2767</a></p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
-              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
-              訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn">
               <div class="c-banner-contact-block-body__email__img c-email-btn-img u-pc-only">
