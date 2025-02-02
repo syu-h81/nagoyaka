@@ -1924,6 +1924,8 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-about-concept-body__img__inner {
     width: 80%;
+    margin: 0 auto;
+    max-width: 250px;
   }
 }
 @media screen and (max-width: 768px) {
