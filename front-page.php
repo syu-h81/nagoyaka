@@ -172,8 +172,7 @@
         <div class="p-top-beginning__body__content u-sp-only">
           <div class="p-top-beginning__body__content__text">
             <p>
-              通院が難しい方に、医師がご自宅へ伺って診療を行います。特に名古屋市<br class="u-pc-only">
-              内では数少ない、眼科の訪問診療に力を入れているのが特徴です。
+              通院が難しい方に、医師がご自宅へ伺って診療を行います。特に名古屋市<br class="u-pc-only">内では数少ない、眼科の訪問診療に力を入れているのが特徴です。
             </p>
           </div>
           <ul class="p-top-beginning__body__content__checkList">
