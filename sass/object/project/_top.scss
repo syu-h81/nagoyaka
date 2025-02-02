@@ -671,6 +671,8 @@
 .container {
   padding-top: 150px;
   margin: 0 auto;
+  position: relative;
+  z-index: 0;
 }
 
 /* スライダーのwrapper */
