@@ -18,6 +18,7 @@
     }
   }
   &-logo {
+    width: 175px;
     @include g.mq(md) {
       width: 125px;
     }
