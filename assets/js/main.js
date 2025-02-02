@@ -8,15 +8,17 @@ $(function() {
 
 const swiper = new Swiper('.swiper', {
   loop: true, // ループ
-  speed: 4000, // スライド速度
-  slidesPerView: 5, // 画面幅に応じた枚数
+  loopAdditionalSlides: 1,
+  speed: 3200, // スライド速度
+  slidesPerView: 4, // 画面幅に応じた枚数
   spaceBetween: 50,
   initialSlide: 1,
   centeredSlides: true, // アクティブスライドを中央に
   autoplay: {
-    delay: 0,
+    delay: 1,
     disableOnInteraction: false, // ユーザー操作後も自動再生
   },
+  loopAdditionalSlides: 1,
   breakpoints: {
     0: {
       slidesPerView: 2.5, // スライド数を減らす
@@ -28,10 +30,6 @@ const swiper = new Swiper('.swiper', {
       slidesPerView: 4, // 画面幅に応じた枚数
       spaceBetween: 30,
     },
-    1024: {
-      slidesPerView: 5, // 画面幅に応じた枚数
-      spaceBetween: 50,
-    }
   },
 });
 
