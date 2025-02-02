@@ -8,6 +8,9 @@
     &-inner {
       max-width: 565px;
       margin: 0 auto;
+      @include g.mq(md) {
+        padding: 0 25px;
+      }
     }
     &__heading {
       color: g.$color-heading;
@@ -24,9 +27,17 @@
       align-items: center;
       padding: 25px 40px;
       margin-top: 35px;
+      @include g.mq(md) {
+        align-items: baseline;
+        justify-content: center;
+        padding: 15px;
+      }
       &__img {
         max-width: 30px;
         height: auto;
+        @include g.mq(md) {
+          max-width: 20px;
+        }
       }
       &__text {
         letter-spacing: 0.1em;
@@ -39,12 +50,18 @@
           &:last-child {
             font-size: 0.875rem;
             text-align: center;
+            @include g.mq(md) {
+              text-align: justify;
+            }
           }
           span {
             color: g.$color-btn;
             font-family: "Poppins", serif;
             font-size: 30px;
             font-weight: 600;
+            @include g.mq(md) {
+              font-size: 22px;
+            }
           }
         }
       }
@@ -54,6 +71,11 @@
       justify-content: space-between;
       gap: 20px;
       padding-top: 40px;
+      &__img {
+        @include g.mq(md) {
+          display: none;
+        }
+      }
       &__textBox {
         &__heading {
           font-weight: bold;
@@ -70,6 +92,9 @@
   .p-contact {
     &__inner {
       padding: 65px 140px 150px;
+      @include g.mq(md) {
+        padding: 25px;
+      }
     }
     &__bubble {
       position: relative;
@@ -111,17 +136,26 @@
       margin-top: 45px;
       padding: 50px;
       padding-bottom: 65px;
+      @include g.mq(md) {
+        padding: 20px;
+      }
       &__form {
         &__body {
           display: flex;
           align-items: center;
           padding: 30px 0;
           border-top: 1px solid rgba(46, 46, 46, 0.2);
+          @include g.mq(md) {
+            display: block;
+          }
           &__label {
             width: 500px;
             display: flex;
             align-items: center;
             gap: 20px;
+            @include g.mq(md) {
+              width: 100%;
+            }
             label {
               font-weight: bold;
               letter-spacing: 0.03em;

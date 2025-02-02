@@ -612,9 +612,6 @@
     }
   }
   &-philosophy {
-    @include g.mq(md) {
-      padding: 0 25px;
-    }
     &-swiper {
       padding-top: 150px!important;
       @include g.mq(md) {
@@ -632,6 +629,7 @@
       margin: 0 auto;
       padding-top: 150px;
       @include g.mq(md) {
+        padding: 0 25px;
         padding-top: 70px;
       }
     }

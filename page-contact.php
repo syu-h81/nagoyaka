@@ -11,14 +11,14 @@ include get_template_directory() . '/page.php';
   <div class="p-contact-body">
     <div class="p-contact-body-inner l-inner">
       <div class="p-contact-body__heading">
-        <h3>訪問診療のご相談はお電話にて承っております。</h3>
+        <h3>訪問診療のご相談は<br class="u-sp-only">お電話にて承っております。</h3>
       </div>
       <div class="p-contact-body__phoneNumber">
         <div class="p-contact-body__phoneNumber__img">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="p-contact-body__phoneNumber__text">
-          <p>お問い合わせ先：<span><a href="tel:050-8893-2767">050-8893-2767</a></span></p>
+          <p>お問い合わせ先：<span><br class="u-sp-only"><a href="tel:050-8893-2767">050-8893-2767</a></span></p>
           <p>(平日 9:00〜18：00)</p>
         </div>
       </div>

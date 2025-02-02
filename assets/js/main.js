@@ -8,13 +8,13 @@ $(function() {
 
 const swiper = new Swiper('.swiper', {
   loop: true, // ループ
-  speed: 2500, // スライド速度
+  speed: 4000, // スライド速度
   slidesPerView: 5, // 画面幅に応じた枚数
   spaceBetween: 50,
   initialSlide: 1,
   centeredSlides: true, // アクティブスライドを中央に
   autoplay: {
-    delay: 2000, // 1秒後に次のスライド
+    delay: 0,
     disableOnInteraction: false, // ユーザー操作後も自動再生
   },
   breakpoints: {
@@ -34,6 +34,8 @@ const swiper = new Swiper('.swiper', {
     }
   },
 });
+
+
 /*
 // 画面リサイズ時に `slidesPerView` を更新
 window.addEventListener("resize", function () {

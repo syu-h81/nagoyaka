@@ -578,6 +578,30 @@
           <div class="swiper-slide p-slide">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
           </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
+          </div>
         </div>
       </div>
       <div class="p-top-philosophy__block">

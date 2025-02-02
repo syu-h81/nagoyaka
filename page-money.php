@@ -54,9 +54,7 @@ include get_template_directory() . '/page.php';
       <div class="p-money-caution">
         <div class="p-money-caution__heading">注意事項</div>
         <p>
-          突発的な往診が必要な場合は、追加の費用がかかることがあります。
-          お薬代は別途薬局での支払いとなります。
-          医療証をお持ちの場合、医療費の免除や減額が適用される場合がありますので、詳細はご相談ください。
+          突発的な往診が必要な場合は、追加の費用がかかることがあります。お薬代は別途薬局での支払いとなります。医療証をお持ちの場合、医療費の免除や減額が適用される場合がありますので、詳細はご相談ください。
         </p>
       </div>
     </div>
@@ -68,16 +66,14 @@ include get_template_directory() . '/page.php';
           <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
         </div>
         <div class="c-banner-contact-block-body">
-          <div class="c-banner-contact-block-body__img">
+          <div class="c-banner-contact-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-1.png" alt="">
           </div>
           <div class="c-banner-contact-block-body__phoneNumber">
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number"><a href="tel:050-8893-2767">050-8893-2767</a></p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">
-              内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">
-              訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn">
               <div class="c-banner-contact-block-body__email__img c-email-btn-img">
@@ -86,7 +82,7 @@ include get_template_directory() . '/page.php';
               <div class="c-email-btn-text">メールで問い合わせ</div>
             </a>
           </div>
-          <div class="c-banner-contact-block-body-block-body__img">
+          <div class="c-banner-contact-block-body-block-body__img u-pc-only">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/contact-field-2.png" alt="">
           </div>
         </div>
