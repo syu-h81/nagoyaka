@@ -48,7 +48,8 @@
       </div>
     </header>
     <div class="sp-header-modal u-sp-only">
-      <nav class="sp-header-modal-nav">
+    </div>
+    <div class="sp-header-modal-nav u-sp-only">
         <ul class="sp-header-modal-nav__list">
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
@@ -56,5 +57,4 @@
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
           <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
         </ul>
-      </nav>
     </div>

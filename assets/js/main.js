@@ -19,16 +19,8 @@ $(function() {
 $(function() {
   $('.header-sp-menu-bar').on('click', function() {
     $(this).toggleClass('active');
-    if ($('.sp-header-modal').hasClass('fadeIn')) {
-      $('.sp-header-modal').removeClass('fadeIn');
-    } else {
-      $('.sp-header-modal').addClass('fadeIn');
-    }
-    if ($('.sp-header-modal-nav').hasClass('open')) {
-      $('.sp-header-modal-nav').removeClass('open');
-    } else {
-      $('.sp-header-modal-nav').addClass('open');
-    }
+    $('.sp-header-modal').toggleClass('fadeIn');
+    $('.sp-header-modal-nav').toggleClass('open');
   });
 
   // **背景をクリックしたら閉じる**

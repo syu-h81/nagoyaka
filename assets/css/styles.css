@@ -524,7 +524,7 @@ input, textarea, select {
     height: 110vh;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.5s ease-in-out, background-color 0.6s ease-in-out;
     z-index: 1;
   }
   .sp-header-modal.fadeIn {
@@ -534,10 +534,13 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav {
+    position: fixed;
+    right: 0;
+    z-index: 1;
     width: 80%;
     height: 110vh;
     background: #fff;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
