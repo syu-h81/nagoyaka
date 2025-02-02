@@ -551,32 +551,17 @@
   </section>
   <section class="p-top-philosophy">
     <div class="p-top-philosophy__inner l-inner">
-      <div class="swiper p-top-philosophy-swiper">
-        <div class="swiper-wrapper">
-          <!-- スライド -->
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
-          </div>
-          <div class="swiper-slide p-slide">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
+      <div class="container">
+        <div class="swiper infinite-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="画像1" /></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="画像1" /></div>
           </div>
         </div>
       </div>

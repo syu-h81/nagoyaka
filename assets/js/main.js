@@ -6,43 +6,26 @@ $(function() {
   });
 });
 
-const swiper = new Swiper('.swiper', {
-  loop: true, // ループ
-  loopAdditionalSlides: 1,
-  speed: 3200, // スライド速度
-  slidesPerView: 4, // 画面幅に応じた枚数
-  spaceBetween: 50,
-  initialSlide: 1,
-  centeredSlides: true, // アクティブスライドを中央に
-  autoplay: {
-    delay: 1,
-    disableOnInteraction: false, // ユーザー操作後も自動再生
-  },
-  loopAdditionalSlides: 1,
-  breakpoints: {
-    0: {
-      slidesPerView: 2.5, // スライド数を減らす
-      spaceBetween: 15, // スペースも減らす
-      initialSlide: 1
+//swiperの設定
+window.addEventListener("DOMContentLoaded", () => {
+  const infiniteSlider = new Swiper(".infinite-slider", {
+    loop: true,
+    loopedSlides: 4,
+    slidesPerView: "auto",
+    spaceBetween: 50,
+    speed: 4000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
     },
-    // **768px以上** の場合（768px から上）
-    768: {
-      slidesPerView: 4, // 画面幅に応じた枚数
-      spaceBetween: 30,
+    breakpoints: {
+      0: {
+        slidesPerView: 2.5, // スライド数を減らす
+        spaceBetween: 15, // スペースも減らす
+      },
+      // **768px以上** の場合（768px から上）
+      768: {
+      },
     },
-  },
+  });
 });
-
-
-/*
-// 画面リサイズ時に `slidesPerView` を更新
-window.addEventListener("resize", function () {
-  swiper.params.slidesPerView = updateSlidesPerView();
-  swiper.update();
-});
-
-// スライド枚数の計算関数
-function updateSlidesPerView() {
-  return Math.max(1.2, 1 + (window.innerWidth - 1000) / 1000);
-}
-*/

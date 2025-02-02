@@ -1774,6 +1774,35 @@ img {
   }
 }
 
+/* コンテナー */
+.container {
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+/* スライダーのwrapper */
+.infinite-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+/* スライド */
+.infinite-slider .swiper-slide {
+  height: 320px !important; /* 高さを指定 */
+  width: auto !important;
+}
+@media screen and (max-width: 768px) {
+  .infinite-slider .swiper-slide {
+    width: 168px !important;
+    height: auto !important;
+  }
+}
+
+/* スライド内の画像 */
+.infinite-slider .swiper-slide img {
+  width: auto;
+  height: 100%;
+}
+
 .p-about-concept__inner {
   max-width: 1160px;
   padding: 0 25px;

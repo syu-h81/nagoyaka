@@ -15,7 +15,7 @@ include get_template_directory() . '/page.php';
               <p class="c-page-head__heading__text">CONCEPT</p>
             </div>
             <h2 class="c-heading">なごやか訪問診療クリニックの<br>在宅医療サービス</h2>
-            <div class="p-about-concept-body__img__inner">
+            <div class="p-about-concept-body__img__inner u-sp-only">
               <div class="p-about-concept-body__img">
                 <img src="<?php echo get_template_directory_uri()?>/assets/images/about-concept-img1.png" alt="">
               </div>
