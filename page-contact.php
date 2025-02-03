@@ -52,7 +52,7 @@ include get_template_directory() . '/page.php';
       </div>
       <div class="p-contact__heading c-heading-block">
         
-        <p class="p-contact__heading__desc">下記フォームに必要事項をご記入の上、「確認画面へ」「送信する」ボタンをクリックしてください。</p>
+        <p class="p-contact__heading__desc">下記フォームに必要事項をご記入の上、「送信する」ボタンをクリックしてください。</p>
       </div>
       <div class="p-contact-form">
         <?php echo do_shortcode('[contact-form-7 id="99453bf" title="コンタクトフォーム 1"]'); ?>

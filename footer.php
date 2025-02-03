@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <small>なごやか眼科内科訪問診療クリニック</small>
+      <small>©︎なごやか眼科内科訪問診療クリニック</small>
     </div>
   </div>
   <div class="c-page-contact u-sp-only">

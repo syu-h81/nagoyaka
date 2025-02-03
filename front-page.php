@@ -455,7 +455,7 @@
               <div class="p-top-flow__step__body__text">
                 <p>
                   お気軽にご相談ください。丁寧なヒアリングを行い、お客様一人ひとりの病状や生活状況を確認いたします。<br>
-                  電話受付は、平日の9時～17時です。メールの場合は、24時間365日お問い合わせは受け付けています。
+                  電話受付は、平日の9時～18時です。メールの場合は、24時間365日お問い合わせは受け付けています。
                 </p>
               </div>
               <div class="p-top-flow__step__body__phoneNumber footer-info-body__phoneNumber c-info-banner__phoneNumber">

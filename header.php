@@ -4,18 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="<?php echo get_permalink(); ?>/assets/images/favicon.png">
-  <?php if (is_front_page()) : ?>
-    <title><?php the_title(); ?></title>
-  <?php else : ?>
-    <title><?php the_title(); ?>｜なごやか眼科内科訪問診療クリニック</title>
-  <?php endif; ?> 
-  <!-- OGP -->
-  <meta property="og:url" content="<?php echo get_permalink(); ?>"> <!-- //ページのURLを設定 -->
-  <meta property="og:title" content="<?php echo esc_attr(get_the_title()); ?>"> <!-- ページのタイトル -->
-  <meta property="og:description" content="<?php echo esc_attr(get_the_excerpt()); ?>"> <!-- ページのディスクリプション -->
-  <meta property="og:site_name" content="<?php echo esc_attr(get_bloginfo('name')); ?>"> <!-- サイトの名前 -->
-  <meta property="og:image" content="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>"> <!-- OGP画像 -->
-  <meta property="og:locale" content="ja_JP"> <!-- ページの国コード -->
   <!-- Import Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -102,13 +102,13 @@ include get_template_directory() . '/page.php';
           </p>
         </div>
         <div class="p-about-concept-btn__inner">
-          <a href="" class="p-about-concept-btn">
+          <a href="<?php echo home_url('/treatment'); ?>" class="p-about-concept-btn">
             <div class="p-about-concept-btn__img">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/treatment-icon.png" alt="">
             </div>
             <div class="p-about-concept-btn__text">診療内容を見る</div>
           </a>
-          <a href="" class="p-about-concept-btn">
+          <a href="<?php echo home_url('/contact'); ?>" class="p-about-concept-btn">
             <div class="p-about-concept-btn__img c-email-btn-img">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
             </div>
