@@ -2637,6 +2637,7 @@ input, textarea, select {
 .p-contact-body-inner {
   max-width: 680px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 @media screen and (max-width: 768px) {
   .p-contact-body-inner {

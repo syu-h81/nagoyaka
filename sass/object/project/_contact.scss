@@ -8,6 +8,7 @@
     &-inner {
       max-width: 680px;
       margin: 0 auto;
+      padding-bottom: 60px;
       @include g.mq(md) {
         padding: 0 25px;
       }
