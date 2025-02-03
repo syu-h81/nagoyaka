@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php the_title(); ?></title>
+  <link rel="icon" href="<?php echo get_permalink(); ?>/assets/images/favicon.png">
+  <?php if (is_front_page()) : ?>
+    <title><?php the_title(); ?></title>
+  <?php else : ?>
+    <title><?php the_title(); ?>｜なごやか眼科内科訪問診療クリニック</title>
+  <?php endif; ?> 
   <!-- OGP -->
   <meta property="og:url" content="<?php echo get_permalink(); ?>"> <!-- //ページのURLを設定 -->
   <meta property="og:title" content="<?php echo esc_attr(get_the_title()); ?>"> <!-- ページのタイトル -->
