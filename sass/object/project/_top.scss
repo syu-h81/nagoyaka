@@ -93,6 +93,7 @@
             background-color: g.$white;
             padding: 6px;
             width: fit-content;
+            letter-spacing: 0.3rem;
             &:last-child {
               margin-top: 20px;
               @include g.mq(lg) {
@@ -181,7 +182,6 @@
       width: 36%;
       height: auto;
       padding-top: 30px;
-      margin-right: 1.35vw;
       @include g.mq(lg) {
         width: 58vw;
         padding-top: 15px;
@@ -233,6 +233,10 @@
         &__heading {
           margin-top: 10px;
           text-align: justify!important;
+          line-height: 3rem;
+          @include g.mq(md) {
+            line-height: normal;
+          }
           span {
             line-height: 36px;
             &:first-child {
@@ -515,6 +519,10 @@
     }
   }
   &-flow {
+    margin-top: 80px;
+    @include g.mq(md) {
+      margin-top: 70px;
+    }
     &__inner {
       padding: 80px 50px;
       @include g.mq(md) {

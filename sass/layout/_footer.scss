@@ -72,8 +72,10 @@
       }
     }
     &-body {
+      width: 60%;
       @include g.mq(md) {
         padding-top: 40px;
+        width: 100%;
       }
       &__phoneNumber {
         background-color: g.$white;

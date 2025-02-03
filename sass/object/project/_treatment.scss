@@ -83,6 +83,7 @@
   }
   &-equipment {
     padding: 65px 50px;
+    margin-top: 70px;
     @include g.mq(md) {
       padding: 25px;
     }

@@ -26,6 +26,10 @@
         }
         h2 {
           text-align: justify;
+          line-height: 3rem;
+          @include g.mq(md) {
+            line-height: normal;
+          }
         }
       }
       &__img {
@@ -199,11 +203,11 @@
         margin-top: 35px;
         text-align: center;
         h3 {
-          line-height: 30px;
+          line-height: 36px;
         }
       }
       &__text {
-        font-weight: bold;
+        font-weight: normal;
         line-height: 33.6px;
         margin-top: 35px;
       }

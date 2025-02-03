@@ -463,7 +463,7 @@
                   <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
                 </div>
                 <div class="footer-info-body__phoneNumber__text c-info-banner__phoneNumber__text">
-                  <p>お問い合わせ先：<br class="u-sp-only"><span><a href="tel:050-8893-2767">050-8893-2767</a></span><br class="u-sp-only">　(平日 9:00〜18：00)</p>
+                  <p>お問い合わせ先：<br><span><a href="tel:050-8893-2767">050-8893-2767</a></span><br class="u-sp-only">　(平日 9:00〜18：00)</p>
                   <p>（直接医師に繋がりますので、詳しく聞くことができます）</p>
                 </div>
               </div>
