@@ -5,12 +5,7 @@
   padding-top: 20px;
   margin: 0 auto;
   position: relative;
-  z-index: 1;
   @include g.mq(md) {
-    position: fixed;
-    top: 0;
-    left: 40px;
-    z-index: 10;
     padding-top: 0;
   }
   &-inner {
@@ -80,7 +75,7 @@
     }
     &-inner {
       display: none;
-      @include g.mq(lg) {
+      @include g.mq(md) {
         background-color: g.$color-primary;
         border-radius: 50%;
         width: 55px;
@@ -88,6 +83,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 100;
+        &.fixed {
+          position: fixed;
+          top: 10px;
+          right: 40px;
+        }
       }
     }
   }
@@ -97,6 +98,7 @@
     &-modal {
       @include g.mq(md) {
         position: fixed;
+        top: 0;
         right: 0;
         width: 100%;
         margin-right: auto;
@@ -118,15 +120,12 @@
       &-nav {
         @include g.mq(md) {
           position: fixed;
+          top: 0;
           right: 0;
           z-index: 1;
           width: 80%;
           height: 110vh;
           background: #fff;
-          display: flex!important;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
           margin-left: auto;
           transform: translateX(100%); // **完全に隠す**
           transition: transform 0.6s;
@@ -136,22 +135,49 @@
         }
         &__list {
           @include g.mq(md) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            padding: 0 25px;
+            padding-top: 100px;
           }
         }
         &__item {
           @include g.mq(md) {
             padding: 20px 0;
             font-weight: bold;
+            width: 100%;
+            border-bottom: 0.5px solid #ddd;
+          }
+          &:nth-child(5) {
+            border-bottom: 0;
           }
           &:last-child {
-            background-color: #E37940;
-            border-radius: 10px;
-            color: #fff;
-            padding: 15px;
+            @include g.mq(md) {
+              border-bottom: 0;
+              padding-top: 0;
+            }
+          }
+          &__btn {
+            @include g.mq(md) {
+              margin-top: 0!important;
+            }
+          }
+          &__phoneNumber {
+            display: flex;
+            align-items: center!important;
+            &__img {
+              @include g.mq(md) {
+                max-width: 30px;
+              }
+            }
+            &__text {
+              p {
+                &:last-child {
+                  @include g.mq(md) {
+                    font-size: 0.75em;
+                    font-weight: normal;
+                  }
+                }
+              }
+            }
           }
         }
       }

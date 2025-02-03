@@ -52,11 +52,29 @@
       <div class="sp-header-modal"></div>
     </div>
     <div class="sp-header-modal-nav u-sp-only">
-        <ul class="sp-header-modal-nav__list">
-          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
-          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
-          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
-          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
-          <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
-        </ul>
+      <ul class="sp-header-modal-nav__list">
+        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
+        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
+        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
+        <li class="sp-header-modal-nav__item">
+          <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn sp-header-modal-nav__item__btn">
+            <div class="c-banner-contact-block-body__email__img c-email-btn-img">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
+            </div>
+            <div class="c-email-btn-text">メールで問い合わせ</div>
+          </a>
+        </li>
+        <li class="sp-header-modal-nav__item">
+          <div class="c-info-banner__phoneNumber sp-header-modal-nav__item__phoneNumber">
+            <div class="sp-header-modal-nav__item__phoneNumber__img c-info-banner__phoneNumber__img">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
+            </div>
+            <div class="footer-info-body__phoneNumber__text sp-header-modal-nav__item__phoneNumber__text c-info-banner__phoneNumber__text">
+              <p>お問い合わせ先：<br class="u-sp-only"><span>050-8893-2767</span></p>
+              <p>(平日 9:00〜18：00)</p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>

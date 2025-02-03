@@ -262,18 +262,18 @@
             padding: 12px 20px;
             width: fit-content;
             @include g.mq(md) {
-              font-size: 0.6em;
+              width: 50%;
               padding: 0 10px;
               display: flex;
               align-items: center;
               justify-content: center;
-              height: 70px;
+              height: 90px;
             }
             &:last-child {
               margin-top: 15px;
               width: 58%;
               @include g.mq(md) {
-                width: auto;
+                width: 50%;
                 margin-top: 0;
               }
             }

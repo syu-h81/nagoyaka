@@ -123,13 +123,6 @@
           }
         }
       }
-      &__email {
-        &__text {
-          @include g.mq(md) {
-            font-size: 0.75em!important; 
-          }
-        }
-      }
     }
   }
   &-copyright {

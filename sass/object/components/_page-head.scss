@@ -29,6 +29,9 @@
       color: g.$color-heading;
       font-size: 3vw;
       font-weight: bold;
+      @include g.mq(md) {
+        font-size: 2vw;
+      }
       &__text {
         color: g.$color-heading;
         font-weight: bold;
@@ -38,6 +41,9 @@
           align-items: center;
           justify-content: center;
           margin-top: 35px;
+          @include g.mq(md) {
+            margin-top: 12px;
+          }
         }
         &__img {
           width: 12px;
@@ -54,6 +60,9 @@
     @include g.mq(md) {
       position: fixed;
       bottom: 0;
+      &.hide {
+        display: none;
+      }
     }
     &-inner {
       display: block;

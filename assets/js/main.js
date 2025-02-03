@@ -1,24 +1,11 @@
-//ハンバーガーボタンの実装
-/*
-$(function() {
-  $('.header-sp-menu-bar').on('click', function() {
-   $(this).toggleClass('active');
-   $('.sp-header-modal').toggleClass('fadeIn');
-   $('.sp-header-modal-nav').toggleClass('open');
-  });
 
-  // **背景をクリックしたら閉じる**
-  $('.sp-header-modal').on('click', function(event) {
-    // **クリックした要素が `.sp-header-modal` 自身だった場合のみ実行**
-      $('.header-sp-menu-bar').removeClass('active');
-      $('.sp-header-modal').toggleClass('fadeIn')
-      $('.sp-header-modal-nav').toggleClass('open');
-  });
-});
-*/
+
+
 $(function() {
   $('.header-sp-menu-bar').on('click', function() {
     $(this).toggleClass('active');
+    $('.header-sp-menu-bar-inner').toggleClass('fixed');
+    $('.c-page-contact').toggleClass('hide');
     $('.sp-header-modal-inner').toggleClass('block');
     $('.sp-header-modal').toggleClass('fadeIn');
     $('.sp-header-modal-nav').toggleClass('open');
@@ -26,6 +13,8 @@ $(function() {
 
   // **背景をクリックしたら閉じる**
   $('.sp-header-modal, .sp-header-modal-nav').on('click', function(event) {
+    $('.header-sp-menu-bar-inner').toggleClass('fixed');
+    $('.c-page-contact').toggleClass('hide');
     $('.sp-header-modal-inner').toggleClass('block');
     $('.header-sp-menu-bar').toggleClass('active');
     $('.sp-header-modal').removeClass('fadeIn');

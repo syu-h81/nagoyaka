@@ -402,9 +402,19 @@ img {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.05em;
 }
+@media screen and (max-width: 768px) {
+  .l-body {
+    font-size: 15px;
+  }
+}
 
 input, textarea, select {
   font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Sans", "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Helvetica, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  input, textarea, select {
+    font-size: 15px;
+  }
 }
 
 .l-wrapper {
@@ -421,14 +431,9 @@ input, textarea, select {
   padding-top: 20px;
   margin: 0 auto;
   position: relative;
-  z-index: 1;
 }
 @media screen and (max-width: 768px) {
   .header {
-    position: fixed;
-    top: 0;
-    left: 40px;
-    z-index: 10;
     padding-top: 0;
   }
 }
@@ -503,7 +508,7 @@ input, textarea, select {
 .header-sp-menu-bar-inner {
   display: none;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
   .header-sp-menu-bar-inner {
     background-color: #DFEDD0;
     border-radius: 50%;
@@ -512,12 +517,19 @@ input, textarea, select {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 100;
+  }
+  .header-sp-menu-bar-inner.fixed {
+    position: fixed;
+    top: 10px;
+    right: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .sp-header-modal {
     position: fixed;
+    top: 0;
     right: 0;
     width: 100%;
     margin-right: auto;
@@ -537,15 +549,12 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav {
     position: fixed;
+    top: 0;
     right: 0;
     z-index: 1;
     width: 80%;
     height: 110vh;
     background: #fff;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     margin-left: auto;
     transform: translateX(100%);
     transition: transform 0.6s;
@@ -556,23 +565,46 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0 25px;
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav__item {
     padding: 20px 0;
     font-weight: bold;
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;
   }
 }
-.sp-header-modal-nav__item:last-child {
-  background-color: #E37940;
-  border-radius: 10px;
-  color: #fff;
-  padding: 15px;
+.sp-header-modal-nav__item:nth-child(5) {
+  border-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item:last-child {
+    border-bottom: 0;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item__btn {
+    margin-top: 0 !important;
+  }
+}
+.sp-header-modal-nav__item__phoneNumber {
+  display: flex;
+  align-items: center !important;
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item__phoneNumber__img {
+    max-width: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sp-header-modal-nav__item__phoneNumber__text p:last-child {
+    font-size: 0.75em;
+    font-weight: normal;
+  }
 }
 
 .footer {
@@ -722,11 +754,6 @@ input, textarea, select {
     font-size: 1.5em;
   }
 }
-@media screen and (max-width: 768px) {
-  .footer-info-body__email__text {
-    font-size: 0.75em !important;
-  }
-}
 .footer-copyright {
   color: #FFFFFF;
   font-size: 0.9rem;
@@ -825,6 +852,11 @@ input, textarea, select {
   font-size: 3vw;
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .c-page-head__heading {
+    font-size: 2vw;
+  }
+}
 .c-page-head__heading__text {
   color: #338751;
   font-weight: bold;
@@ -835,6 +867,11 @@ input, textarea, select {
   align-items: center;
   justify-content: center;
   margin-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .c-page-head__heading__text__block {
+    margin-top: 12px;
+  }
 }
 .c-page-head__heading__text__img {
   width: 12px;
@@ -850,6 +887,9 @@ input, textarea, select {
   .c-page-contact {
     position: fixed;
     bottom: 0;
+  }
+  .c-page-contact.hide {
+    display: none;
   }
 }
 .c-page-contact-inner {
@@ -932,7 +972,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .c-email-btn-text {
-    font-size: 0.875em;
+    font-size: 15px;
     letter-spacing: 0;
   }
 }
@@ -1056,6 +1096,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .c-banner-contact-block-body__phoneNumber__text {
     text-align: start;
+    font-size: 15px;
   }
 }
 .c-banner-contact-block-body__email {
@@ -1392,12 +1433,12 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__desc p {
-    font-size: 0.6em;
+    width: 50%;
     padding: 0 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
+    height: 90px;
   }
 }
 .p-top-beginning__body__heading__desc p:last-child {
@@ -1406,7 +1447,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__desc p:last-child {
-    width: auto;
+    width: 50%;
     margin-top: 0;
   }
 }
@@ -2001,6 +2042,11 @@ input, textarea, select {
   justify-content: center;
   gap: 10px;
 }
+@media screen and (max-width: 768px) {
+  .p-about-concept-btn {
+    width: 100%;
+  }
+}
 .p-about-concept-btn:first-child {
   background-color: #FFFFFF;
   border: 2px solid #E37940;
@@ -2024,6 +2070,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-about-concept-btn__inner {
     display: grid;
+    justify-content: normal;
   }
 }
 .p-about-head {
@@ -2156,13 +2203,29 @@ input, textarea, select {
     width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain__heading {
+    padding-top: 20px;
+  }
+}
 .p-about-doctor-profile__explain__heading span {
   color: #338751;
   font-size: 0.75em;
   letter-spacing: 0.03em;
 }
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain__heading span {
+    display: block;
+    text-align: center;
+  }
+}
 .p-about-doctor-profile__explain__heading h3 {
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain__heading h3 {
+    margin-top: 5px;
+  }
 }
 .p-about-doctor-profile__explain__heading__text {
   letter-spacing: 0.03em;
@@ -2342,7 +2405,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms-indication__block {
-    padding: 25px;
+    margin: 25px;
   }
 }
 .p-treatment-symptoms-indication__heading {

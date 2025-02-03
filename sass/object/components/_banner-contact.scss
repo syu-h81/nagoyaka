@@ -99,6 +99,7 @@
           line-height: 33px;
           @include g.mq(md) {
             text-align: start;
+            font-size: 15px;
           }
         }
       }
