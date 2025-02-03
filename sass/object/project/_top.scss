@@ -554,7 +554,7 @@
       padding: 35px 0;
       border-bottom: 1px solid rgba(227, 121, 64, 0.2);
       &:first-child {
-        padding-top: 0;
+        padding-top: 35px;
       }
       @include g.mq(md) {
         flex-direction: column;
