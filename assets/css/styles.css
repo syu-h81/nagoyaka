@@ -2914,6 +2914,7 @@ input, textarea, select {
 .p-contact .p-contact-form__form__body__input textarea {
   height: 165px;
   padding: 10px;
+  resize: vertical;
 }
 .p-contact .p-contact-form__form__body__input span {
   display: block;
