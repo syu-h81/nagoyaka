@@ -405,6 +405,7 @@ img {
 @media screen and (max-width: 768px) {
   .l-body {
     font-size: 15px;
+    line-height: 24px;
   }
 }
 
@@ -1604,7 +1605,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-top-point-radius__text {
     font-size: 0.6em;
-    margin-top: 10px;
+    margin-top: 0;
   }
 }
 .p-top-area {

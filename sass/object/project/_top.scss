@@ -417,7 +417,7 @@
         font-size: 1.2em;
         @include g.mq(md) {
           font-size: 0.6em;
-          margin-top: 10px;
+          margin-top: 0;
         }
       }
     }

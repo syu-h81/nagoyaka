@@ -9,6 +9,7 @@
   letter-spacing: 0.05em;
   @include g.mq(md) {
     font-size: 15px;
+    line-height: 24px;
   }
 }
 input,textarea,select {
