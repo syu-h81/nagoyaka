@@ -605,6 +605,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav__item {
+    display: block;
     padding: 20px 0;
     font-size: 18px;
     font-weight: bold;

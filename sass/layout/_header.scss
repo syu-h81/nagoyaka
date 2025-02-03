@@ -168,6 +168,7 @@
         }
         &__item {
           @include g.mq(md) {
+            display: block;
             padding: 20px 0;
             font-size: 18px;
             font-weight: bold;

@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="<?php echo get_permalink(); ?>/assets/images/favicon.png">
+  <link rel="icon" href="<?php echo get_template_directory_uri()?>/assets/images/favicon.png">
   <!-- Import Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <meta property="og:image" content="<?php echo get_template_directory_uri()?>/assets/images/ogp.jpg"> <!-- //ogp画像の設定 -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Inter:wght@400;700&display=swap">
   <?php wp_head(); ?>
 </head>
@@ -32,7 +33,7 @@
         </div>
         <nav class="header-nav u-pc-only">
           <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url(''); ?>">ホーム</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
@@ -46,18 +47,18 @@
     </div>
     <div class="sp-header-modal-nav u-sp-only">
       <ul class="sp-header-modal-nav__list">
-        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
-        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
-        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
-        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
-        <li class="sp-header-modal-nav__item">
-          <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn sp-header-modal-nav__item__btn">
+        <a href="<?php echo home_url(); ?>" class="sp-header-modal-nav__item"><span>ホーム</span></a>
+        <a href="<?php echo home_url('/about'); ?>" class="sp-header-modal-nav__item"><span>当院について</span></a>
+        <a href="<?php echo home_url('/treatment'); ?>" class="sp-header-modal-nav__item"><span>診療内容</span></a>
+        <a href="<?php echo home_url('/money'); ?>" class="sp-header-modal-nav__item"><span>料金案内</span></a>
+        <a href="<?php echo home_url('/contact'); ?>" class="sp-header-modal-nav__item">
+          <li class="c-banner-contact-block-body__email c-email-btn sp-header-modal-nav__item__btn">
             <div class="c-banner-contact-block-body__email__img c-email-btn-img">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
             </div>
             <div class="c-email-btn-text">メールで問い合わせ</div>
-          </a>
-        </li>
+          </li>
+        </a>
         <li class="sp-header-modal-nav__item">
           <div class="c-info-banner__phoneNumber sp-header-modal-nav__item__phoneNumber">
             <div class="sp-header-modal-nav__item__phoneNumber__img c-info-banner__phoneNumber__img">
