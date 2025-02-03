@@ -166,6 +166,7 @@
         &__item {
           @include g.mq(md) {
             padding: 20px 0;
+            font-size: 18px;
             font-weight: bold;
             width: 100%;
             border-bottom: 0.5px solid #ddd;

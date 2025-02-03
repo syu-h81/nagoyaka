@@ -82,6 +82,8 @@ include get_template_directory() . '/page.php';
               <p>影が見える等</p>
             </div>
           </div>
+          <div class="p-treatment-symptoms__radius u-sp-only">
+          </div>
         </div>
       </div>
       <div class="p-treatment-symptoms-indication__block">

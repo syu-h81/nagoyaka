@@ -43,13 +43,7 @@ include get_template_directory() . '/page.php';
         <p>メールでもお問い合わせを承ります。</p>
       </div>
       <div class="p-contact__heading c-heading-block">
-        <div class="c-page-head__heading__text__block">
-          <div class="c-page-head__heading__text__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
-          </div>
-          <p class="c-page-head__heading__text">CONTACT</p>
-        </div>
-        <h2 class="c-heading">お問い合わせ</h2>
+        
         <p class="p-contact__heading__desc">下記フォームに必要事項をご記入の上、「確認画面へ」「送信する」ボタンをクリックしてください。</p>
       </div>
       <div class="p-contact-form">

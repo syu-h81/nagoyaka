@@ -253,30 +253,30 @@
           </p>
         </div>
         <div class="p-top-point-radius__inner">
-          <div class="p-top-point-radius">
+          <a href="<?php echo home_url('/about') ?>" class="p-top-point-radius">
             <div class="p-top-point-radius__icon">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/hospital-icon.png" alt="">
             </div>
             <div class="p-top-point-radius__text">
               <p>当院について</p>
             </div>
-          </div>
-          <div class="p-top-point-radius">
+          </a>
+          <a href="<?php echo home_url('/treatment') ?>" class="p-top-point-radius">
             <div class="p-top-point-radius__icon">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/treatment-icon-yellow.png" alt="">
             </div>
             <div class="p-top-point-radius__text">
               <p>診療内容</p>
             </div>
-          </div>
-          <div class="p-top-point-radius">
+          </a>
+          <a href="<?php echo home_url('/money') ?>" class="p-top-point-radius">
             <div class="p-top-point-radius__icon">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/money-icon.png" alt="">
             </div>
             <div class="p-top-point-radius__text">
               <p>料金案内</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

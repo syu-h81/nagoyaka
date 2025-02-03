@@ -23,6 +23,7 @@
       margin: 0 50px;
       @include g.mq(md) {
         height: 225px;
+        margin: 0 20px;
       }
     }
     &__heading {
@@ -103,7 +104,7 @@
       p {
         border: 1px solid g.$white;
         border-radius: 20px;
-        padding: 20px 0;
+        padding: 10px 0;
         padding-top: 25px;
         @include g.mq(lg) {
           border-radius: 20px 20px 0 0; 

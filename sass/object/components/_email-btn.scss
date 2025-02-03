@@ -11,14 +11,14 @@
   padding: 16px;
   margin-top: 20px;
   &-img {
-    margin-top: -4px;
+    margin-top: -8px;
   }
   &-text {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.1em;
     @include g.mq(md) {
-      font-size: 15px;
+      font-size: 16px;
       letter-spacing: 0;
     }
   }

@@ -66,8 +66,8 @@
         line-height: 27.6px;
         padding-top: 30px;
         @include g.mq(md) {
-          font-size: 0.75em;
-          line-height: 31.5px;
+          font-size: 0.8em;
+          line-height: 20px;
         }
       }
     }
@@ -105,13 +105,14 @@
             @include g.mq(md) {
               font-size: 0.75em;
               margin-left: 0;
-              line-height: 18px;
+              line-height: 24px;
             }
             &:first-child {
               font-weight: bold;
             }
             &:last-child {
               font-size: 0.75rem;
+              margin-top: -5px;
             }
             span {
               color: g.$color-btn;
@@ -119,7 +120,7 @@
               font-size: 30px;
               font-weight: 600;
               @include g.mq(md) {
-                font-size: 1.5em;
+                font-size: 1.8em;
               }
             }
           }

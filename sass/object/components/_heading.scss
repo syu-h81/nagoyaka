@@ -15,7 +15,6 @@
   font-size: 1.4em;
   font-weight: bold;
   @include g.mq(md) {
-    font-size: 1.125em;
     text-align: center;
   }
 }

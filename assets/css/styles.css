@@ -603,6 +603,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .sp-header-modal-nav__item {
     padding: 20px 0;
+    font-size: 18px;
     font-weight: bold;
     width: 100%;
     border-bottom: 0.5px solid #ddd;
@@ -718,8 +719,8 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .footer-info-logo__address {
-    font-size: 0.75em;
-    line-height: 31.5px;
+    font-size: 0.8em;
+    line-height: 20px;
   }
 }
 .footer-info-body {
@@ -769,7 +770,7 @@ input, textarea, select {
   .footer-info-body__phoneNumber__text p {
     font-size: 0.75em;
     margin-left: 0;
-    line-height: 18px;
+    line-height: 24px;
   }
 }
 .footer-info-body__phoneNumber__text p:first-child {
@@ -777,6 +778,7 @@ input, textarea, select {
 }
 .footer-info-body__phoneNumber__text p:last-child {
   font-size: 0.75rem;
+  margin-top: -5px;
 }
 .footer-info-body__phoneNumber__text p span {
   color: #E37940;
@@ -786,7 +788,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .footer-info-body__phoneNumber__text p span {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 .footer-copyright {
@@ -848,7 +850,6 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .c-sub-heading {
-    font-size: 1.125em;
     text-align: center;
   }
 }
@@ -881,6 +882,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .c-page-head-inner {
     height: 225px;
+    margin: 0 20px;
   }
 }
 .c-page-head__heading {
@@ -972,7 +974,7 @@ input, textarea, select {
 .c-page-contact__body p {
   border: 1px solid #FFFFFF;
   border-radius: 20px;
-  padding: 20px 0;
+  padding: 10px 0;
   padding-top: 25px;
 }
 @media screen and (max-width: 960px) {
@@ -1002,7 +1004,7 @@ input, textarea, select {
   margin-top: 20px;
 }
 .c-email-btn-img {
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .c-email-btn-text {
   font-size: 16px;
@@ -1011,7 +1013,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .c-email-btn-text {
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0;
   }
 }
@@ -1153,6 +1155,11 @@ input, textarea, select {
   border-radius: 3px;
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  .c-required {
+    padding: 1px 4px;
+  }
+}
 .c-required-text {
   color: #E37940;
   font-size: 0.75rem;
@@ -1163,6 +1170,11 @@ input, textarea, select {
   background-color: #FFFFFF;
   border-radius: 3px;
   padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .c-option {
+    padding: 1px 4px;
+  }
 }
 .c-option-text {
   color: #338751;
@@ -1256,7 +1268,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 960px) {
   .p-top-hero__body__heading__intro p {
-    font-size: 0.75em;
+    font-size: 0.9em;
     margin-top: 1.2rem;
     line-height: 1.4rem;
   }
@@ -1278,6 +1290,11 @@ input, textarea, select {
   width: fit-content;
   letter-spacing: 0.3rem;
 }
+@media screen and (max-width: 768px) {
+  .p-top-hero__body__heading__box__heading {
+    letter-spacing: 0.1rem;
+  }
+}
 .p-top-hero__body__heading__box__heading:last-child {
   margin-top: 20px;
 }
@@ -1293,9 +1310,8 @@ input, textarea, select {
 }
 @media screen and (max-width: 960px) {
   .p-top-hero__body__heading__desc {
-    font-size: 0.875em;
-    letter-spacing: 0.1em;
-    line-height: 29.4px;
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 .p-top-hero__body__checks {
@@ -1346,7 +1362,9 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-hero__body__check__text {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-top: 4px;
   }
 }
 .p-top-hero__body__area {
@@ -1467,7 +1485,7 @@ input, textarea, select {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
+    gap: 16px;
   }
 }
 .p-top-beginning__body__heading__desc p {
@@ -1487,6 +1505,8 @@ input, textarea, select {
     align-items: center;
     justify-content: center;
     height: 90px;
+    font-size: 15px;
+    line-height: 20px;
   }
 }
 .p-top-beginning__body__heading__desc p:last-child {
@@ -1507,6 +1527,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__content {
     padding-left: 0;
+    line-height: 28px;
   }
 }
 .p-top-beginning__body__content__checkList {
@@ -1572,6 +1593,7 @@ input, textarea, select {
   background-color: #F5F4EA;
   width: 100%;
   padding: 50px;
+  border-radius: 20px;
 }
 @media screen and (max-width: 768px) {
   .p-top-point__block {
@@ -1583,6 +1605,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-point__heading h2 {
+    line-height: 2rem;
     margin-top: 15px;
   }
 }
@@ -1609,8 +1632,8 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-point-radius {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 98px;
   }
 }
 .p-top-point-radius__inner {
@@ -1647,8 +1670,8 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-top-point-radius__text {
-    font-size: 0.6em;
-    margin-top: 0;
+    font-size: 0.9em;
+    margin-top: 4px;
   }
 }
 .p-top-area {
@@ -1684,6 +1707,11 @@ input, textarea, select {
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 10px 60px;
+}
+@media screen and (max-width: 768px) {
+  .p-top-area-prefecture__img {
+    padding: 10px 20px;
+  }
 }
 .p-top-area-info__inner {
   width: 375px;
@@ -1724,6 +1752,11 @@ input, textarea, select {
   align-items: center;
   row-gap: 20px;
   padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .p-top-area-info__check__list {
+    row-gap: 10px;
+  }
 }
 .p-top-area-info__check__item {
   width: 157px;
@@ -2027,7 +2060,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-about-concept-body__img__inner {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 250px;
   }
 }
@@ -2085,7 +2118,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-about-concept-radius__text {
-    font-size: 0.625em;
+    font-size: 0.9em;
   }
 }
 .p-about-concept-radius__text span {
@@ -2133,6 +2166,7 @@ input, textarea, select {
   .p-about-concept-btn__inner {
     display: grid;
     justify-content: normal;
+    padding-top: 40px;
   }
 }
 .p-about-head {
@@ -2208,6 +2242,11 @@ input, textarea, select {
   font-weight: normal;
   line-height: 33.6px;
   margin-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-point-section__text {
+    margin-top: 20px;
+  }
 }
 .p-about-doctor__inner {
   padding: 65px 50px 50px 50px;
@@ -2360,7 +2399,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-about-doctor-profile__career__list__inner {
-    padding: 20px;
+    padding: 10px;
     width: 100%;
   }
 }
@@ -2377,7 +2416,8 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-about-doctor-profile__career__list__name {
-    font-size: 0.7em;
+    font-size: 0.9em;
+    line-height: 18px;
   }
 }
 .p-about-doctor-profile__career__list__name:nth-child(7), .p-about-doctor-profile__career__list__name:nth-child(9), .p-about-doctor-profile__career__list__name:last-child {
@@ -2426,7 +2466,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms__radius__inner {
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     gap: 15px;
   }
 }
@@ -2661,6 +2701,9 @@ input, textarea, select {
   display: none;
 }
 
+.p-contact {
+  padding-top: 40px;
+}
 .p-contact-body-inner {
   max-width: 680px;
   margin: 0 auto;
@@ -2678,6 +2721,11 @@ input, textarea, select {
   letter-spacing: 0.03em;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .p-contact-body__heading {
+    font-size: 1.2rem;
+  }
+}
 .p-contact-body__phoneNumber {
   background-color: #FFFFFF;
   border: 2px solid #338751;
@@ -2690,9 +2738,10 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .p-contact-body__phoneNumber {
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
+    line-height: 24px;
   }
 }
 .p-contact-body__phoneNumber__img {
@@ -2826,6 +2875,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-contact .p-contact-form__form__body__label {
     width: 100%;
+    gap: 8px;
   }
 }
 .p-contact .p-contact-form__form__body__label label {

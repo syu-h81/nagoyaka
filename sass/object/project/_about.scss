@@ -48,7 +48,7 @@
           position: relative;
           @include g.mq(md) {
             width: 80%;
-            margin: 0 auto;
+            margin: 20px auto;
             max-width: 250px;
           }
         }
@@ -99,7 +99,7 @@
         margin-top: 20px;
         text-align: center;
         @include g.mq(md) {
-          font-size: 0.625em;
+          font-size: 0.9em;
         }
         span {
           color: g.$color-heading;
@@ -143,6 +143,7 @@
         @include g.mq(md) {
           display: grid;
           justify-content: normal;
+          padding-top: 40px;
         }
       }
     }
@@ -210,6 +211,9 @@
         font-weight: normal;
         line-height: 33.6px;
         margin-top: 35px;
+        @include g.mq(md) {
+          margin-top: 20px;
+        }
       }
     }
   }
@@ -336,7 +340,7 @@
             padding: 35px;
             width: 40%;
             @include g.mq(md) {
-              padding: 20px;
+              padding: 10px;
               width: 100%;
             }
           }
@@ -351,7 +355,8 @@
             font-weight: bold;
             padding: 15px 0;
             @include g.mq(md) {
-              font-size: 0.7em;
+              font-size: 0.9em;
+              line-height: 18px;
             }
             &:nth-child(7),
             &:nth-child(9),

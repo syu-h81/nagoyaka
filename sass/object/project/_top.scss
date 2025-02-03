@@ -76,7 +76,7 @@
           }
           p {
             @include g.mq(lg) {
-              font-size: 0.75em;
+              font-size: 0.9em;
               margin-top: 1.2rem;
               line-height: 1.4rem;
             }
@@ -94,6 +94,9 @@
             padding: 6px;
             width: fit-content;
             letter-spacing: 0.3rem;
+            @include g.mq(md) {
+              letter-spacing: 0.1rem;
+            }
             &:last-child {
               margin-top: 20px;
               @include g.mq(lg) {
@@ -107,9 +110,8 @@
           font-weight: bold;
           margin-top: 20px;
           @include g.mq(lg) {
-            font-size: 0.875em;
-            letter-spacing: 0.1em;
-            line-height: 29.4px;
+            font-size: 15px;
+            line-height: 24px;
           }
         }
       }
@@ -152,7 +154,9 @@
           line-height: 24px;
           text-align: center;
           @include g.mq(md) {
-            font-size: 0.75rem;
+            font-size: 0.8rem;
+            line-height: 20px;
+            margin-top: 4px;
           }
         }
       }
@@ -259,7 +263,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 28px;
+            gap: 16px;
           }
           p {
             background-color: g.$color-heading;
@@ -275,6 +279,8 @@
               align-items: center;
               justify-content: center;
               height: 90px;
+              font-size: 15px;
+              line-height: 20px;
             }
             &:last-child {
               margin-top: 15px;
@@ -293,6 +299,7 @@
         line-height: 33.6px;
         @include g.mq(md) {
           padding-left: 0;
+          line-height: 28px;
         }
         &__checkList {
           padding-top: 35px;
@@ -359,6 +366,7 @@
       background-color: g.$color-bg;
       width: 100%;
       padding: 50px;
+      border-radius: 20px;
       @include g.mq(md) {
         padding: 40px 20px;
       }
@@ -367,6 +375,7 @@
       h2 {
         margin-top: 35px;
         @include g.mq(md) {
+          line-height: 2rem;
           margin-top: 15px;
         }
       }
@@ -390,8 +399,8 @@
       background-color: g.$color-heading;
       border-radius: 50%;
       @include g.mq(md) {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 98px;
       }
       &__inner {
         display: flex;
@@ -421,8 +430,8 @@
         margin-top: 20px;
         font-size: 1.2em;
         @include g.mq(md) {
-          font-size: 0.6em;
-          margin-top: 0;
+          font-size: 0.9em;
+          margin-top: 4px;
         }
       }
     }
@@ -458,6 +467,9 @@
         background-color: g.$white;
         border-radius: 20px;
         padding: 10px 60px;
+        @include g.mq(md) {
+          padding: 10px 20px;
+        }
       }
     }
     &-info {
@@ -497,6 +509,9 @@
           align-items: center;
           row-gap: 20px;
           padding-top: 20px;
+          @include g.mq(md) {
+            row-gap: 10px;
+          }
         }
         &__item {
           width: 157px;
