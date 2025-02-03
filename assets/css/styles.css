@@ -431,12 +431,37 @@ input, textarea, select {
   width: 85%;
   padding-top: 20px;
   margin: 0 auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .header {
     padding-top: 0;
     width: 100%;
+  }
+}
+.header.fixed {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .header.fixed {
+    top: 0;
+    left: 0;
+    transform: translate(0);
+  }
+}
+.header.scroll-fixed {
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  padding-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .header.scroll-fixed {
+    transition: 0;
   }
 }
 .header-inner {
@@ -782,11 +807,12 @@ input, textarea, select {
 .l-section {
   background-color: #DFEDD0;
   margin: 0 auto;
-  margin-top: 80px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 768px) {
   .l-section {
     margin-top: 70px;
+    padding-top: 0;
   }
 }
 
@@ -828,7 +854,6 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .c-page-head {
     margin-top: 0;
-    padding-top: 40px;
   }
 }
 .c-page-head-inner {
@@ -852,12 +877,13 @@ input, textarea, select {
 }
 .c-page-head__heading {
   color: #338751;
-  font-size: 3vw;
+  font-size: 2.7rem;
   font-weight: bold;
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .c-page-head__heading {
-    font-size: 2vw;
+    font-size: 6vw;
   }
 }
 .c-page-head__heading__text {
@@ -1140,7 +1166,6 @@ input, textarea, select {
 .p-top-hero {
   width: 100%;
   background-color: transparent;
-  margin-top: -40px;
 }
 .p-top-hero__inner {
   background-image: url(../images/head-bg.png);

@@ -23,7 +23,7 @@
 <body class="l-body">
   <div class="l-wrapper">
     <!-- ===== header ===== -->
-    <header class="header">
+    <header class="header fixed">
       <div class="header-inner l-inner">
         <a href="<?php echo home_url(); ?>" class="header-logo">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/header-logo.png" alt="">
@@ -39,7 +39,7 @@
         </div>
         <nav class="header-nav u-pc-only">
           <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
             <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
@@ -53,7 +53,7 @@
     </div>
     <div class="sp-header-modal-nav u-sp-only">
       <ul class="sp-header-modal-nav__list">
-        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+        <li class="sp-header-modal-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
         <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
         <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
         <li class="sp-header-modal-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>

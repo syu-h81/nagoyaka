@@ -2,8 +2,20 @@
 
 
 $(function() {
+  var header = $(".header"); // ヘッダーの要素を取得
+    var scrollThreshold = 40; // 40px スクロールで固定
+
+    $(window).on("scroll", function () {
+        if ($(this).scrollTop() > scrollThreshold) {
+            header.addClass("scroll-fixed");
+        } else {
+            header.removeClass("scroll-fixed");
+        }
+    });
+
   $('.header-sp-menu-bar').on('click', function() {
     $(this).toggleClass('active');
+    $('.header').toggleClass('fixed');
     $('.header-sp-menu-bar-inner').toggleClass('fixed');
     $('.c-page-contact').toggleClass('hide');
     $('.sp-header-modal-inner').toggleClass('block');
@@ -13,6 +25,7 @@ $(function() {
 
   // **背景をクリックしたら閉じる**
   $('.sp-header-modal, .sp-header-modal-nav').on('click', function(event) {
+    $('.header').toggleClass('fixed');
     $('.header-sp-menu-bar-inner').toggleClass('fixed');
     $('.c-page-contact').toggleClass('hide');
     $('.sp-header-modal-inner').toggleClass('block');

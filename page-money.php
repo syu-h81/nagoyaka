@@ -73,7 +73,7 @@ include get_template_directory() . '/page.php';
             <p class="c-banner-contact-block-body__phoneNumber__desc">お問い合わせ・お申し込み</p>
             <p class="c-banner-contact-block-body__phoneNumber__number"><a href="tel:050-8893-2767">050-8893-2767</a></p>
             <p class="c-banner-contact-block-body__phoneNumber__text">
-              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです<br class="u-pc-only">内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
+              当院は名古屋市内で唯一の眼科専門医による訪問診療専門クリニックです。<br class="u-pc-only">内科・精神科の診療も可能で、24時間365日、医師がすぐに対応。<br class="u-pc-only">訪問診療で通院の負担なく、眼科と内科の診療を受けられます。
             </p>
             <a href="<?php echo home_url('/contact'); ?>" class="c-banner-contact-block-body__email c-email-btn">
               <div class="c-banner-contact-block-body__email__img c-email-btn-img">

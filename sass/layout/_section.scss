@@ -2,8 +2,9 @@
 .l-section {
   background-color: g.$color-primary;
   margin: 0 auto;
-  margin-top: 80px;
+  padding-top: 80px;
   @include g.mq(md) {
     margin-top: 70px;
+    padding-top: 0;
   }
 }
