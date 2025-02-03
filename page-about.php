@@ -109,7 +109,7 @@ include get_template_directory() . '/page.php';
             <div class="p-about-concept-btn__text">診療内容を見る</div>
           </a>
           <a href="" class="p-about-concept-btn">
-            <div class="p-about-concept-btn__img">
+            <div class="p-about-concept-btn__img c-email-btn-img">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/email-icon.png" alt="">
             </div>
             <div class="p-about-concept-btn__text">メールで問い合わせ</div>

@@ -6,6 +6,14 @@ include get_template_directory() . '/page.php';
   .footer {
     padding-top: 0px!important;
   }
+  @media(max-width: 768px) {
+    .footer {
+      padding-bottom: 0;
+    }
+    .c-page-contact {
+      position: relative;
+    }
+  }
 </style>
 <main class="p-contact-main l-main">
   <div class="p-contact-body">

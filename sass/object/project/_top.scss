@@ -707,12 +707,23 @@
 }
 
 //swiperの調整
+
+.swiper-3d .swiper-cube-shadow, .swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper{
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+}
 /* コンテナー */
 .container {
   padding-top: 80px;
   margin: 0 auto;
   position: relative;
   z-index: 0;
+}
+
+.swiper {
+  @include g.mq(md) {
+    height: 168px!important;
+  }
 }
 
 /* スライダーのwrapper */
