@@ -848,12 +848,13 @@ input, textarea, select {
 
 .c-page-head {
   width: 100%;
-  margin-top: -40px;
+  padding-top: 80px;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
   .c-page-head {
     margin-top: 0;
+    padding-top: 50px;
   }
 }
 .c-page-head-inner {
