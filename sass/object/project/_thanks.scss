@@ -1,0 +1,35 @@
+@use "../../global" as g;
+
+.p-thanks {
+  padding-top: 80px;
+  @include g.mq(md) {
+    padding: 25px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: center;
+    max-width: 720px;
+    height: 540px;
+    padding-top: 100px;
+    @include g.mq(md) {
+      height: auto;
+    }
+  }
+  &__heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    @include g.mq(md) {
+      font-size: 1.5em;
+    }
+  }
+  &__body {
+    padding-top: 40px;
+    line-height: 33.6px;
+    p {
+      color: #666;
+    }
+  }
+  &__phoneNumber {
+    text-align: justify;
+  }
+}
