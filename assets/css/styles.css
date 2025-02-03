@@ -435,6 +435,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .header {
     padding-top: 0;
+    width: 100%;
   }
 }
 .header-inner {
@@ -448,6 +449,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .header-inner {
     padding: 10px;
+    border-radius: 0;
   }
 }
 .header-logo {
@@ -522,7 +524,7 @@ input, textarea, select {
   .header-sp-menu-bar-inner.fixed {
     position: fixed;
     top: 10px;
-    right: 40px;
+    right: 10px;
   }
 }
 
