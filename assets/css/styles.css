@@ -457,7 +457,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .header-logo {
-    width: 125px;
+    width: 180px;
   }
 }
 .header-nav__list {
@@ -1221,16 +1221,18 @@ input, textarea, select {
 @media screen and (max-width: 960px) {
   .p-top-hero__body__heading__intro p {
     font-size: 0.75em;
+    margin-top: 1.2rem;
+    line-height: 1.4rem;
   }
 }
 .p-top-hero__body__heading__box {
-  font-size: 2.8vw;
+  font-size: 2.7rem;
   font-weight: bold;
   margin-top: 20px;
 }
 @media screen and (max-width: 960px) {
   .p-top-hero__body__heading__box {
-    font-size: 1.275em;
+    font-size: 1.5em;
   }
 }
 .p-top-hero__body__heading__box__heading {
