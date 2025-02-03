@@ -1153,12 +1153,7 @@ input, textarea, select {
 .c-required {
   background-color: #FFFFFF;
   border-radius: 3px;
-  padding: 5px;
-}
-@media screen and (max-width: 768px) {
-  .c-required {
-    padding: 1px 4px;
-  }
+  padding: 1px 4px;
 }
 .c-required-text {
   color: #E37940;
@@ -1169,12 +1164,7 @@ input, textarea, select {
 .c-option {
   background-color: #FFFFFF;
   border-radius: 3px;
-  padding: 5px;
-}
-@media screen and (max-width: 768px) {
-  .c-option {
-    padding: 1px 4px;
-  }
+  padding: 1px 4px;
 }
 .c-option-text {
   color: #338751;

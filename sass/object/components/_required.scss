@@ -2,10 +2,7 @@
 .c-required {
   background-color: g.$white;
   border-radius: 3px;
-  padding: 5px;
-  @include g.mq(md) {
-    padding: 1px 4px;
-  }
+  padding: 1px 4px;
   &-text {
     color: g.$color-btn;
     font-size: 0.75rem;
@@ -16,10 +13,7 @@
 .c-option {
   background-color: g.$white;
   border-radius: 3px;
-  padding: 5px;
-  @include g.mq(md) {
-    padding: 1px 4px;
-  }
+  padding: 1px 4px;
   &-text {
     color: g.$color-heading;
     font-size: 0.75rem;
