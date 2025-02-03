@@ -98,6 +98,7 @@
       @include g.mq(lg) {
         border-radius: 20px 20px 0 0;
         margin-right: 0;
+        margin-bottom: 0;
       }
       p {
         border: 1px solid g.$white;

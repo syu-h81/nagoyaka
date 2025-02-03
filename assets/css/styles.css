@@ -966,6 +966,7 @@ input, textarea, select {
   .c-page-contact__body {
     border-radius: 20px 20px 0 0;
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 .c-page-contact__body p {
