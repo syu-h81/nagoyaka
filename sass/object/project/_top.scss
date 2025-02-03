@@ -198,8 +198,10 @@
       background-repeat: no-repeat;
       display: block;
       padding-top: 30px;
+      padding-bottom: 60px;
       @include g.mq(md) {
         padding-top: 0;
+        padding-bottom: 0;
       }
     }
     &__block {

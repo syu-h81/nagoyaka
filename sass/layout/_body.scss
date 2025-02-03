@@ -3,6 +3,7 @@
   color: g.$color-text;
   font-family: "Inter", "Noto Sans JP", "Hiragino Sans" , "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, "游ゴシック Medium", YuGothic, YuGothicM, sans-serif;
   font-feature-settings: "palt";
+  text-align: center;
   text-justify: inter-ideograph;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,10 +11,12 @@
   @include g.mq(md) {
     font-size: 15px;
     line-height: 24px;
+    text-align: justify;
   }
 }
 input,textarea,select {
   font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Sans", "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Helvetica, sans-serif;
+  text-align: justify;
   @include g.mq(md) {
     font-size: 15px;
   }
