@@ -130,6 +130,10 @@
         background-color: g.$color-btn;
         color: g.$white;
       }
+      &__img {
+        width: 18px;
+        height: auto;
+      }
       &__text {
         font-weight: bold;
         letter-spacing: 0.1em;

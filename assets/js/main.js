@@ -24,7 +24,7 @@ $(function() {
   });
 
   // **背景をクリックしたら閉じる**
-  $('.sp-header-modal, .sp-header-modal-nav').on('click', function(event) {
+  $('.sp-header-modal').on('click', function(event) {
     $('.header').toggleClass('fixed');
     $('.header-sp-menu-bar-inner').toggleClass('fixed');
     $('.c-page-contact').toggleClass('hide');

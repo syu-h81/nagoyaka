@@ -248,8 +248,7 @@
           </div>
           <h2 class="c-heading">当院は、内科・精神科の<br class="u-sp-only">診療も可能です。</h2>
           <p class="p-top-point__heading__desc">
-            救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="u-pc-only">
-            内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
+            救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="u-pc-only">内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
           </p>
         </div>
         <div class="p-top-point-radius__inner">
@@ -593,7 +592,7 @@
             </div>
           </div>
           <div class="p-top-philosophy__content__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-philosophy.png" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-philosophy.jpg" alt="">
           </div>
         </div>
       </div>

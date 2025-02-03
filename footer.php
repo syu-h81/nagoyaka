@@ -13,12 +13,12 @@
       </ul>
     </nav>
     <div class="footer-info__inner">
-      <div class="footer-info-logo">
+      <a href="<?php echo home_url() ?>" class="footer-info-logo">
         <img src="<?php echo get_template_directory_uri()?>/assets/images/footer-logo-2.png" alt="">
         <div class="footer-info-logo__address">
           <p>〒460-0003 <br>愛知県名古屋市中区錦2-7-7P.T名古屋錦1302</p>
         </div>
-      </div>
+      </a>
       <div class="footer-info-body">
         <div class="footer-info-body__phoneNumber c-info-banner__phoneNumber">
           <div class="footer-info-body__phoneNumber__img c-info-banner__phoneNumber__img">

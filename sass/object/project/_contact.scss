@@ -204,6 +204,9 @@
             justify-content: center;
             margin: 0 auto;
             margin-top: 75px;
+            &:hover {
+              opacity: 0.7;
+            }
             &__btn {
               color: g.$white;
               font-weight: bold;
