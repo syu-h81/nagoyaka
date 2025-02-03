@@ -141,7 +141,7 @@ include get_template_directory() . '/page.php';
             <img src="<?php echo get_template_directory_uri()?>/assets/images/about-point-1.png" alt="">
           </div>
           <div class="p-about-point-section__heading">
-            <h3 class="c-sub-heading">名古屋市内で唯一の<br>眼科専門医による訪問診療</h3>
+            <h3 class="c-sub-heading">名古屋市内で唯一の<br>眼科専門医による<br>訪問診療クリニック</h3>
           </div>
           <div class="p-about-point-section__text">
             <p>
