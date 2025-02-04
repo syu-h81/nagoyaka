@@ -1979,6 +1979,17 @@ input, textarea, select {
     line-height: 31.5px;
   }
 }
+.p-top-philosophy__content__img {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .p-top-philosophy__content__img {
+    width: 100%;
+  }
+}
+.p-top-philosophy__content__img img {
+  border-radius: 20px;
+}
 
 .swiper-3d .swiper-cube-shadow, .swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper {
   transform-style: preserve-3d;

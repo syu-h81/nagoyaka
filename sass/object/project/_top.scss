@@ -702,6 +702,15 @@
           }
         }
       }
+      &__img {
+        width: 60%;
+        @include g.mq(md) {
+          width: 100%;
+        }
+        img {
+          border-radius: 20px;
+        }
+      }
     }
   }
 }
