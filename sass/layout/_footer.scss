@@ -49,9 +49,13 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 70px;
+      @include g.mq(xl) {
+        gap: 30px;
+      }
       @include g.mq(md) {
         flex-direction: column;
         padding-top: 40px;
+        gap: 0;
       }
     }
     &-logo {

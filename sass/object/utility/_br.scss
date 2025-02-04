@@ -6,6 +6,13 @@
     display: none;
   }
 }
+.u-tab-only {
+  display: none;
+  @include g.mq(xl) {
+    display: block;
+  }
+}
+
 .u-sp-only {
   display: none;
   @include g.mq(md) {

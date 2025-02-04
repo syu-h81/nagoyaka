@@ -700,10 +700,16 @@ input, textarea, select {
   justify-content: space-between;
   padding-top: 70px;
 }
+@media screen and (max-width: 1140px) {
+  .footer-info__inner {
+    gap: 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer-info__inner {
     flex-direction: column;
     padding-top: 40px;
+    gap: 0;
   }
 }
 .footer-info-logo {
@@ -1959,11 +1965,14 @@ input, textarea, select {
 .p-top-philosophy__content {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+  padding: 0 50px;
   padding-top: 70px;
 }
 @media screen and (max-width: 768px) {
   .p-top-philosophy__content {
     flex-direction: column-reverse;
+    padding: 0;
     padding-top: 40px;
   }
 }
@@ -2481,6 +2490,9 @@ input, textarea, select {
 .p-treatment-symptoms__block {
   text-align: center;
 }
+.p-treatment-symptoms__radius {
+  margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms__radius {
     width: 45%;
@@ -2492,8 +2504,16 @@ input, textarea, select {
   justify-content: space-between;
   padding-top: 35px;
 }
+@media screen and (max-width: 1140px) {
+  .p-treatment-symptoms__radius__inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms__radius__inner {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
@@ -2521,6 +2541,11 @@ input, textarea, select {
   font-weight: bold;
   margin-top: 20px;
 }
+@media screen and (max-width: 1140px) {
+  .p-treatment-symptoms__radius__desc {
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms__radius__desc {
     margin: 0 auto;
@@ -2537,6 +2562,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-treatment-symptoms-indication__block {
     margin: 25px;
+    padding: 50px 25px;
   }
 }
 .p-treatment-symptoms-indication__heading {
@@ -2557,6 +2583,9 @@ input, textarea, select {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+.p-treatment-symptoms-indication__item__img {
+  display: flex;
 }
 .p-treatment-symptoms-indication__item__name {
   font-weight: bold;
@@ -3004,6 +3033,15 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .u-pc-only {
     display: none;
+  }
+}
+
+.u-tab-only {
+  display: none;
+}
+@media screen and (max-width: 1140px) {
+  .u-tab-only {
+    display: block;
   }
 }
 

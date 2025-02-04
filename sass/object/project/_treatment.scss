@@ -9,6 +9,7 @@
       text-align: center;
     }
     &__radius {
+      margin: 0 auto;
       @include g.mq(md) {
         width: 45%;
       }
@@ -16,8 +17,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @include g.mq(xl) {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          row-gap: 30px;
+        }
         padding-top: 35px;
         @include g.mq(md) {
+          display: flex;
           flex-wrap: wrap;
           justify-content: center;
           gap: 15px;
@@ -42,6 +49,9 @@
       &__desc {
         font-weight: bold;
         margin-top: 20px;
+        @include g.mq(xl) {
+          margin-top: 10px;
+        }
         @include g.mq(md) {
           margin: 0 auto;
           width: 100%;
@@ -57,6 +67,7 @@
         margin-top: 70px;
         @include g.mq(md) {
           margin: 25px;
+          padding: 50px 25px;
         }
       }
       &__heading {
@@ -74,6 +85,9 @@
       &__item {
         display: flex;
         align-items: center;
+        &__img {
+          display: flex;
+        }
         gap: 6px;
         &__name {
           font-weight: bold;
