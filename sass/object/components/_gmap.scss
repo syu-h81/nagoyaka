@@ -7,5 +7,8 @@
   }
   iframe {
     width: 100%;
+    @include g.mq(md) {
+      height: 40vh;
+    }
   }
 }

@@ -1201,6 +1201,11 @@ input, textarea, select {
 .c-gmap iframe {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .c-gmap iframe {
+    height: 40vh;
+  }
+}
 
 .p-top-main {
   padding-top: 0;

@@ -60,7 +60,7 @@ include get_template_directory() . '/page.php';
     </div>
   </section>
   <div class="c-gmap">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.0237390714109!2d136.89872033654584!3d35.17183673017634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376d5c702eee3%3A0xb7241ff3d45a6909!2z44CSNDYwLTAwMDMg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy66Yym77yS5LiB55uu77yX4oiS77yX!5e0!3m2!1sja!2sjp!4v1738650481096!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3519.4356983113644!2d136.89894035149848!3d35.1711801009527!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376d5c702eee3%3A0xb7241ff3d45a6909!2z44CSNDYwLTAwMDMg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy66Yym77yS5LiB55uu77yX4oiS77yX!5e0!3m2!1sja!2sjp!4v1738661734684!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </main>
 <?php get_footer(); ?>
