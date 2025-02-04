@@ -28,7 +28,7 @@
     transition: all 0.3s ease-in-out;
     padding-top: 0;
     @include g.mq(md) {
-      transition: 0;
+      transition: unset;
     }
   }
   &-inner {

@@ -464,7 +464,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .header.scroll-fixed {
-    transition: 0;
+    transition: unset;
   }
 }
 .header-inner {
