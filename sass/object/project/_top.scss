@@ -676,7 +676,7 @@
     &__block {
       max-width: 1160px;
       margin: 0 auto;
-      padding-top: 80px;
+      padding: 80px 40px 0px;
       @include g.mq(md) {
         padding: 0 25px;
         padding-top: 70px;
@@ -686,7 +686,6 @@
       display: flex;
       justify-content: space-between;
       gap: 30px;
-      padding: 0 50px;  
       padding-top: 70px;
       @include g.mq(md) {
         flex-direction: column-reverse;
@@ -694,6 +693,10 @@
         padding-top: 40px;
       }
       &__body {
+        width: 80%;
+        @include g.mq(md) {
+          width: 100%;
+        }
         &__heading {
           line-height: 43.2px;
         }
