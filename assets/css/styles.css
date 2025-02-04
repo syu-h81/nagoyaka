@@ -2117,15 +2117,11 @@ input, textarea, select {
     width: 100px;
     height: 100px;
     margin: 0 auto;
+    padding: 30px;
   }
 }
 .p-about-concept-radius__img img {
   width: auto;
-}
-@media screen and (max-width: 768px) {
-  .p-about-concept-radius__img img {
-    max-width: 20px;
-  }
 }
 .p-about-concept-radius__text {
   font-size: 1em;

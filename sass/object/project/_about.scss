@@ -84,12 +84,10 @@
           width: 100px;
           height: 100px;
           margin: 0 auto;
+          padding: 30px;
         }
         img {
           width: auto;
-          @include g.mq(md) {
-            max-width: 20px;
-          }
         }
       }
       &__text {
