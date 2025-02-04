@@ -1,0 +1,11 @@
+@use "../../global" as g;
+
+.c-gmap {
+  padding-top: 150px;
+  @include g.mq(md) {
+    padding-top: 70px;
+  }
+  iframe {
+    width: 100%;
+  }
+}

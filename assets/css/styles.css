@@ -643,14 +643,9 @@ input, textarea, select {
   }
 }
 
-.footer {
-  padding-top: 150px;
-}
 @media screen and (max-width: 960px) {
   .footer {
     background-color: #338751;
-    padding-top: 0;
-    margin-top: 70px;
     padding-bottom: 140px;
   }
 }
@@ -1193,6 +1188,18 @@ input, textarea, select {
   color: #338751;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
+}
+
+.c-gmap {
+  padding-top: 150px;
+}
+@media screen and (max-width: 768px) {
+  .c-gmap {
+    padding-top: 70px;
+  }
+}
+.c-gmap iframe {
+  width: 100%;
 }
 
 .p-top-main {
@@ -1996,12 +2003,7 @@ input, textarea, select {
   }
 }
 .p-top-philosophy__content__img {
-  width: 60%;
-}
-@media screen and (max-width: 768px) {
-  .p-top-philosophy__content__img {
-    width: 100%;
-  }
+  width: 100%;
 }
 .p-top-philosophy__content__img img {
   border-radius: 20px;

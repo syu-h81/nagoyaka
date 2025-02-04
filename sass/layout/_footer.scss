@@ -1,10 +1,7 @@
 @use "../global" as g;
 .footer {
-  padding-top: 150px;
   @include g.mq(lg) {
     background-color: g.$color-heading;
-    padding-top: 0;
-    margin-top: 70px;
     padding-bottom: 140px;
   }
   &-inner {
