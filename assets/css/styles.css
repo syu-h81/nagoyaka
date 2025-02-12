@@ -2981,7 +2981,10 @@ input, textarea, select {
     font-size: 1rem;
   }
 }
-.p-contact .p-contact-form__form__body__submit {
+.p-contact .p-contact-form__form__body__submit__btn {
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 0.1em;
   width: 214px;
   height: 45px;
   background-color: #E37940;
@@ -2990,15 +2993,11 @@ input, textarea, select {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 70px;
+  padding-left: 70px;
 }
-.p-contact .p-contact-form__form__body__submit:hover {
+.p-contact .p-contact-form__form__body__submit__btn:hover {
   opacity: 0.7;
-}
-.p-contact .p-contact-form__form__body__submit__btn {
-  color: #FFFFFF;
-  font-weight: bold;
-  letter-spacing: 0.1em;
 }
 
 .p-thanks {
