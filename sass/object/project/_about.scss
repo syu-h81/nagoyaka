@@ -258,6 +258,12 @@
         @include g.mq(md) {
           flex-direction: column-reverse;
         }
+        &__2 {
+          padding-top: 90px;
+          @include g.mq(md) {
+            padding-top: 40px;
+          }
+        }
       }
       &__explain {
         width: 56%;
@@ -293,6 +299,25 @@
           width: 36%;
           @include g.mq(md) {
             width: 100%;
+          }
+        }
+        &__lists {
+          padding-top: 40px;
+          @include g.mq(md) {
+            padding-top: 0;
+          }
+        }
+        &__list {
+          padding-top: 30px;
+
+          &__heading {
+            font-weight: bold;
+          }
+          &__item {
+            line-height: 27px;
+            &:nth-of-type(1) {
+              padding-top: 10px;
+            }
           }
         }
       }

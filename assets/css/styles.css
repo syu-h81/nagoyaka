@@ -843,7 +843,7 @@ input, textarea, select {
 }
 @media screen and (max-width: 768px) {
   .c-heading {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 15px;
   }
 }
@@ -1299,7 +1299,7 @@ input, textarea, select {
   }
 }
 .p-top-hero__body__heading__box {
-  font-size: 2.7rem;
+  font-size: clamp(1.125rem, 0.604rem + 1.667vi, 2rem);
   font-weight: bold;
   margin-top: 20px;
 }
@@ -1311,20 +1311,14 @@ input, textarea, select {
 .p-top-hero__body__heading__box__heading {
   background-color: #FFFFFF;
   padding: 6px;
+  font-size: 2.25rem;
   width: -moz-fit-content;
   width: fit-content;
-  letter-spacing: 0.3rem;
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .p-top-hero__body__heading__box__heading {
-    letter-spacing: 0.1rem;
-  }
-}
-.p-top-hero__body__heading__box__heading:last-child {
-  margin-top: 20px;
-}
-@media screen and (max-width: 960px) {
-  .p-top-hero__body__heading__box__heading:last-child {
+    font-size: 5vw;
     margin-top: 8px;
   }
 }
@@ -1402,7 +1396,7 @@ input, textarea, select {
   gap: 10px;
   padding: 25px;
   margin-top: 35px;
-  max-width: 275px;
+  max-width: 440px;
 }
 @media screen and (max-width: 960px) {
   .p-top-hero__body__area {
@@ -1414,6 +1408,11 @@ input, textarea, select {
 .p-top-hero__body__area__text {
   font-weight: bold;
   letter-spacing: 0.1em;
+}
+@media screen and (max-width: 768px) {
+  .p-top-hero__body__area__text {
+    font-size: 0.75rem;
+  }
 }
 .p-top-hero__img {
   width: 36%;
@@ -1446,9 +1445,10 @@ input, textarea, select {
   }
 }
 .p-top-beginning__block {
-  margin: 0 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__block {
@@ -1468,11 +1468,17 @@ input, textarea, select {
 }
 .p-top-beginning__body__heading__intro {
   background-color: #FFFFFF;
+  font-size: 0.875rem;
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 50px;
   width: -moz-fit-content;
   width: fit-content;
+}
+@media screen and (max-width: 768px) {
+  .p-top-beginning__body__heading__intro {
+    margin-top: 10px;
+  }
 }
 .p-top-beginning__body__heading__heading {
   margin-top: 10px;
@@ -1482,6 +1488,7 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__heading {
     line-height: normal;
+    letter-spacing: 0;
   }
 }
 .p-top-beginning__body__heading__heading span {
@@ -1495,63 +1502,36 @@ input, textarea, select {
   width: fit-content;
   border-radius: 50px;
 }
-@media screen and (max-width: 768px) {
-  .p-top-beginning__body__heading__heading span:first-child {
-    font-size: 0.6em !important;
-    padding: 10px 20px;
-    display: block;
-  }
-}
 .p-top-beginning__body__heading__desc {
   margin-top: 20px;
-}
-@media screen and (max-width: 768px) {
-  .p-top-beginning__body__heading__desc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-  }
 }
 .p-top-beginning__body__heading__desc p {
   background-color: #338751;
   border-radius: 10px;
   color: #FFFFFF;
+  font-weight: bold;
   letter-spacing: 0.1em;
   padding: 12px 20px;
+  margin-top: 8px;
   width: -moz-fit-content;
   width: fit-content;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__heading__desc p {
-    width: 50%;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
+    width: 100%;
+    padding: 10px;
     font-size: 15px;
     line-height: 20px;
-  }
-}
-.p-top-beginning__body__heading__desc p:last-child {
-  margin-top: 15px;
-  width: 58%;
-}
-@media screen and (max-width: 768px) {
-  .p-top-beginning__body__heading__desc p:last-child {
-    width: 50%;
-    margin-top: 0;
+    text-align: center;
   }
 }
 .p-top-beginning__body__content {
   padding-top: 35px;
-  padding-left: 100px;
+  padding-left: 0;
   line-height: 33.6px;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__body__content {
-    padding-left: 0;
     line-height: 28px;
   }
 }
@@ -1574,15 +1554,20 @@ input, textarea, select {
 }
 .p-top-beginning__img__inner {
   position: relative;
+  width: 50%;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__img__inner {
+    width: auto;
     padding-top: 30px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: end;
   }
+}
+.p-top-beginning__img:first-child {
+  width: 80%;
 }
 @media screen and (max-width: 768px) {
   .p-top-beginning__img:first-child {
@@ -1623,7 +1608,12 @@ input, textarea, select {
 @media screen and (max-width: 768px) {
   .p-top-point__block {
     padding: 40px 20px;
+    padding-top: 30px;
   }
+}
+.p-top-point__heading {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .p-top-point__heading h2 {
   margin-top: 35px;
@@ -1640,14 +1630,6 @@ input, textarea, select {
 .p-top-point__heading__desc {
   line-height: 33.6px;
   padding-top: 35px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .p-top-point__heading__desc {
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-  }
 }
 .p-top-point-radius {
   width: 168px;
@@ -1662,15 +1644,12 @@ input, textarea, select {
   }
 }
 .p-top-point-radius__inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
   padding-top: 35px;
 }
 @media screen and (max-width: 768px) {
   .p-top-point-radius__inner {
-    gap: 8px;
     padding-top: 20px;
   }
 }
@@ -1974,6 +1953,11 @@ input, textarea, select {
     padding-top: 70px;
   }
 }
+@media screen and (max-width: 768px) {
+  .p-top-philosophy__heading h2 {
+    line-height: 33.6px;
+  }
+}
 .p-top-philosophy__content {
   display: flex;
   justify-content: space-between;
@@ -1999,12 +1983,13 @@ input, textarea, select {
   line-height: 43.2px;
 }
 .p-top-philosophy__content__body__text {
-  line-height: 33.6px;
+  line-height: 30px;
   padding-top: 35px;
 }
 @media screen and (max-width: 768px) {
   .p-top-philosophy__content__body__text {
     line-height: 31.5px;
+    padding-top: 20px;
   }
 }
 .p-top-philosophy__content__img {
@@ -2348,6 +2333,14 @@ input, textarea, select {
     flex-direction: column-reverse;
   }
 }
+.p-about-doctor-profile__flex__2 {
+  padding-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__flex__2 {
+    padding-top: 40px;
+  }
+}
 .p-about-doctor-profile__explain {
   width: 56%;
 }
@@ -2392,6 +2385,26 @@ input, textarea, select {
   .p-about-doctor-profile__explain__img {
     width: 100%;
   }
+}
+.p-about-doctor-profile__explain__lists {
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .p-about-doctor-profile__explain__lists {
+    padding-top: 0;
+  }
+}
+.p-about-doctor-profile__explain__list {
+  padding-top: 30px;
+}
+.p-about-doctor-profile__explain__list__heading {
+  font-weight: bold;
+}
+.p-about-doctor-profile__explain__list__item {
+  line-height: 27px;
+}
+.p-about-doctor-profile__explain__list__item:nth-of-type(1) {
+  padding-top: 10px;
 }
 .p-about-doctor-profile__icon {
   display: flex;
@@ -3091,4 +3104,8 @@ input, textarea, select {
   font-size: 0.75rem !important;
   font-family: "Inter", "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ ProN", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, "游ゴシック Medium", YuGothic, YuGothicM, sans-serif !important;
   color: #2E2E2E !important;
+}
+
+.u-font-weight {
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

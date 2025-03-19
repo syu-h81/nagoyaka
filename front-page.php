@@ -8,16 +8,19 @@
             <div class="p-top-hero__body__heading__intro">
               <p class="u-pc-only">
                 <span class="u-underline-yellow">名古屋市内で唯一</span>
-                の、眼科専門の訪問診療ができました！
+                の、<span class="u-color-heading">内科・眼科・精神科</span>の訪問診療
               </p>
-              <p class="u-sp-only u-color-orange">名古屋市内で唯一の<br>眼科専門の訪問診療ができました！</p>
+              <p class="u-sp-only u-color-orange">名古屋市内で唯一の<br>内科・眼科・精神科の訪問診療</p>
             </div>
             <div class="p-top-hero__body__heading__box">
-              <div class="p-top-hero__body__heading__box__heading">専門医がご自宅までお伺いし</div>
-              <div class="p-top-hero__body__heading__box__heading">身体と視力の健康を守ります</div>
+              <div class="p-top-hero__body__heading__box__heading u-pc-only"><span class="u-color-heading">内科・眼科・精神科</span> の専門医が訪問し</div>
+              <div class="p-top-hero__body__heading__box__heading u-pc-only">通院が難しい方の健康を支えます。</div>
+              <div class="p-top-hero__body__heading__box__heading u-sp-only"><span class="u-color-heading">内科・眼科・精神科の</span></div>
+              <div class="p-top-hero__body__heading__box__heading u-sp-only">専門医が訪問し通院が難しい方の</div>
+              <div class="p-top-hero__body__heading__box__heading u-sp-only">健康を支えます。</div>
             </div>
             <div class="p-top-hero__body__heading__desc">
-              <p>訪問診療なら通院の負担なく、眼科や内科の診療を受けられます。</p>
+              <p>訪問診療なら通院の負担なく、<br class="u-sp-only">内科・眼科・精神科の診療を受けられます。</p>
             </div>
           </div>
           <div class="p-top-hero__body__checks">
@@ -51,12 +54,12 @@
               <img src="<?php echo get_template_directory_uri()?>/assets/images/pin-icon.png" alt="">
             </div>
             <div class="p-top-hero__body__area__text">
-              <p>対象エリア：名古屋市内</p>
+              <p>対象エリア：名古屋市内の介護施設、ご自宅</p>
             </div>
           </div>
         </div>
         <div class="p-top-hero__img">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero.png" alt="">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-lens.png" alt="">
         </div>
       </div>
     </div>
@@ -85,18 +88,16 @@
             <p class="c-page-head__heading__text">CONCEPT</p>
           </div>
           <div class="p-top-beginning__body__heading">
-            <div class="p-top-beginning__body__heading__intro u-pc-only">
+            <div class="p-top-beginning__body__heading__intro">
               <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span>
             </div>
-            <h2 class="p-top-beginning__body__heading__heading c-heading u-pc-only">
-                ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の<br class="u-sp-only">受診を<br class="u-pc-only">受けたい方のための<br class="u-sp-only">クリニックです。
-            </h2>
-            <h2 class="p-top-beginning__body__heading__heading c-heading u-sp-only">
-              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>ご自宅で<span class="u-color-heading">眼科</span>や<span class="u-color-heading">内科</span>の<br>受診を受けたい方のための<br>クリニックです。
+            <h2 class="p-top-beginning__body__heading__heading c-heading">
+                ご自宅で<span class="u-color-heading">内科・眼科・精神科</span>の受診を<br class="u-pc-only">受けたい方のためのクリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
-              <p>名古屋市内で唯一の眼科専門医による訪問診療専門クリニック</p>
+              <p>名古屋市内で唯一の眼科専門医による<br class="u-sp-only">訪問診療専門クリニック</p>
               <p>内科は24時間365日、医師がすぐに対応</p>
+              <p>精神科専門の医師所属 認知症や<br class="u-sp-only">精神疾患の早期治療を</p>
             </div>
           </div>
           <div class="p-top-beginning__body__content u-pc-only">
@@ -166,10 +167,10 @@
         </div>
         <div class="p-top-beginning__img__inner">
           <div class="p-top-beginning__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-beginning-1.png" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-beginning-lens-1.png" alt="">
           </div>
           <div class="p-top-beginning__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-beginning-2.png" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-beginning-lens-2.png" alt="">
           </div>
         </div>
         <div class="p-top-beginning__body__content u-sp-only">
@@ -240,42 +241,16 @@
     <div class="p-top-point__inner l-inner">
       <div class="p-top-point__block">
         <div class="p-top-point__heading c-heading-block">
-          <div class="p-top-point__heading__text c-page-head__heading__text__block">
-            <div class="c-page-head__heading__text__img">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
-            </div>
-            <p class="c-page-head__heading__text">POINT</p>
-          </div>
-          <h2 class="c-heading">当院は、内科・精神科の<br class="u-sp-only">診療も可能です。</h2>
+          <h2 class="c-heading">在宅医療（訪問診療）とは？</h2>
           <p class="p-top-point__heading__desc">
-            救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="u-pc-only">内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
+          在宅医療（訪問診療）とは、<span class="u-font-weight">通院が困難な方のために医師が定期的に施設やご自宅を訪問し、診察・検査・治療を行う</span>医療サービスです。
+          高齢の方や身体が不自由な方だけでなく、認知症や精神疾患、慢性疾患をお持ちの方にも対応し、生活の場で安心して医療を受けられる環境を提供します。
+          当院では<span class="u-color-heading u-font-weight">内科・眼科・精神科</span><span class="u-font-weight">の専門医が訪問し、病状や生活状況に応じた適切なケアを行い、ご本人やご家族の負担を軽減します</span>。
           </p>
         </div>
-        <div class="p-top-point-radius__inner">
-          <a href="<?php echo home_url('/about') ?>" class="p-top-point-radius">
-            <div class="p-top-point-radius__icon">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/hospital-icon.png" alt="">
-            </div>
-            <div class="p-top-point-radius__text">
-              <p>当院について</p>
-            </div>
-          </a>
-          <a href="<?php echo home_url('/treatment') ?>" class="p-top-point-radius">
-            <div class="p-top-point-radius__icon">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/treatment-icon-yellow.png" alt="">
-            </div>
-            <div class="p-top-point-radius__text">
-              <p>診療内容</p>
-            </div>
-          </a>
-          <a href="<?php echo home_url('/money') ?>" class="p-top-point-radius">
-            <div class="p-top-point-radius__icon">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/money-icon.png" alt="">
-            </div>
-            <div class="p-top-point-radius__text">
-              <p>料金案内</p>
-            </div>
-          </a>
+        <div class="p-top-point-radius__inner">         
+          <img class="u-sp-only" src="<?php echo get_template_directory_uri()?>/assets/images/top-point-img-sp.png" alt="">
+          <img class="u-pc-only" src="<?php echo get_template_directory_uri()?>/assets/images/top-point-img.png" alt="">
         </div>
       </div>
     </div>
@@ -453,7 +428,7 @@
               </div>
               <div class="p-top-flow__step__body__text">
                 <p>
-                  お気軽にご相談ください。丁寧なヒアリングを行い、お客様一人ひとりの病状や生活状況を確認いたします。<br>
+                  お気軽にご相談ください。丁寧なヒアリングを行い、患者様一人ひとりの病状や生活状況を確認いたします。<br>
                   電話受付は、平日の9時～18時です。メールの場合は、24時間365日お問い合わせは受け付けています。
                 </p>
               </div>
@@ -551,7 +526,7 @@
   </section>
   <section class="p-top-philosophy">
     <div class="p-top-philosophy__inner l-inner">
-      <div class="container">
+      <!--<div class="container">
         <div class="swiper infinite-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="画像1" /></div>
@@ -564,7 +539,7 @@
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="画像1" /></div>
           </div>
         </div>
-      </div>
+      </div>-->
       <div class="p-top-philosophy__block">
         <div class="p-top-philosophy__heading c-heading-block">
           <div class="p-top-philosophy__heading__text c-page-head__heading__text__block">
@@ -573,25 +548,27 @@
             </div>
             <p class="c-page-head__heading__text">PHILOSOPHY</p>
           </div>
-          <h2 class="c-heading">疎かになりやすい眼のケア</h2>
+          <h2 class="c-heading">誰もが、必要な医療を<br class="u-sp-only">自宅で受けられる社会へ。</h2>
         </div>
         <div class="p-top-philosophy__content">
           <div class="p-top-philosophy__content__body">
             <div class="p-top-philosophy__content__body__heading">
-              <h3 class="c-sub-heading u-pc-only">大きなトラブルを招く前に<br>マメなケアを。</h3>
+              <h3 class="c-sub-heading">ご自宅での医療に、新たな可能性を。</h3>
             </div>
             <div class="p-top-philosophy__content__body__text">
               <p>
-                目の健康は、暮らしの喜びにつながります。<br>
+                訪問診療は、通院が難しい方にとって生活の質（QOL）を支える大切な医療です。当院では<span class="u-font-weight">名古屋市内で唯一の眼科訪問診療をはじめ、内科や精神科など他の訪問診療クリニックが苦手とする領域にも力を入れ、専門医が診療を行います</span>。<br>
                 <br>
-                視力が最期まで維持されることで、大切な家族の写真を楽しんだり、趣味の時間を過ごしたり、毎日の生活がより豊かになります。また、段差や障害物を見つけやすくなり、安全に過ごすことができるでしょう。周りの状況も把握しやすく、施設内の友人との交流も広がっていきます。<br>
+                特に、<span class="u-font-weight">介護者の生活にも大きく影響する精神疾患（認知症、不安障害、精神発達障害）や、視力に関わる眼疾患（緑内障、糖尿病性網膜症）については、専門医による適切な診療が必要</span>です。<br>
+                <br class="u-sp-only">
+                施設やご自宅での医療を通して、患者さまだけでなく施設管理者やご家族の負担も軽減し、安心して暮らせる環境を提供します。<br>
                 <br>
-                通院が難しくなっても、目の健康は諦めないでください。当院の眼科専門医が、ご自宅での治療をしっかりとサポートいたします。まずはお気軽にご相談ください。
+                私たちは「訪問診療だからこそできる最適な医療」を追求し、患者さま一人ひとりに寄り添うクリニックであり続けます。
               </p>
             </div>
           </div>
           <div class="p-top-philosophy__content__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero-philosophy.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/top-philosophy.png" alt="">
           </div>
         </div>
       </div>

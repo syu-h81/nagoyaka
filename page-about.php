@@ -284,6 +284,38 @@ include get_template_directory() . '/page.php';
               </div>
             </div>
           </div>
+          <div class="p-about-doctor-profile__flex p-about-doctor-profile__flex__2">
+            <div class="p-about-doctor-profile__explain">
+              <div class="p-about-doctor-profile__explain__heading">
+                <span>内科 医師</span>
+                <h3 class="c-sub-heading">松井 陽祐</h3>
+              </div>
+              <div class="p-about-doctor-profile__explain__lists">
+                <ul class="p-about-doctor-profile__explain__list">
+                  <div class="p-about-doctor-profile__explain__list__heading">経歴</div>
+                  <li class="p-about-doctor-profile__explain__list__item">名古屋市立大学 医学部 卒業</li>
+                  <li class="p-about-doctor-profile__explain__list__item">名古屋市立東部医療センター 初期研修医</li>
+                  <li class="p-about-doctor-profile__explain__list__item">南医療生協 総合病院 南生協病院 内科</li>
+                  <li class="p-about-doctor-profile__explain__list__item">南医療生協 よってって在宅診療所 訪問診療</li>
+                  <li class="p-about-doctor-profile__explain__list__item">南医療生協 星崎診療所 訪問診療</li>
+                  <li class="p-about-doctor-profile__explain__list__item">現 名古屋大学医学部附属病院 老年内科 医員</li>
+                </ul>
+                <ul class="p-about-doctor-profile__explain__list">
+                  <div class="p-about-doctor-profile__explain__list__heading">資格</div>
+                  <li class="p-about-doctor-profile__explain__list__item">日本専門医機構認定内科専門医</li>
+                  <li class="p-about-doctor-profile__explain__list__item">日本医師会認定産業医</li>
+                </ul>
+              </div>
+              <div class="p-about-doctor-profile__explain__heading__text">
+                <p>
+                  これまで地域密着型の病院で経験を積んで参りました。現在は高齢者医療を専門にしています。『病気があっても自分らしく生きる』をサポートする医療を目指しています。皆さまが安心して暮らせるようお手伝いします。
+                </p>
+              </div>
+            </div>
+            <div class="p-about-doctor-profile__explain__img">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/about-doctor-2.png" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </div>
