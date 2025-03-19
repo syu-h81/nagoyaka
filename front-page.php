@@ -13,7 +13,7 @@
               <p class="u-sp-only u-color-orange">名古屋市内で唯一の<br>内科・眼科・精神科の訪問診療</p>
             </div>
             <div class="p-top-hero__body__heading__box">
-              <div class="p-top-hero__body__heading__box__heading u-pc-only"><span class="u-color-heading">内科・眼科・精神科</span> の専門医が訪問し</div>
+              <div class="p-top-hero__body__heading__box__heading u-pc-only"><span class="u-color-heading">内科・眼科・精神科</span>の専門医が訪問し</div>
               <div class="p-top-hero__body__heading__box__heading u-pc-only">通院が難しい方の健康を支えます。</div>
               <div class="p-top-hero__body__heading__box__heading u-sp-only"><span class="u-color-heading">内科・眼科・精神科の</span></div>
               <div class="p-top-hero__body__heading__box__heading u-sp-only">専門医が訪問し通院が難しい方の</div>
