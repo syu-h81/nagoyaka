@@ -81,15 +81,21 @@
       }
     }
     &__img {
-      width: 60px;
+      width: 40px;
       height: auto;
       margin: 0 auto;
-      margin-bottom: -30px;
-      background: g.$color-btn;
+      margin-bottom: -20px;
+      background: #E37940;
       border-radius: 50%;
-      padding: 15px 20px;
+      height: 40px;
       position: relative;
       z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 40%;
+      }
     }
     &__body {
       color: g.$white;
@@ -107,8 +113,9 @@
       p {
         border: 1px solid g.$white;
         border-radius: 20px;
-        padding: 10px 0;
-        padding-top: 25px;
+        padding: 4px 0 12px;
+        padding-top: 20px;
+        line-height: 1rem;
         @include g.mq(lg) {
           border-radius: 20px 20px 0 0; 
         }
